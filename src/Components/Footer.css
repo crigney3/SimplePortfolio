@@ -13,6 +13,11 @@
     text-decoration: none;
 }
 
+.Footer a:visited {
+    color: #5941A9;
+    text-decoration: none;
+}
+
 .FooterContentMain {
     display: flex;
     flex-direction: row;

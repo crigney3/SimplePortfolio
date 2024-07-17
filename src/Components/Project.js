@@ -35,14 +35,14 @@ const Project = ({
 
     return (
         <div className='Project'>
-            {(titleText != "") && <TitleBox titleText={titleText}/>}
-            {(descriptionText != "") && <DescriptionBox descriptionText={descriptionText}/>}
-            {(photoGalleryImageArray != null) && <PhotoGallery imageArray={photoGalleryImageArray}/>}
-            {(videoLink != "") && <DemoVideo videoSource={videoLink}/>}
-            {(websiteDest != "") && (websiteText != "") && <WebsiteLink destination={websiteDest} text={websiteText}/>}
-            {(githubDest != "") && (githubText != "") && <GithubLink destination={githubDest} text={githubText}/>}
-            {(downloadDest != "") && (downloadText != "") && <DownloadLink destination={downloadDest} text={downloadText}/>}
-            {(itchDest != "") && (itchText != "") && <ItchLink destination={itchDest} text={itchText}/>}
+            {(titleText !== "") && <TitleBox titleText={titleText}/>}
+            {(descriptionText !== "") && <DescriptionBox descriptionText={descriptionText}/>}
+            {(photoGalleryImageArray !== null) && <PhotoGallery imageArray={photoGalleryImageArray}/>}
+            {(videoLink !== "") && <DemoVideo videoSource={videoLink}/>}
+            {(websiteDest !== "") && (websiteText !== "") && <WebsiteLink destination={websiteDest} text={websiteText}/>}
+            {(githubDest !== "") && (githubText !== "") && <GithubLink destination={githubDest} text={githubText}/>}
+            {(downloadDest !== "") && (downloadText !== "") && <DownloadLink destination={downloadDest} text={downloadText}/>}
+            {(itchDest !== "") && (itchText !== "") && <ItchLink destination={itchDest} text={itchText}/>}
         </div>
     );
 }
