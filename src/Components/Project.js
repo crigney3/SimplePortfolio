@@ -37,7 +37,7 @@ const Project = ({
         <div className='Project'>
             {(titleText !== "") && <TitleBox titleText={titleText}/>}
             {(descriptionText !== "") && <DescriptionBox descriptionText={descriptionText}/>}
-            {(photoGalleryImageArray !== null) && <PhotoGallery imageArray={photoGalleryImageArray}/>}
+            {(photoGalleryImageArray !== null) && <PhotoGallery GalleryImageArray={photoGalleryImageArray}/>}
             {(videoLink !== "") && <DemoVideo videoSource={videoLink}/>}
             {(websiteDest !== "") && (websiteText !== "") && <WebsiteLink destination={websiteDest} text={websiteText}/>}
             {(githubDest !== "") && (githubText !== "") && <GithubLink destination={githubDest} text={githubText}/>}

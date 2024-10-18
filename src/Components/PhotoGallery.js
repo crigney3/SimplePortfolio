@@ -1,11 +1,12 @@
-import './Project.css';
+import './PhotoGallery.css';
+import ImageGallery from "react-image-gallery";
 
-const PhotoGallery = () => {
+const PhotoGallery = ({
+    GalleryImageArray
+}) => {
 
     return (
-        <div className='PhotoGallery'>
-
-        </div>
+        <ImageGallery items={GalleryImageArray} />
     );
 }
 
