@@ -6,6 +6,7 @@
     background-color: #1D1128;
     color: #E5D4ED;
     text-align: center;
+    z-index: 9999;
   }
 
 .Footer a {

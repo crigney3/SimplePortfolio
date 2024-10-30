@@ -1,12 +1,14 @@
 import './Projects.css';
 import Project from '../Components/Project';
 import '../Components/ProjectData.js';
-import { useEffect, useState } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import { IDToProject } from '../Components/ProjectData.js';
+import ProjectContext from '../Components/ProjectContext.js';
 
 const Projects = () => {
 
-    const [allProjectsMarkup, setAllProjectsMarkup] = useState([]);
+    const allProjects = useContext(ProjectContext).allProjects;
+    const setAllProjects = useContext(ProjectContext).setAllProjects;
 
     useEffect(() => {
         createProjectsFromData();
@@ -18,7 +20,7 @@ const Projects = () => {
         for (let i = 0; i < 16; i++) {
             let project = IDToProject[i];
             allProj.push(
-                <Project id={i} key={i}
+                <Project id={'Project' + i.toString()} key={i}
                          titleText={project.titleText}
                          descriptionText={project.descriptionText}
                          photoGalleryImageArray={project.photoGalleryImageArray}
@@ -34,15 +36,13 @@ const Projects = () => {
             )
         }
 
-        setAllProjectsMarkup(allProj);
+        setAllProjects(allProj);
     }
 
     return (
-        <body className='ProjectsBackground'>
-            <div className='ProjectsPage'>
-                {allProjectsMarkup}
-            </div>
-        </body>
+        <div className='ProjectsPage'>
+            {allProjects}
+        </div>
     );
 }
 

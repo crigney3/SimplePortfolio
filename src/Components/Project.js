@@ -1,5 +1,6 @@
 import './Project.css';
 import React, {useState, useEffect} from 'react';
+import { useParams } from 'react-router-dom';
 import { GithubLink, ItchLink, DownloadLink, WebsiteLink } from './Links';
 import PhotoGallery from './PhotoGallery';
 import DemoVideo from './DemoVideo';
@@ -32,6 +33,8 @@ const Project = ({
     // Github Link
     // Website Link
     // Itch.IO Link
+
+    const { id } = useParams();
 
     return (
         <div className='Project'>
