@@ -1,1 +1,24 @@
 @import "~react-image-gallery/styles/css/image-gallery.css";
+
+.ImageGalleryWrapper {
+    max-width: 800px;
+    max-height: 400px;
+}
+
+.image-gallery {
+    width: 40%;
+    height: auto;
+}
+
+.image-gallery-slide img {
+    width: 100%;
+    height: auto;
+    max-height: 80vh;
+    object-fit:scale-down;
+    overflow: hidden;
+    object-position: center center;
+}
+
+.fullscreen .image-gallery-slide img {
+    max-height: 100vh;
+}

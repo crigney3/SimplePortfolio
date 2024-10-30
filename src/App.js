@@ -9,11 +9,13 @@ import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   const [allProjects, setAllProjects] = useState([]);
+  const [allHobbies, setAllHobbies] = useState([]);
+  const [allJobs, setAllJobs] = useState([]);
 
   return (
     <div className="App">
       <BrowserRouter>
-      <ProjectContext.Provider value={{allProjects, setAllProjects}}>
+      <ProjectContext.Provider value={{allProjects, setAllProjects, allHobbies, setAllHobbies, allJobs, setAllJobs}}>
         <Navbar/>
         <Projects/>
         <Footer></Footer>

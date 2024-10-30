@@ -63,28 +63,28 @@ const DungeonsDiningImages = [
 
 const AcquisitionsImages = [
     {
-        original: "/Screenshots/Acquisitions/Maps/Redwatch_Labels.png",
-        thumbnail: "/Screenshots/Acquisitions/Maps/Redwatch_LabelsSmall.png",
+        original: "/Screenshots/Acquisitions/Maps/Redwatch_Labels.jpg",
+        thumbnail: "/Screenshots/Acquisitions/Maps/Redwatch_LabelsSmall.jpg",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/Acquisitions/Maps/Shingle Wood.png",
-        thumbnail: "/Screenshots/Acquisitions/Maps/Shingle WoodSmall.png",
+        original: "/Screenshots/Acquisitions/Maps/Shingle Wood.jpg",
+        thumbnail: "/Screenshots/Acquisitions/Maps/Shingle WoodSmall.jpg",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/Acquisitions/Maps/Pyramind.png",
-        thumbnail: "/Screenshots/Acquisitions/Maps/PyramindSmall.png",
+        original: "/Screenshots/Acquisitions/Maps/Pyramind.jpg",
+        thumbnail: "/Screenshots/Acquisitions/Maps/PyramindSmall.jpg",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/Acquisitions/Maps/Pyramid Bottom Level With Statues.png",
-        thumbnail: "/Screenshots/Acquisitions/Maps/Pyramid Bottom Level With StatuesSmall.png",
+        original: "/Screenshots/Acquisitions/Maps/Pyramid Bottom Level With Statues.jpg",
+        thumbnail: "/Screenshots/Acquisitions/Maps/Pyramid Bottom Level With StatuesSmall.jpg",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/Acquisitions/Maps/Pyramid 2nd level.png",
-        thumbnail: "/Screenshots/Acquisitions/Maps/Pyramid 2nd levelSmall.png",
+        original: "/Screenshots/Acquisitions/Maps/Pyramid 2nd level.jpg",
+        thumbnail: "/Screenshots/Acquisitions/Maps/Pyramid 2nd levelSmall.jpg",
         loading: "lazy"
     },
     {
@@ -405,8 +405,8 @@ const ObladomeImages = [
         loading: "lazy"
     },
     {
-        original: "/Screenshots/Obladome/ObladorFlag.jpg",
-        thumbnail: "/Screenshots/Obladome/ObladorFlagSmall.jpg",
+        original: "/Screenshots/Obladome/ObladorFlag.png",
+        thumbnail: "/Screenshots/Obladome/ObladorFlagSmall.png",
         loading: "lazy"
     },
     {
@@ -550,7 +550,7 @@ const TwitchTopRPGData = {
     titleText: "TwitchTopRPG",
     descriptionText: "TODO",
     photoGalleryImageArray: TwitchTopRPGImages,
-    videoLink: "TODO",
+    videoLink: "",
     websiteDest: "",
     websiteText: "",
     githubDest: "https://github.com/crigney3/StreamElements",

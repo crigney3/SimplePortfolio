@@ -7,6 +7,7 @@ import DemoVideo from './DemoVideo';
 import { DescriptionBox, TitleBox } from './DescriptionBox';
 
 const Project = ({
+    id = "",
     titleText = "",
     descriptionText = "",
     photoGalleryImageArray = null,
@@ -34,10 +35,8 @@ const Project = ({
     // Website Link
     // Itch.IO Link
 
-    const { id } = useParams();
-
     return (
-        <div className='Project'>
+        <div className='Project' id={id}>
             {(titleText !== "") && <TitleBox titleText={titleText}/>}
             {(descriptionText !== "") && <DescriptionBox descriptionText={descriptionText}/>}
             {(photoGalleryImageArray !== null) && <PhotoGallery GalleryImageArray={photoGalleryImageArray}/>}

@@ -28,6 +28,8 @@
     grid-column-end: 5;
     grid-row-start: 1;
     grid-row-end: 2;
+    max-width: 400px;
+    max-height: 200px;
 }
 
 .VideoEmbed {

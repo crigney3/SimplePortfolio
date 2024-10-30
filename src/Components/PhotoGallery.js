@@ -6,7 +6,9 @@ const PhotoGallery = ({
 }) => {
 
     return (
-        <ImageGallery items={GalleryImageArray} />
+        <div className='ImageGalleryWrapper'>
+            <ImageGallery items={GalleryImageArray} />
+        </div>
     );
 }
 
