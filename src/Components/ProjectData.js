@@ -767,9 +767,14 @@ const IDToHobby = {
     3: TrueChaosData
 }
 
+const IDToJob = {
+
+}
+
 export {
     IDToProject,
     IDToHobby,
+    IDToJob,
     SHOEProjectData,
     DungeonsDiningData,
     DarkOfKnightData,
