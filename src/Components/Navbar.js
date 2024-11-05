@@ -7,8 +7,10 @@ const Navbar = () => {
 
     const allProjects = useContext(ProjectContext).allProjects;
     const allHobbies = useContext(ProjectContext).allHobbies;
+    const allJobs = useContext(ProjectContext).allJobs;
     const [allProjectsList, setAllProjectsList] = useState([]);
     const [allHobbiesList, setAllHobbiesList] = useState([]);
+    const [allJobsList, setAllJobsList] = useState([]);
 
     useEffect(() => {
         generateProjectList();
@@ -17,6 +19,10 @@ const Navbar = () => {
     useEffect(() => {
         generateHobbyList();
     }, [allHobbies]);
+
+    useEffect(() => {
+        generateJobsList();
+    }, [allJobs]);
 
     const generateProjectList = () => {
         let allProjList = [];
@@ -36,6 +42,16 @@ const Navbar = () => {
         }
 
         setAllHobbiesList(allHobbList);
+    }
+
+    const generateJobsList = () => {
+        let allJobList = [];
+        
+        for(let i = 0; i < allJobs.length; i++) {
+            allJobList.push(<HashLink smooth key={'Job'+i} to={'/Jobs/#' + allJobs[i].props.id.toString()}>{allJobs[i].props.titleText}</HashLink>)
+        }
+
+        setAllJobsList(allJobList);
     }
 
     // useEffect(() => {
@@ -59,7 +75,7 @@ const Navbar = () => {
             <div className='Dropdown'>
                 <button className='JobsDropBtn'>Jobs</button>
                 <div className='DropContent'>
-                    
+                    {allJobsList}
                 </div>
             </div>
         </div>

@@ -78,7 +78,7 @@ function App() {
   const createJobsFromData = () => {
       let allJob = [];
 
-      for (let i = 0; i < 0; i++) {
+      for (let i = 0; i < 3; i++) {
           let job = IDToJob[i];
           let jobID = 'Job' + i.toString();
           allJob.push(

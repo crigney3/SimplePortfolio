@@ -441,6 +441,19 @@ const ObladomeImages = [
     },
 ]
 
+const ITSImages = [
+    {
+        original: "/Screenshots/TrueChaosSorcerer/main.png",
+        thumbnail: "/Screenshots/TrueChaosSorcerer/mainSmall.png",
+        loading: "lazy"
+    },
+    {
+        original: "/Screenshots/TrueChaosSorcerer/second.png",
+        thumbnail: "/Screenshots/TrueChaosSorcerer/secondSmall.png",
+        loading: "lazy"
+    }
+]
+
 const SHOEProjectData = {
     titleText: "SHOE",
     descriptionText: "The Sorta Helpful Open Engine is my 3D game engine, complete with everything from multiple lighting types to custom shaders to terrain to GPU-based particles to scene saving/loading to project-based work etc. It’s a huge app capable of almost anything a game engine needs to be distributable, as well as its own launcher which keeps the engine updated and allows you to select which project you want to launch SHOE on. There’s no way I can cover the breadth and depth of SHOE here, so either watch the demo video or download the installer and try for yourself! If there’s any problem running it, email me at coreyrigney@gmail.com and I’d be excited to help debug it.",
@@ -728,8 +741,68 @@ const TrueChaosData = {
 
 const AcquisitionsData = {
     titleText: "Acquiring Stratesh",
-    descriptionText: "DnD under corporate capitalism is a tough world for the Tiffany Bleachers, a ragtag business/family/franchise of a mega adventuring corporation. Acquiring Stratesh is 40+ sessions long and counting, and is a constant test of my improv skills as this campaign constantly goes off the rails in wacky new ways.",
+    descriptionText: "DnD under corporate capitalism is a tough world for the Tiffany Bleachers, a ragtag business/family/franchise of a mega adventuring corporation. Acquiring Stratesh is 40+ sessions long and counting, and is a constant test of my improv skills as this campaign often goes off the rails in wacky new ways.",
     photoGalleryImageArray: AcquisitionsImages,
+    videoLink: "",
+    websiteDest: "",
+    websiteText: "",
+    githubDest: "",
+    githubText: "",
+    downloadDest: "",
+    downloadText: "",
+    itchDest: "",
+    itchText: ""
+}
+
+const TemplateData = {
+    titleText: "",
+    descriptionText: "",
+    photoGalleryImageArray: "",
+    videoLink: "",
+    websiteDest: "",
+    websiteText: "",
+    githubDest: "",
+    githubText: "",
+    downloadDest: "",
+    downloadText: "",
+    itchDest: "",
+    itchText: ""
+}
+
+const MicrosoftData = {
+    titleText: "Microsoft",
+    descriptionText: "",
+    photoGalleryImageArray: null,
+    videoLink: "",
+    websiteDest: "",
+    websiteText: "",
+    githubDest: "",
+    githubText: "",
+    downloadDest: "",
+    downloadText: "",
+    itchDest: "",
+    itchText: ""
+}
+
+const MITREData = {
+    titleText: "MITRE",
+    descriptionText: "",
+    photoGalleryImageArray: null,
+    videoLink: "",
+    websiteDest: "",
+    websiteText: "",
+    githubDest: "",
+    githubText: "",
+    downloadDest: "",
+    downloadText: "",
+    itchDest: "",
+    itchText: ""
+}
+
+const RITITData = {
+    titleText: "RIT Internal Technical Services",
+    descriptionText: "While studying at RIT, I completed a work-study program through the IT department, where I helped students, faculty, and staff with technical issues. I also developed a couple scripts to help with the more common tech issues.",
+    photoGalleryImageArray: null,
     videoLink: "",
     websiteDest: "",
     websiteText: "",
@@ -768,7 +841,9 @@ const IDToHobby = {
 }
 
 const IDToJob = {
-
+    0: MicrosoftData,
+    1: MITREData,
+    2: RITITData
 }
 
 export {

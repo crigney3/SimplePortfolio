@@ -36,19 +36,32 @@ const Project = ({
     // Itch.IO Link
 
     const [backgroundColor, setBackgroundColor] = useState('white');
+    const [fontColor, setFontColor] = useState('black');
+    const [linkColor, setLinkColor] = useState('purple');
+    const [linkVisitedColor, setLinkVisitedColor] = useState('red');
 
     useEffect(() => {
-        calcBackgroundColor();
+        calcColorByID();
     }, []);
 
-    const calcBackgroundColor = () => {
+    const calcColorByID = () => {
         let numID = id.match(/^\d+|\d+\b|\d+(?=\w)/g).map(function (v) {return +v;});
+
         let bgColor = numID[0] % 2 ? '#282c34' : '#1D1128';
         setBackgroundColor(bgColor);    
+
+        let fColor = numID[0] % 2 ? '#E5D4ED' : '#f1f1f1';
+        setFontColor(fColor);
+
+        let lColor = numID[0] % 2 ? '#282c34' : '#1D1128';
+        setLinkColor(lColor);
+
+        let lvColor = numID[0] % 2 ? '#282c34' : '#1D1128';
+        setLinkVisitedColor(lvColor);
     }
 
     return (
-        <div className='Project' id={id} style={{backgroundColor: backgroundColor}}>
+        <div className='Project' id={id} style={{backgroundColor: backgroundColor, color:fontColor}}>
             {(titleText !== "") && <TitleBox titleText={titleText}/>}
             <div className='DescAndGallery'>
                 {(descriptionText !== "") && <DescriptionBox descriptionText={descriptionText}/>}
@@ -57,7 +70,7 @@ const Project = ({
                     {(videoLink !== "") && <DemoVideo videoSource={videoLink}/>}
                 </div>                    
             </div>
-            <div className='Links'>
+            <div className='Links' style={{color: linkColor}}>
                 {(websiteDest !== "") && (websiteText !== "") && <WebsiteLink destination={websiteDest} text={websiteText}/>}
                 {(githubDest !== "") && (githubText !== "") && <GithubLink destination={githubDest} text={githubText}/>}
                 {(downloadDest !== "") && (downloadText !== "") && <DownloadLink destination={downloadDest} text={downloadText}/>}

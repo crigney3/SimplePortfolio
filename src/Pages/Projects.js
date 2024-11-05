@@ -10,10 +10,6 @@ const Projects = () => {
     const allProjects = useContext(ProjectContext).allProjects;
     const setAllProjects = useContext(ProjectContext).setAllProjects;
 
-    useEffect(() => {
-
-    }, []);
-
     return (
         <div className='ProjectsPage'>
             {allProjects}

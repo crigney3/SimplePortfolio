@@ -10,10 +10,6 @@ const Hobbies = () => {
     const allHobbies = useContext(ProjectContext).allHobbies;
     const setAllHobbies = useContext(ProjectContext).setAllHobbies;
 
-    useEffect(() => {
-
-    }, []);
-
     return (
         <div className='HobbiesPage'>
             {allHobbies}
