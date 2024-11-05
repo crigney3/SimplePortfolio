@@ -1,8 +1,36 @@
+@font-face {
+    font-family: 'Casanova';
+    src: url('../../public/fonts/CasanovaScotia-Xm0K.ttf');
+}
+
+@font-face {
+    font-family: 'Gamilia';
+    src: url('../../public/fonts/GamiliaDemoRegular-d9DL7.ttf');
+}
+
 .Project {
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-rows: 20% 20% 20% 20% 20%;
+    display: flex;
     justify-items: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.DescAndGallery {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.Gallery {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.Links {
+    display: flex;
+    flex-direction: row;
 }
 
 .ProjectLink {
@@ -10,61 +38,42 @@
 }
 
 .TitleBox {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 1;
+    font-size:32px;
+    font-family: 'Casanova';
 }
 
 .DescriptionBox {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 4;
+    width: 40%;
+    font-size: 20px;
+    font-family:'Gill Sans';
 }
 
 .PhotoGallery {
-    grid-column-start: 3;
-    grid-column-end: 5;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    max-width: 400px;
-    max-height: 200px;
+
 }
 
 .VideoEmbed {
-    grid-column-start: 3;
-    grid-column-end: 5;
-    grid-row-start: 3;
-    grid-row-end: 4;
+
 }
 
 .GithubLink {
-    grid-column-start: 4;
-    grid-column-end: 5;
-    grid-row-start: 5;
-    grid-row-end: 5;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .DownloadLink {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 5;
-    grid-row-end: 5;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .WebsiteLink {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 5;
-    grid-row-end: 5;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .ItchLink {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 5;
-    grid-row-end: 5;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 iframe {
