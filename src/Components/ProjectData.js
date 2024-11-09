@@ -443,13 +443,24 @@ const ObladomeImages = [
 
 const ITSImages = [
     {
-        original: "/Screenshots/TrueChaosSorcerer/main.png",
-        thumbnail: "/Screenshots/TrueChaosSorcerer/mainSmall.png",
+        original: "/Screenshots/ITS/RIT.jpg",
+        thumbnail: "/Screenshots/ITS/RIT.jpg",
         loading: "lazy"
-    },
+    }
+]
+
+const MicrosoftImages = [
     {
-        original: "/Screenshots/TrueChaosSorcerer/second.png",
-        thumbnail: "/Screenshots/TrueChaosSorcerer/secondSmall.png",
+        original: "/Screenshots/Microsoft/Microsoft.webp",
+        thumbnail: "/Screenshots/Microsoft/Microsoft.webp",
+        loading: "lazy"
+    }
+]
+
+const MITREImages = [
+    {
+        original: "/Screenshots/MITRE/MITRE.png",
+        thumbnail: "/Screenshots/MITRE/MITRE.png",
         loading: "lazy"
     }
 ]
@@ -771,8 +782,8 @@ const TemplateData = {
 
 const MicrosoftData = {
     titleText: "Microsoft",
-    descriptionText: "",
-    photoGalleryImageArray: null,
+    descriptionText: "I did two internships at Microsoft and then accepted a full time job under the Windows and Devices organization. Without violating my NDA, I can say I primarily worked on low-level Windows features like App Launch Prefetch, which predicts what pieces of disk data an app will need before the app has requested them during launch. I primarily worked in C, with C++ for testing and peripheral tool development, powershell scripting for automation, WinDBG and WPA for debugging, Kusto for at-scale feature performance analyses, and various other proprietary tools. I eventually left to further my goal of working in a more creative field.",
+    photoGalleryImageArray: MicrosoftImages,
     videoLink: "",
     websiteDest: "",
     websiteText: "",
@@ -786,8 +797,8 @@ const MicrosoftData = {
 
 const MITREData = {
     titleText: "MITRE",
-    descriptionText: "",
-    photoGalleryImageArray: null,
+    descriptionText: "I interned at MITRE in 2019, and I was lucky enough to avoid the weapons-development departments. Instead, I worked in their little-known 'Innovation Department', a place where higher-ups would drop bizarre conceptual projects on the interns to see if there was any potential for development. This led to a remarkably creative atmosphere with many different projects, such as attempting to create a video call service from scratch that could be projected to the size of a whole wall. That project also taught me NGINX, lots of FFMPEG and Linux commands, and various networking and encoding knowledge. Other projects included using a Lightform to project different images into picture frames, building a pencil-delivering robot, and creating a voice assistant and using lots of audio samples to train it to respond to 'Hey Gustav!'",
+    photoGalleryImageArray: MITREImages,
     videoLink: "",
     websiteDest: "",
     websiteText: "",
@@ -802,7 +813,7 @@ const MITREData = {
 const RITITData = {
     titleText: "RIT Internal Technical Services",
     descriptionText: "While studying at RIT, I completed a work-study program through the IT department, where I helped students, faculty, and staff with technical issues. I also developed a couple scripts to help with the more common tech issues.",
-    photoGalleryImageArray: null,
+    photoGalleryImageArray: ITSImages,
     videoLink: "",
     websiteDest: "",
     websiteText: "",

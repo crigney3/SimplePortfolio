@@ -61,6 +61,9 @@ const Navbar = () => {
     return (
         <div className='Navbar'>
             <div className='Dropdown'>
+                <HashLink className='NoDropBtn' smooth to='/'>Home</HashLink>
+            </div>
+            <div className='Dropdown'>
                 <button className='ProjectsDropBtn'>Projects</button>
                 <div className='DropContent'>
                     {allProjectsList}
