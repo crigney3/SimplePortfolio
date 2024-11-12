@@ -6,3 +6,17 @@
     display: flex;
     flex-direction: column;
 }
+
+.ProjectsPaddingTop {
+    position: relative;
+    height: 50px;
+}
+
+.ProjectsPaddingBottom {
+    position: relative;
+    height: 75px;
+}
+
+/* :target {
+    scroll-margin-top: 50px;
+  } */

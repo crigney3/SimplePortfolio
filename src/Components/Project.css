@@ -9,11 +9,18 @@
 }
 
 .Project {
-    display: flex;
-    justify-items: center;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
+    display: grid;
+    grid-template-areas: 
+        "title"
+        "tech"
+        "content"
+        "links";
+    width: 100vw;
+    height: calc(100vh - 50px - 75px); /* full screen height minus navbar height minus footer height */
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 1fr 15fr 2fr;
+    scroll-snap-align: start;
+    scroll-margin-top: 50px;
 }
 
 .DescAndGallery {
@@ -24,15 +31,15 @@
 }
 
 .Gallery {
-    display: flex;
-    flex-direction: column;
-    width: 60%;
+    grid-area: gallery;
 }
 
 .Links {
+    grid-area: links;
     display: flex;
     flex-direction: row;
     font-size: 16px;
+    justify-content: center;
 }
 
 .ProjectLink {
@@ -40,14 +47,16 @@
 }
 
 .TitleBox {
+    grid-area: title;
     font-size:32px;
     font-family: 'Casanova';
 }
 
 .DescriptionBox {
-    width: 40%;
+    grid-area: description;
     font-size: 20px;
     font-family:'Gill Sans';
+    
 }
 
 .PhotoGallery {

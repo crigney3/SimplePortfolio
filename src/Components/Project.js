@@ -63,13 +63,18 @@ const Project = ({
     return (
         <div className='Project' id={id} style={{backgroundColor: backgroundColor, color:fontColor}}>
             {(titleText !== "") && <TitleBox titleText={titleText}/>}
+            <div className='Tech'>
+                <p>Tech</p>
+            </div>
             <div className='DescAndGallery'>
                 {(descriptionText !== "") && <DescriptionBox descriptionText={descriptionText}/>}
                 <div className='Gallery'>
                     {(photoGalleryImageArray !== null) && <PhotoGallery GalleryImageArray={photoGalleryImageArray}/>}
+                </div> 
+                <div className='Video'>
                     {(videoLink !== "") && <DemoVideo videoSource={videoLink}/>}
-                </div>                    
-            </div>
+                </div>   
+            </div>             
             <div className='Links' style={{color: linkColor}}>
                 {(websiteDest !== "") && (websiteText !== "") && <WebsiteLink destination={websiteDest} text={websiteText}/>}
                 {(githubDest !== "") && (githubText !== "") && <GithubLink destination={githubDest} text={githubText}/>}

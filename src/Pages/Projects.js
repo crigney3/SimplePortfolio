@@ -12,7 +12,9 @@ const Projects = () => {
 
     return (
         <div className='ProjectsPage'>
+            <div className='ProjectsPaddingTop'></div>
             {allProjects}
+            <div className='ProjectsPaddingBottom'></div>
         </div>
     );
 }

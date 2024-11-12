@@ -619,7 +619,7 @@ const HalfLifeData = {
     titleText: "Half-Life Alyx Mapping",
     descriptionText: "Made and modeled in the Source 2 engine, “Sewer Infiltration” is a short but dense map for the VR game Half-Life Alyx. Designed with lighting as the player’s guide, this level keeps the player on their toes by swapping between combat and puzzles. The linked video is not mine, but a half-life alyx youtuber who played my level!",
     photoGalleryImageArray: null,
-    videoLink: "https://www.youtube.com/watch?v=yqRD3lnt8Yk",
+    videoLink: "https://www.youtube.com/embed/yqRD3lnt8Yk",
     websiteDest: "https://steamcommunity.com/sharedfiles/filedetails/?id=2472444720",
     websiteText: "Steam Workshop Link",
     githubDest: "",

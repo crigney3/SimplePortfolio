@@ -35,6 +35,7 @@
     padding: 16px;
     font-size: 16px;
     border: none;
+    display: block;
 }
 
 .Navbar {
@@ -44,6 +45,7 @@
     top: 0;
     width: 100%;
     z-index: 9999;
+    height: 50px
 }
 
 .Navbar .Dropdown {

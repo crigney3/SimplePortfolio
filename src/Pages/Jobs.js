@@ -8,7 +8,9 @@ const Jobs = () => {
 
     return (
         <div className='JobsPage'>
+            <div className='JobsPaddingTop'></div>
             {allJobs}
+            <div className='JobsPaddingBottom'></div>
         </div>
     )
 }

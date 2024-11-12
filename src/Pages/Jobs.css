@@ -1,0 +1,9 @@
+.JobsPaddingTop {
+    position: relative;
+    height: 50px;
+}
+
+.JobsPaddingBottom {
+    position: relative;
+    height: 75px;
+}

@@ -12,7 +12,9 @@ const Hobbies = () => {
 
     return (
         <div className='HobbiesPage'>
+            <div className='HobbiesPaddingTop'></div>
             {allHobbies}
+            <div className='HobbiesPaddingBottom'></div>
         </div>
     )
 }
