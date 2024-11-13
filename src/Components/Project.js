@@ -5,6 +5,7 @@ import { GithubLink, ItchLink, DownloadLink, WebsiteLink } from './Links';
 import PhotoGallery from './PhotoGallery';
 import DemoVideo from './DemoVideo';
 import { DescriptionBox, TitleBox } from './DescriptionBox';
+import TechBanner from './TechBanner';
 
 const Project = ({
     id = "",
@@ -19,7 +20,8 @@ const Project = ({
     downloadDest = "",
     downloadText = "",
     itchDest = "",
-    itchText = ""
+    itchText = "",
+    techArray = []
 }) => {
     // Projects have possible components like title, demo video, and download link.
     // If a parameter for one of these components is blank, Project will not render
@@ -63,9 +65,7 @@ const Project = ({
     return (
         <div className='Project' id={id} style={{backgroundColor: backgroundColor, color:fontColor}}>
             {(titleText !== "") && <TitleBox titleText={titleText}/>}
-            <div className='Tech'>
-                <p>Tech</p>
-            </div>
+            <TechBanner TechArray={techArray}/>
             <div className='DescAndGallery'>
                 {(descriptionText !== "") && <DescriptionBox descriptionText={descriptionText}/>}
                 <div className='Gallery'>

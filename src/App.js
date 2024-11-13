@@ -26,7 +26,7 @@ function App() {
   const createHobbiesFromData = () => {
     let allHobb = [];
 
-    for (let i = 0; i < 4; i++) {
+    for (let i = 0; i < Object.keys(IDToHobby).length; i++) {
         let hobby = IDToHobby[i];
         let hobbyID = 'Hobby' + i.toString();
         allHobb.push(
@@ -42,7 +42,8 @@ function App() {
                      downloadDest={hobby.downloadDest}
                      downloadText={hobby.downloadText}
                      itchDest={hobby.itchDest}
-                     itchText={hobby.itchText} />
+                     itchText={hobby.itchText}
+                     techArray={hobby.techArray} />
         )        
     }
 
@@ -52,7 +53,7 @@ function App() {
   const createProjectsFromData = () => {
     let allProj = [];
 
-    for (let i = 0; i < 16; i++) {
+    for (let i = 0; i < Object.keys(IDToProject).length; i++) {
         let project = IDToProject[i];
         let projID = 'Project' + i.toString();
         allProj.push(
@@ -68,7 +69,8 @@ function App() {
                      downloadDest={project.downloadDest}
                      downloadText={project.downloadText}
                      itchDest={project.itchDest}
-                     itchText={project.itchText} />
+                     itchText={project.itchText} 
+                     techArray={project.techArray}/>
         )
     }
 
@@ -78,7 +80,7 @@ function App() {
   const createJobsFromData = () => {
       let allJob = [];
 
-      for (let i = 0; i < 3; i++) {
+      for (let i = 0; i < Object.keys(IDToJob).length; i++) {
           let job = IDToJob[i];
           let jobID = 'Job' + i.toString();
           allJob.push(
@@ -94,7 +96,8 @@ function App() {
                        downloadDest={job.downloadDest}
                        downloadText={job.downloadText}
                        itchDest={job.itchDest}
-                       itchText={job.itchText} />
+                       itchText={job.itchText} 
+                       techArray={job.techArray}/>
           )        
       }
 

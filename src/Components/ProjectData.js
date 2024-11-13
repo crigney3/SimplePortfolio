@@ -477,7 +477,8 @@ const SHOEProjectData = {
     downloadDest: "",
     downloadText: "",
     itchDest: "",
-    itchText: ""
+    itchText: "",
+    techArray: ["C++", "C", "HLSL", "C#"]
 }
 
 const DungeonsDiningData = {
@@ -492,7 +493,8 @@ const DungeonsDiningData = {
     downloadDest: "",
     downloadText: "",
     itchDest: "",
-    itchText: ""
+    itchText: "",
+    techArray: ["Unreal5", "Blueprints"]
 }
 
 const DarkOfKnightData = {
@@ -507,7 +509,8 @@ const DarkOfKnightData = {
     downloadDest: "",
     downloadText: "",
     itchDest: "https://yakman3.itch.io/dark-of-knight",
-    itchText: "Play on Itch.io"
+    itchText: "Play on Itch.io",
+    techArray: ["Godot"]
 }
 
 const LIDARData = {
@@ -522,7 +525,8 @@ const LIDARData = {
     downloadDest: "",
     downloadText: "",
     itchDest: "",
-    itchText: ""
+    itchText: "",
+    techArray: ["Unreal5"]
 }
 
 const CharityStreamData = {
@@ -537,7 +541,8 @@ const CharityStreamData = {
     downloadDest: "",
     downloadText: "",
     itchDest: "",
-    itchText: ""
+    itchText: "",
+    techArray: ["React", "NodeJS", "SASS", "SQL"]
 }
 
 const GazeboData = {
@@ -552,7 +557,8 @@ const GazeboData = {
     downloadDest: "",
     downloadText: "",
     itchDest: "",
-    itchText: ""
+    itchText: "",
+    techArray: ["Unreal5", "Blueprints"]
 }
 
 const TwitchSpeaksData = {
@@ -567,7 +573,8 @@ const TwitchSpeaksData = {
     downloadDest: "",
     downloadText: "",
     itchDest: "",
-    itchText: ""
+    itchText: "",
+    techArray: ["Python", "CoquiTTS"]
 }
 
 const TwitchTopRPGData = {
@@ -582,7 +589,8 @@ const TwitchTopRPGData = {
     downloadDest: "",
     downloadText: "",
     itchDest: "",
-    itchText: ""
+    itchText: "",
+    techArray: ["Python", "React", "Twitch", "NodeJS", "Websockets", "ElevenLabs"]
 }
 
 const VariousGeorgeData = {
@@ -597,7 +605,8 @@ const VariousGeorgeData = {
     downloadDest: "",
     downloadText: "",
     itchDest: "",
-    itchText: ""
+    itchText: "",
+    techArray: ["Unity", "C#"]
 }
 
 const BeatSaberData = {
@@ -612,7 +621,8 @@ const BeatSaberData = {
     downloadDest: "https://beatsaver.com/maps/2d471",
     downloadText: "Lillies of the Valley",
     itchDest: "https://beatsaver.com/maps/2d421",
-    itchText: "Laundry Alarm"
+    itchText: "Laundry Alarm",
+    techArray: ["ChroMapper"]
 }
 
 const HalfLifeData = {
@@ -627,7 +637,8 @@ const HalfLifeData = {
     downloadDest: "",
     downloadText: "",
     itchDest: "",
-    itchText: ""
+    itchText: "",
+    techArray: ["Hammer", "Source 2"]
 }
 
 const StonksData = {
@@ -642,7 +653,8 @@ const StonksData = {
     downloadDest: "",
     downloadText: "",
     itchDest: "",
-    itchText: ""
+    itchText: "",
+    techArray: ["Unity", "C#"]
 }
 
 const CausalData = {
@@ -657,7 +669,8 @@ const CausalData = {
     downloadDest: "",
     downloadText: "",
     itchDest: "",
-    itchText: ""
+    itchText: "",
+    techArray: ["Unity", "C#"]
 }
 
 const SFMData = {
@@ -672,7 +685,8 @@ const SFMData = {
     downloadDest: "",
     downloadText: "",
     itchDest: "",
-    itchText: ""
+    itchText: "",
+    techArray: ["Source FilmMaker"]
 }
 
 const PotionPapaData = {
@@ -687,7 +701,8 @@ const PotionPapaData = {
     downloadDest: "",
     downloadText: "",
     itchDest: "",
-    itchText: ""
+    itchText: "",
+    techArray: ["Unity", "C#"]
 }
 
 const ETForTheAtariData = {
@@ -702,7 +717,8 @@ const ETForTheAtariData = {
     downloadDest: "",
     downloadText: "",
     itchDest: "",
-    itchText: ""
+    itchText: "",
+    techArray: ["Unity", "C#"]
 }
 
 const DOMEData = {
@@ -717,7 +733,8 @@ const DOMEData = {
     downloadDest: "",
     downloadText: "",
     itchDest: "",
-    itchText: ""
+    itchText: "",
+    techArray: ["React"]
 }
 
 const ObladomeData = {
@@ -732,7 +749,8 @@ const ObladomeData = {
     downloadDest: "",
     downloadText: "",
     itchDest: "",
-    itchText: ""
+    itchText: "",
+    techArray: ["Foundry", "Inkarnate", "Obsidian", "WorldAnvil", "StreamDeck"]
 }
 
 const TrueChaosData = {
@@ -747,7 +765,8 @@ const TrueChaosData = {
     downloadDest: "",
     downloadText: "",
     itchDest: "",
-    itchText: ""
+    itchText: "",
+    techArray: ["React"]
 }
 
 const AcquisitionsData = {
@@ -762,7 +781,8 @@ const AcquisitionsData = {
     downloadDest: "",
     downloadText: "",
     itchDest: "",
-    itchText: ""
+    itchText: "",
+    techArray: ["Foundry", "Inkarnate", "Obsidian", "WorldAnvil", "StreamDeck"]
 }
 
 const TemplateData = {
@@ -777,7 +797,8 @@ const TemplateData = {
     downloadDest: "",
     downloadText: "",
     itchDest: "",
-    itchText: ""
+    itchText: "",
+    techArray: null
 }
 
 const MicrosoftData = {
@@ -792,7 +813,8 @@ const MicrosoftData = {
     downloadDest: "",
     downloadText: "",
     itchDest: "",
-    itchText: ""
+    itchText: "",
+    techArray: ["C++", "C", "Kusto", "SQL", "WinDBG", "WPA", "Azure"]
 }
 
 const MITREData = {
@@ -807,7 +829,8 @@ const MITREData = {
     downloadDest: "",
     downloadText: "",
     itchDest: "",
-    itchText: ""
+    itchText: "",
+    techArray: ["Javascript", "Python", "NGINX", "Snips.AI"]
 }
 
 const RITITData = {
@@ -822,7 +845,78 @@ const RITITData = {
     downloadDest: "",
     downloadText: "",
     itchDest: "",
-    itchText: ""
+    itchText: "",
+    techArray: ["Javascript"]
+}
+
+const TechToImage = {
+    React: "/favicon.ico",
+    Javascript: null,
+    Python: null,
+    NGINX: null,
+    SnipsAI: null,
+    C: null,
+    CPlusPlus: null,
+    Kusto: null,
+    SQL: null,
+    WinDBG: null,
+    WPA: null,
+    Azure: null,
+    Foundry: null,
+    Inkarnate: null,
+    WorldAnvil: null,
+    StreamDeck: null,
+    Obsidian: null,
+    Unity: null,
+    CSharp: null,
+    SourceFilmMaker: null,
+    Hammer: null,
+    Source2: null,
+    ChroMapper: null,
+    Websockets: null,
+    NodeJS: null,
+    ElevenLabs: null,
+    CoquiTTS: null,
+    Unreal5: null,
+    Blueprints: null,
+    SASS: null,
+    Godot: null,
+    HLSL: null
+}
+
+const TechToLink = {
+    React: "https://react.dev/",
+    Javascript: "https://en.wikipedia.org/wiki/JavaScript",
+    Python: "https://www.python.org/",
+    NGINX: "https://nginx.org/en/",
+    SnipsAI: "https://snips.ai/",
+    C: "https://en.wikipedia.org/wiki/C_(programming_language)",
+    CPlusPlus: "https://en.wikipedia.org/wiki/C%2B%2B",
+    Kusto: "https://learn.microsoft.com/en-us/kusto/?view=microsoft-fabric",
+    SQL: "https://en.wikipedia.org/wiki/SQL",
+    WinDBG: "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/",
+    WPA: "https://learn.microsoft.com/en-us/windows-hardware/test/wpt/windows-performance-analyzer",
+    Azure: "https://azure.microsoft.com/en-us",
+    Foundry: "https://foundryvtt.com/",
+    Inkarnate: "https://inkarnate.com/",
+    WorldAnvil: "https://www.worldanvil.com/",
+    StreamDeck: "https://www.elgato.com/us/en/p/stream-deck-mk2-black",
+    Obsidian: "https://obsidian.md/",
+    Unity: "https://unity.com/",
+    CSharp: "https://en.wikipedia.org/wiki/C_Sharp_(programming_language)",
+    SourceFilmMaker: "https://www.sourcefilmmaker.com/",
+    Hammer: "https://developer.valvesoftware.com/wiki/Valve_Hammer_Editor_(Source_2)",
+    Source2: "https://en.wikipedia.org/wiki/Source_2",
+    ChroMapper: "https://github.com/Caeden117/ChroMapper",
+    Websockets: "https://en.wikipedia.org/wiki/WebSocket#:~:text=WebSocket%20is%20a%20computer%20communications,as%20RFC%206455%20in%202011.",
+    NodeJS: "https://nodejs.org/en",
+    ElevenLabs: "https://elevenlabs.io/",
+    CoquiTTS: "https://github.com/coqui-ai/TTS",
+    Unreal5: "https://www.unrealengine.com/en-US/unreal-engine-5",
+    Blueprints: "https://dev.epicgames.com/documentation/en-us/unreal-engine/blueprints-visual-scripting-in-unreal-engine",
+    SASS: "https://sass-lang.com/",
+    Godot: "https://godotengine.org/",
+    HLSL: "https://learn.microsoft.com/en-us/windows/win32/direct3dhlsl/dx-graphics-hlsl"
 }
 
 const IDToProject = {
@@ -858,6 +952,8 @@ const IDToJob = {
 }
 
 export {
+    TechToImage,
+    TechToLink,
     IDToProject,
     IDToHobby,
     IDToJob,
