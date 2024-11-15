@@ -1,13 +1,3 @@
-@font-face {
-    font-family: 'Casanova';
-    src: url('../../public/fonts/CasanovaScotia-Xm0K.ttf');
-}
-
-@font-face {
-    font-family: 'Gamilia';
-    src: url('../../public/fonts/GamiliaDemoRegular-d9DL7.ttf');
-}
-
 .Project {
     display: grid;
     grid-template-areas: 
@@ -40,6 +30,7 @@
     flex-direction: row;
     font-size: 16px;
     justify-content: center;
+    font-family:'Inter';
 }
 
 .ProjectLink {
@@ -48,14 +39,21 @@
 
 .TitleBox {
     grid-area: title;
-    font-size:32px;
-    font-family: 'Casanova';
+    font-size:64px;
+    font-family: 'Syne';
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.TitleText { 
+    margin: 0;
+    padding: 0;
 }
 
 .DescriptionBox {
     grid-area: description;
-    font-size: 20px;
-    font-family:'Gill Sans';
+    font-size: 32px;
+    font-family:'Inter';
     
 }
 
@@ -67,24 +65,46 @@
 
 }
 
+.LinkIcon {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
 .GithubLink {
     margin-right: 20px;
     margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .DownloadLink {
     margin-right: 20px;
     margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .WebsiteLink {
     margin-right: 20px;
     margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .ItchLink {
     margin-right: 20px;
     margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 iframe {

@@ -65,7 +65,7 @@ const Project = ({
     return (
         <div className='Project' id={id} style={{backgroundColor: backgroundColor, color:fontColor}}>
             {(titleText !== "") && <TitleBox titleText={titleText}/>}
-            <TechBanner TechArray={techArray}/>
+            <TechBanner TechArray={techArray} websiteDest={websiteDest} websiteText={websiteText} githubDest={githubDest} githubText={githubText} downloadDest={downloadDest} downloadText={downloadText} itchDest={itchDest} itchText={itchText}/>
             <div className='DescAndGallery'>
                 {(descriptionText !== "") && <DescriptionBox descriptionText={descriptionText}/>}
                 <div className='Gallery'>
@@ -76,10 +76,10 @@ const Project = ({
                 </div>   
             </div>             
             <div className='Links' style={{color: linkColor}}>
-                {(websiteDest !== "") && (websiteText !== "") && <WebsiteLink destination={websiteDest} text={websiteText}/>}
+                {/* {(websiteDest !== "") && (websiteText !== "") && <WebsiteLink destination={websiteDest} text={websiteText}/>}
                 {(githubDest !== "") && (githubText !== "") && <GithubLink destination={githubDest} text={githubText}/>}
                 {(downloadDest !== "") && (downloadText !== "") && <DownloadLink destination={downloadDest} text={downloadText}/>}
-                {(itchDest !== "") && (itchText !== "") && <ItchLink destination={itchDest} text={itchText}/>}
+                {(itchDest !== "") && (itchText !== "") && <ItchLink destination={itchDest} text={itchText}/>} */}
             </div>
         </div>
     );

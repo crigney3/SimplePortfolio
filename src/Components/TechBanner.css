@@ -1,0 +1,63 @@
+.TechBanner {
+    background-color: grey;
+    max-height: 5vh;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.OwnedLinks {
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+}
+
+.TechLink {
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+}
+
+.InternalTech {
+    display: flex;
+    background-color: darkslategrey;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    max-width: 125px;
+    min-width: 125px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    color: white;
+}
+
+.ImageCropper {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.InternalTech img {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+}
+
+.TechBanner a {
+    text-decoration: none;
+}
+
+.TechBanner a:visited {
+    text-decoration: none;
+    color: white;
+}

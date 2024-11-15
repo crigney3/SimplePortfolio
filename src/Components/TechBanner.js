@@ -1,9 +1,19 @@
 import './TechBanner.css';
 import { TechToImage, TechToLink } from './ProjectData';
 import { useState, useEffect } from 'react';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import { WebsiteLink, ItchLink, GithubLink, DownloadLink } from './Links';
 
 const TechBanner = ({
-    TechArray = []
+    TechArray = [],
+    websiteDest = "",
+    websiteText = "",
+    githubDest = "",
+    githubText = "",
+    downloadDest = "",
+    downloadText = "",
+    itchDest = "",
+    itchText = ""
 }) => {
     const [techElements, setTechElements] = useState([]);
 
@@ -16,9 +26,12 @@ const TechBanner = ({
         let keys = Object.keys(TechArray);
 
         for (let i = 0; i < keys.length; i++) {
+            let TechName = TechArray[i].toString();
             tempTechElements.push(
-            <a key={TechArray[i].toString()} className='InternalTech' href={TechToLink[i]}>
-                <img src={'/logos/' + TechArray[i].toString() + '.webp'}/>
+            <a key={TechName} className='InternalTech' target='_blank' href={TechToLink[TechName]}>
+                <div className='ImageCropper'>
+                    <img className='InternalTechImage' src={'/logos/' + TechName + '.webp'}/>
+                </div>
                 <p>{TechArray[i]}</p>
             </a>);
         }
@@ -28,7 +41,15 @@ const TechBanner = ({
 
     return (
         <div className='TechBanner'>
-            {techElements}
+            <div className='OwnedLinks'>
+                {(websiteDest !== "") && (websiteText !== "") && <WebsiteLink destination={websiteDest} text={websiteText}/>}
+                {(githubDest !== "") && (githubText !== "") && <GithubLink destination={githubDest} text={githubText}/>}
+                {(downloadDest !== "") && (downloadText !== "") && <DownloadLink destination={downloadDest} text={downloadText}/>}
+                {(itchDest !== "") && (itchText !== "") && <ItchLink destination={itchDest} text={itchText}/>}
+            </div>
+            <div className='TechLink'>
+                {techElements}
+            </div>       
         </div>
     )
 

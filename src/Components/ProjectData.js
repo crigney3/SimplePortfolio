@@ -582,7 +582,7 @@ const TwitchTopRPGData = {
     descriptionText: "TODO",
     photoGalleryImageArray: TwitchTopRPGImages,
     videoLink: "",
-    websiteDest: "",
+    websiteDest: "https://www.twitch.tv/twitchtoprpg",
     websiteText: "",
     githubDest: "https://github.com/crigney3/StreamElements",
     githubText: "Github",
@@ -916,7 +916,8 @@ const TechToLink = {
     Blueprints: "https://dev.epicgames.com/documentation/en-us/unreal-engine/blueprints-visual-scripting-in-unreal-engine",
     SASS: "https://sass-lang.com/",
     Godot: "https://godotengine.org/",
-    HLSL: "https://learn.microsoft.com/en-us/windows/win32/direct3dhlsl/dx-graphics-hlsl"
+    HLSL: "https://learn.microsoft.com/en-us/windows/win32/direct3dhlsl/dx-graphics-hlsl",
+    Twitch: "https://dev.twitch.tv/docs/api/"
 }
 
 const IDToProject = {

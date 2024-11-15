@@ -12,3 +12,23 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+@font-face {
+  font-family: 'Casanova';
+  src: url('../public/fonts/CasanovaScotia-Xm0K.ttf');
+}
+
+@font-face {
+  font-family: 'Gamilia';
+  src: url('../public/fonts/GamiliaDemoRegular-d9DL7.ttf');
+}
+
+@font-face {
+  font-family: 'Syne';
+  src: url('../public/fonts/Syne-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../public/fonts/Inter-VariableFont_opsz\,wght.ttf');
+}
