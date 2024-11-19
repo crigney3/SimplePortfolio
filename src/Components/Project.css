@@ -1,23 +1,19 @@
 .Project {
     display: grid;
     grid-template-areas: 
-        "title"
-        "tech"
-        "content"
-        "links";
-    width: 100vw;
+        "title title"
+        "tech tech"
+        "description gallery";
+    width: 100%;
     height: calc(100vh - 50px - 75px); /* full screen height minus navbar height minus footer height */
-    grid-template-columns: 1fr;
-    grid-template-rows: 2fr 1fr 15fr 2fr;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 2fr 1fr 15fr;
     scroll-snap-align: start;
     scroll-margin-top: 50px;
 }
 
-.DescAndGallery {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 100%;
+.TechBanner {
+    grid-area: tech;
 }
 
 .Gallery {
@@ -31,10 +27,6 @@
     font-size: 16px;
     justify-content: center;
     font-family:'Inter';
-}
-
-.ProjectLink {
-
 }
 
 .TitleBox {
@@ -54,15 +46,6 @@
     grid-area: description;
     font-size: 32px;
     font-family:'Inter';
-    
-}
-
-.PhotoGallery {
-
-}
-
-.VideoEmbed {
-
 }
 
 .LinkIcon {

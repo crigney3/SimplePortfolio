@@ -1,24 +1,35 @@
-@import "~react-image-gallery/styles/css/image-gallery.css";
+/* @import "~react-image-gallery/styles/css/image-gallery.css"; */
 
-.ImageGalleryWrapper {
-    max-width: 800px;
-    max-height: 400px;
+.ImageGalleryWrapper img {
+    object-fit: contain;
 }
 
-.image-gallery {
-    width: 40%;
-    height: auto;
-}
-
-.image-gallery-slide img {
+.ImageCarousel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
     width: 100%;
-    height: auto;
-    max-height: 80vh;
-    object-fit:scale-down;
-    overflow: hidden;
-    object-position: center center;
+    height: 100%;
+    background-position: center;
+    background-repeat:no-repeat;
 }
 
-.fullscreen .image-gallery-slide img {
-    max-height: 100vh;
+.RightButton, .LeftButton {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: white;
+    width: 8vw;
+    height: 100%;
+    cursor: pointer;
+    transition:linear;
+}
+
+.RightButton:hover, .LeftButton:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.ArrowImage {
+    
+    transform: scale(5);
 }

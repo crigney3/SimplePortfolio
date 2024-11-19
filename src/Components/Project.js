@@ -66,21 +66,13 @@ const Project = ({
         <div className='Project' id={id} style={{backgroundColor: backgroundColor, color:fontColor}}>
             {(titleText !== "") && <TitleBox titleText={titleText}/>}
             <TechBanner TechArray={techArray} websiteDest={websiteDest} websiteText={websiteText} githubDest={githubDest} githubText={githubText} downloadDest={downloadDest} downloadText={downloadText} itchDest={itchDest} itchText={itchText}/>
-            <div className='DescAndGallery'>
-                {(descriptionText !== "") && <DescriptionBox descriptionText={descriptionText}/>}
-                <div className='Gallery'>
-                    {(photoGalleryImageArray !== null) && <PhotoGallery GalleryImageArray={photoGalleryImageArray}/>}
-                </div> 
-                <div className='Video'>
+            {(descriptionText !== "") && <DescriptionBox descriptionText={descriptionText} className='DescWrapper'/>}
+            <div className='Gallery'>
+                {(photoGalleryImageArray !== null) && <PhotoGallery GalleryImageArray={photoGalleryImageArray}/>}
+            </div> 
+                {/* <div className='Video'>
                     {(videoLink !== "") && <DemoVideo videoSource={videoLink}/>}
-                </div>   
-            </div>             
-            <div className='Links' style={{color: linkColor}}>
-                {/* {(websiteDest !== "") && (websiteText !== "") && <WebsiteLink destination={websiteDest} text={websiteText}/>}
-                {(githubDest !== "") && (githubText !== "") && <GithubLink destination={githubDest} text={githubText}/>}
-                {(downloadDest !== "") && (downloadText !== "") && <DownloadLink destination={downloadDest} text={downloadText}/>}
-                {(itchDest !== "") && (itchText !== "") && <ItchLink destination={itchDest} text={itchText}/>} */}
-            </div>
+                </div>              */}
         </div>
     );
 }
