@@ -25,6 +25,7 @@
 
 .InternalTech {
     display: flex;
+    position: relative;
     background-color: darkslategrey;
     border-radius: 25px;
     justify-content: center;
@@ -35,6 +36,7 @@
     margin-bottom: 5px;
     margin-right: 15px;
     color: white;
+    z-index: 0;
 }
 
 .ImageCropper {
@@ -43,6 +45,7 @@
     overflow: hidden;
     border-radius: 100%;
     margin-left: 10px;
+    z-index: 2;
 }
 
 .InternalTech img {
@@ -50,6 +53,7 @@
     margin: 0 auto;
     height: 100%;
     width: auto;
+    z-index: 1;
 }
 
 .InternalTech p {
