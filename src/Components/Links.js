@@ -9,12 +9,12 @@ const WebsiteLink = ({
     text
 }) => {
     return (
-        <div className='WebsiteLink'>
+        <a className='WebsiteLink' href={destination} target='_blank'>
             <div className='LinkIcon'>
                 <WebIcon/>
             </div>
-            <a href={destination}>{text}</a>
-        </div>
+            <p>{text}</p>
+        </a>
     );
 }
 
@@ -23,12 +23,12 @@ const ItchLink = ({
     text
 }) => {
     return (
-        <div className='ItchLink'>
+        <a className='ItchLink' href={destination} target='_blank'>
             <div className='LinkIcon'>
                 <SportsEsportsIcon/>
             </div>
-            <a href={destination}>{text}</a>
-        </div>
+            <p>{text}</p>
+        </a>
     );
 }
 
@@ -37,12 +37,10 @@ const GithubLink = ({
     text
 }) => {
     return (
-        <div className='GithubLink'>
-            <div className='LinkIcon'>
-                <GitHubIcon/>
-            </div>
-            <a href={destination}>{text}</a>
-        </div>
+        <a className='GithubLink' href={destination} target='_blank'>
+            <GitHubIcon className='LinkIcon'/>
+            <p>{text}</p>
+        </a>
     );
 }
 
@@ -51,12 +49,12 @@ const DownloadLink = ({
     text
 }) => {
     return (
-        <div className='DownloadLink'>
+        <a className='DownloadLink' href={destination} target='_blank'>
             <div className='LinkIcon'>
                 <DownloadIcon/>
             </div>
-            <a href={destination}>{text}</a>
-        </div>
+            <p>{text}</p>
+        </a>
     );
 }
 

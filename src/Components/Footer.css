@@ -13,6 +13,7 @@
 .Footer a {
     color: #E5D4ED;
     text-decoration: none;
+    margin-left: 10px;
 }
 
 .Footer a:visited {
@@ -31,4 +32,8 @@
 .FooterContent {
     margin-left: 2rem;
     margin-right: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }

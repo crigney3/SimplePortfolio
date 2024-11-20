@@ -248,7 +248,7 @@ const PotionPapaImages = [
         loading: "lazy"
     },
     {
-        original: "/Screenshots/PotionPapa/Ingredientspng",
+        original: "/Screenshots/PotionPapa/Ingredients.png",
         thumbnail: "/Screenshots/PotionPapa/IngredientsSmall.png",
         loading: "lazy"
     },
@@ -590,7 +590,7 @@ const TwitchTopRPGData = {
     downloadText: "",
     itchDest: "",
     itchText: "",
-    techArray: ["Python", "React", "Twitch", "NodeJS", "Websockets", "ElevenLabs"]
+    techArray: ["Python", "React", "Twitch", "NodeJS", "ElevenLabs"]
 }
 
 const VariousGeorgeData = {
@@ -849,41 +849,6 @@ const RITITData = {
     techArray: ["Javascript"]
 }
 
-const TechToImage = {
-    React: "/favicon.ico",
-    Javascript: null,
-    Python: null,
-    NGINX: null,
-    SnipsAI: null,
-    C: null,
-    CPlusPlus: null,
-    Kusto: null,
-    SQL: null,
-    WinDBG: null,
-    WPA: null,
-    Azure: null,
-    Foundry: null,
-    Inkarnate: null,
-    WorldAnvil: null,
-    StreamDeck: null,
-    Obsidian: null,
-    Unity: null,
-    CSharp: null,
-    SourceFilmMaker: null,
-    Hammer: null,
-    Source2: null,
-    ChroMapper: null,
-    Websockets: null,
-    NodeJS: null,
-    ElevenLabs: null,
-    CoquiTTS: null,
-    Unreal5: null,
-    Blueprints: null,
-    SASS: null,
-    Godot: null,
-    HLSL: null
-}
-
 const TechToLink = {
     React: "https://react.dev/",
     Javascript: "https://en.wikipedia.org/wiki/JavaScript",
@@ -908,7 +873,6 @@ const TechToLink = {
     Hammer: "https://developer.valvesoftware.com/wiki/Valve_Hammer_Editor_(Source_2)",
     Source2: "https://en.wikipedia.org/wiki/Source_2",
     ChroMapper: "https://github.com/Caeden117/ChroMapper",
-    Websockets: "https://en.wikipedia.org/wiki/WebSocket#:~:text=WebSocket%20is%20a%20computer%20communications,as%20RFC%206455%20in%202011.",
     NodeJS: "https://nodejs.org/en",
     ElevenLabs: "https://elevenlabs.io/",
     CoquiTTS: "https://github.com/coqui-ai/TTS",
@@ -953,7 +917,6 @@ const IDToJob = {
 }
 
 export {
-    TechToImage,
     TechToLink,
     IDToProject,
     IDToHobby,
