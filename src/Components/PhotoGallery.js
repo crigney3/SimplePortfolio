@@ -37,7 +37,7 @@ const PhotoGallery = ({
         let tempImages = [];
 
         for(let i = 0; i < Object.keys(GalleryImageArray).length; i++) {
-            tempImages.push(GalleryImageArray[i].original);
+            tempImages.push(encodeURI(GalleryImageArray[i].original));
         }
 
         setImagesList(tempImages);

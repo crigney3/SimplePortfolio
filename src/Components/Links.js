@@ -10,9 +10,7 @@ const WebsiteLink = ({
 }) => {
     return (
         <a className='WebsiteLink' href={destination} target='_blank'>
-            <div className='LinkIcon'>
-                <WebIcon/>
-            </div>
+            <WebIcon className='LinkIcon'/>
             <p>{text}</p>
         </a>
     );
@@ -24,9 +22,7 @@ const ItchLink = ({
 }) => {
     return (
         <a className='ItchLink' href={destination} target='_blank'>
-            <div className='LinkIcon'>
-                <SportsEsportsIcon/>
-            </div>
+            <SportsEsportsIcon className='LinkIcon'/>
             <p>{text}</p>
         </a>
     );
@@ -50,9 +46,7 @@ const DownloadLink = ({
 }) => {
     return (
         <a className='DownloadLink' href={destination} target='_blank'>
-            <div className='LinkIcon'>
-                <DownloadIcon/>
-            </div>
+            <DownloadIcon className='LinkIcon'/>
             <p>{text}</p>
         </a>
     );

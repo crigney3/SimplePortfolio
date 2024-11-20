@@ -1,5 +1,6 @@
 import { useEffect, useContext } from 'react';
 import ProjectContext from '../Components/ProjectContext';
+import SideNavbar from '../Components/SideNavbar.js';
 import './Jobs.css';
 
 const Jobs = () => {
@@ -9,6 +10,7 @@ const Jobs = () => {
     return (
         <div className='JobsPage'>
             <div className='JobsPaddingTop'></div>
+            <SideNavbar currentPageID={2}/>
             {allJobs}
             <div className='JobsPaddingBottom'></div>
         </div>

@@ -758,7 +758,7 @@ const TrueChaosData = {
     descriptionText: "A subclass for sorcerer, True Chaos Sorcerer removes all the pesky stuff about spellcasting in 5e, like “preparing spells” or “knowing spells” or “knowing what you’re gonna cast before it happens.” Ever wondered what a ttrpg would be like if all the spells were randomly generated in the form {transitive verb} {noun}? Find out by generating a few from the website link below!",
     photoGalleryImageArray: TrueChaosImages,
     videoLink: "",
-    websiteDest: "dionysus.headass.house",
+    websiteDest: "http://dionysus.headass.house",
     websiteText: "Try it yourself!",
     githubDest: "https://github.com/crigney3/TrueChaosGenerator",
     githubText: "Github",

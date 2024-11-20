@@ -4,6 +4,7 @@ import '../Components/ProjectData.js';
 import { useContext, useEffect, useState } from 'react';
 import { IDToHobby } from '../Components/ProjectData.js';
 import ProjectContext from '../Components/ProjectContext.js';
+import SideNavbar from '../Components/SideNavbar.js';
 
 const Hobbies = () => {
 
@@ -13,6 +14,7 @@ const Hobbies = () => {
     return (
         <div className='HobbiesPage'>
             <div className='HobbiesPaddingTop'></div>
+            <SideNavbar currentPageID={1}/>
             {allHobbies}
             <div className='HobbiesPaddingBottom'></div>
         </div>

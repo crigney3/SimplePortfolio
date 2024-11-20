@@ -29,7 +29,7 @@
     border-radius: 25px;
     justify-content: center;
     align-items: center;
-    max-width: 125px;
+    max-width: 200px;
     min-width: 125px;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -42,7 +42,7 @@
     position: relative;
     overflow: hidden;
     border-radius: 100%;
-    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .InternalTech img {
@@ -50,6 +50,11 @@
     margin: 0 auto;
     height: 100%;
     width: auto;
+}
+
+.InternalTech p {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .TechBanner a {
@@ -81,36 +86,9 @@
     border-radius: 25px;
     margin-top: 5px;
     margin-bottom: 5px;
+    color: white;
 }
 
 .OwnedLinks p {
     margin-right: 10px;
 }
-
-/* .GithubLink {
-
-}
-
-.DownloadLink {
-    margin-right: 20px;
-    margin-left: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.WebsiteLink {
-    margin-right: 20px;
-    margin-left: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.ItchLink {
-    margin-right: 20px;
-    margin-left: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
