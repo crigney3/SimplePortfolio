@@ -1,15 +1,18 @@
 .ProjectLink {
-    max-width: 200px;
-    max-height: 200px;
-    background-color: #5941A9;
+    width: 60%;
+    height: 60%;
+    background-position: center;
+    background-color: black;
+    background-repeat:no-repeat;
+    background-size: cover;
 }
 
-.ProjectLink img {
-    max-width: 150px;
-    max-height: 150px;
+.InternalLink {
     width: 100%;
-    height: auto;
-    object-fit:scale-down;
-    overflow: hidden;
-    object-position: center center;
+    height: 100%;
+}
+
+.ProjectLink:hover {
+    width: 90%;
+    height: 90%;
 }
