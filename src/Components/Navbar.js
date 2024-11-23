@@ -60,9 +60,9 @@ const Navbar = () => {
 
     return (
         <div className='Navbar'>
-            <div className='Dropdown'>
-                <HashLink className='NoDropBtn' smooth to='/'>Home</HashLink>
-            </div>
+            <HashLink className='NoDropBtn' smooth to='/'>
+                <button className='HomeButton'>Home</button>
+            </HashLink>
             <div className='Dropdown'>
                 <button className='ProjectsDropBtn'>Projects</button>
                 <div className='DropContent'>

@@ -24,17 +24,19 @@
   z-index: 99999;
 }
 
-.Dropdown {
-    position: relative;
-    display: inline-block;
-}
-
 .ProjectsDropBtn, .JobsDropBtn, .HobbiesDropBtn, .NoDropBtn {
     background-color: #5941A9;
     color: #E5D4ED;
-    padding: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
     font-size: 16px;
+    height: 50px;
+    text-decoration: none;
     border: none;
+}
+
+.NoDropBtn {
+    height: 50px;
     display: block;
 }
 
@@ -45,7 +47,7 @@
     top: 0;
     width: 100%;
     z-index: 9999;
-    height: 50px
+    height: 50px;
 }
 
 .Navbar .Dropdown {
