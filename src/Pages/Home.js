@@ -6,7 +6,14 @@ const Home = () => {
 
     return (
         <div className='HomePage'>
-            <h1 className='TitleTop'>Corey Rigney</h1>
+            <div className='InfoContainer'>
+                <img className='CoverImage' src='SmallMe.jpg'></img>
+                <div className='InfoItself'>
+                    <h1 className='TitleTop'>Corey Rigney</h1>
+                    <p className='JobDesc'>Game Designer and Software Engineer</p>
+                </div>
+            </div>
+            
             <div className='MainContainer'>
                 <ProjectLink id={1} type='Project'/>
                 <ProjectLink id={1} type='Project'/>

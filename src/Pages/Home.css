@@ -1,14 +1,39 @@
 .HomePage {
-    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr 4fr;
+    width: 100vw;
+    height: calc(100vh - 7vh - 5px);
+    align-items: center;
+    justify-items: center;
+}
+
+.CoverImage {
+    width: 256px;
+    height: 256px;
+    border-style: inset;
+}
+
+.InfoContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 60px;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(blue, white);
+}
+
+.InfoItself {
     display: flex;
     flex-direction: column;
-    width: 100vw;
-    height: 100vh;
 }
 
 .TitleTop {
     font-size: 72px;
     font-family: 'Syne';
+    margin: 0px;
 }
 
 .MainContainer {
@@ -16,7 +41,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     width: 100%;
-    height: 50%;
+    height: 100%;
     justify-items: center;
     align-items: center;
 }

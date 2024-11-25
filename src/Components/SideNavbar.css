@@ -1,9 +1,6 @@
 .SideNavbar {
     position: fixed;
     right: 0;
-    background-color: rgba(0, 0, 0, 0);
-    height: calc(100vh - 50px - 75px); /* full screen height minus navbar height minus footer height */
-    width: 10vw;
     margin-top: 50px;
     z-index: 99999;
 }
@@ -15,11 +12,22 @@
 
 .OpenIcon {
     transform: scale(2);
+    margin-right: 50px;
 }
 
 .CloseIcon {
-    margin-top: 15px;
     transform: rotateY(180deg) scale(2);
+}
+
+.IconCloser {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+    margin-right: -5px;
 }
 
 .IconOpener {
@@ -27,10 +35,10 @@
 }
 
 .ExpandedNavbar {
-    background-color: aquamarine;
-    height: 100%;
-    width: 100%;
     display: flex;
+    height: calc(100vh - 50px - 75px); /* full screen height minus navbar height minus footer height */
+    width: 10vw;
+    
 }
 
 .ItemsList {
@@ -38,6 +46,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: aquamarine;
+    z-index: 9999;
 }
 
 .ItemsList a {

@@ -60,27 +60,27 @@ const Navbar = () => {
 
     return (
         <div className='Navbar'>
-            <HashLink className='NoDropBtn' smooth to='/'>
-                <button className='HomeButton'>Home</button>
+            <HashLink className='Dropdown' smooth to='/'>
+                <button className='NoDropBtn'>Home</button>
             </HashLink>
-            <div className='Dropdown'>
+            <HashLink className='Dropdown' smooth to='/Projects'>
                 <button className='ProjectsDropBtn'>Projects</button>
                 <div className='DropContent'>
                     {allProjectsList}
                 </div>
-            </div>
-            <div className='Dropdown'>
+            </HashLink>
+            <HashLink className='Dropdown' smooth to='/Hobbies'>
                 <button className='HobbiesDropBtn'>Hobbies</button>
                 <div className='DropContent'>
                     {allHobbiesList}
                 </div>
-            </div>
-            <div className='Dropdown'>
+            </HashLink>
+            <HashLink className='Dropdown' smooth to='/Jobs'>
                 <button className='JobsDropBtn'>Jobs</button>
                 <div className='DropContent'>
                     {allJobsList}
                 </div>
-            </div>
+            </HashLink>
         </div>
     );
 }

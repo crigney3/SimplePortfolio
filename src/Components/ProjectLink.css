@@ -1,12 +1,12 @@
 .ProjectLink {
-    width: 75%;
-    height: 75%;
+    width: 90%;
+    height: 90%;
     background-position: center;
     background-color: black;
     background-repeat:no-repeat;
     background-size: cover;
     border: 10px;
-    border-style: solid;
+    /* border-style: solid; */
     border-radius: 5px;
     border-color: #5941A9;
 }
