@@ -9,9 +9,9 @@ const WebsiteLink = ({
     text
 }) => {
     return (
-        <a className='WebsiteLink' href={destination} target='_blank'>
+        <a className='WebsiteLink BackgroundDark' href={destination} target='_blank'>
             <WebIcon className='LinkIcon'/>
-            <p>{text}</p>
+            <p className='ForegroundLight'>{text}</p>
         </a>
     );
 }
@@ -21,9 +21,9 @@ const ItchLink = ({
     text
 }) => {
     return (
-        <a className='ItchLink' href={destination} target='_blank'>
+        <a className='ItchLink BackgroundDark' href={destination} target='_blank'>
             <SportsEsportsIcon className='LinkIcon'/>
-            <p>{text}</p>
+            <p className='ForegroundLight'>{text}</p>
         </a>
     );
 }
@@ -33,9 +33,9 @@ const GithubLink = ({
     text
 }) => {
     return (
-        <a className='GithubLink' href={destination} target='_blank'>
+        <a className='GithubLink BackgroundDark' href={destination} target='_blank'>
             <GitHubIcon className='LinkIcon'/>
-            <p>{text}</p>
+            <p className='ForegroundLight'>{text}</p>
         </a>
     );
 }
@@ -45,9 +45,9 @@ const DownloadLink = ({
     text
 }) => {
     return (
-        <a className='DownloadLink' href={destination} target='_blank'>
+        <a className='DownloadLink BackgroundDark' href={destination} target='_blank'>
             <DownloadIcon className='LinkIcon'/>
-            <p>{text}</p>
+            <p className='ForegroundLight'>{text}</p>
         </a>
     );
 }

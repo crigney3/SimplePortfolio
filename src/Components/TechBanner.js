@@ -40,7 +40,7 @@ const TechBanner = ({
             let source = '/logos/' + encodeURI(TechName) + '.webp';
 
             tempTechElements.push(
-                <a key={TechName} className='InternalTech' target='_blank' href={TechToLink[TechName]}>
+                <a key={TechName} className='InternalTech BackgroundMedDark ForegroundLight' target='_blank' href={TechToLink[TechName]}>
                     <div className='ImageCropper'>
                         <img className='InternalTechImage' src={source}/>
                     </div>
@@ -52,7 +52,7 @@ const TechBanner = ({
     };
 
     return (
-        <div className='TechBanner'>
+        <div className='TechBanner BackgroundLight'>
             <div className='OwnedLinks'>
                 {(websiteDest !== "") && (websiteText !== "") && <WebsiteLink destination={websiteDest} text={websiteText}/>}
                 {(githubDest !== "") && (githubText !== "") && <GithubLink destination={githubDest} text={githubText}/>}

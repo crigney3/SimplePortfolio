@@ -3,21 +3,17 @@
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #1D1128;
-    color: #E5D4ED;
     text-align: center;
     z-index: 9999;
     height: 75px;
   }
 
 .Footer a {
-    color: #E5D4ED;
     text-decoration: none;
     margin-left: 10px;
 }
 
 .Footer a:visited {
-    color: #5941A9;
     text-decoration: none;
 }
 

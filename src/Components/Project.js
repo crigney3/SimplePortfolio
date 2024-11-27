@@ -37,10 +37,8 @@ const Project = ({
     // Website Link
     // Itch.IO Link
 
-    const [backgroundColor, setBackgroundColor] = useState('white');
-    const [fontColor, setFontColor] = useState('black');
-    const [linkColor, setLinkColor] = useState('purple');
-    const [linkVisitedColor, setLinkVisitedColor] = useState('red');
+    const [backgroundClass, setBackgroundClass] = useState('BackgroundDark');
+    const [foregroundClass, setForegroundClass] = useState('ForegroundDark');
 
     useEffect(() => {
         calcColorByID();
@@ -49,21 +47,15 @@ const Project = ({
     const calcColorByID = () => {
         let numID = id.match(/^\d+|\d+\b|\d+(?=\w)/g).map(function (v) {return +v;});
 
-        let bgColor = numID[0] % 2 ? '#282c34' : '#1D1128';
-        setBackgroundColor(bgColor);    
+        let bgColor = numID[0] % 2 ? 'BackgroundDark' : 'BackgroundMedDark';  
+        setBackgroundClass(bgColor);
 
-        let fColor = numID[0] % 2 ? '#E5D4ED' : '#f1f1f1';
-        setFontColor(fColor);
-
-        let lColor = numID[0] % 2 ? '#282c34' : '#1D1128';
-        setLinkColor(lColor);
-
-        let lvColor = numID[0] % 2 ? '#282c34' : '#1D1128';
-        setLinkVisitedColor(lvColor);
+        let fColor = numID[0] % 2 ? 'ForegroundLightExtra' : 'ForegroundLight';
+        setForegroundClass(fColor);
     }
 
     return (
-        <div className='Project' id={id} style={{backgroundColor: backgroundColor, color:fontColor}}>
+        <div className={'Project' + ' ' + backgroundClass + ' ' + foregroundClass} id={id}>
             {(titleText !== "") && <TitleBox titleText={titleText}/>}
             <TechBanner TechArray={techArray} websiteDest={websiteDest} websiteText={websiteText} githubDest={githubDest} githubText={githubText} downloadDest={downloadDest} downloadText={downloadText} itchDest={itchDest} itchText={itchText}/>
             {(descriptionText !== "") && <DescriptionBox descriptionText={descriptionText} className='DescWrapper'/>}

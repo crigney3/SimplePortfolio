@@ -9,8 +9,8 @@ const Home = () => {
             <div className='InfoContainer'>
                 <img className='CoverImage' src='SmallMe.jpg'></img>
                 <div className='InfoItself'>
-                    <h1 className='TitleTop'>Corey Rigney</h1>
-                    <p className='JobDesc'>Game Designer and Software Engineer</p>
+                    <h1 className='TitleTop ForegroundLight'>Corey Rigney</h1>
+                    <p className='JobDesc ForegroundLight'>Game Designer and Software Engineer</p>
                 </div>
             </div>
             

@@ -35,7 +35,7 @@ const SideNavbar = ({
         let allProjList = [];
 
         for(let i = 0; i < allProjects.length; i++) {
-            allProjList.push(<HashLink smooth key={'Project'+i} to={'/Projects/#' + allProjects[i].props.id.toString()}>{allProjects[i].props.titleText}</HashLink>)
+            allProjList.push(<HashLink smooth className='HoverMedExtra ForegroundLight' key={'Project'+i} to={'/Projects/#' + allProjects[i].props.id.toString()}>{allProjects[i].props.titleText}</HashLink>)
         }
 
         setAllItemsList(allProjList);
@@ -45,7 +45,7 @@ const SideNavbar = ({
         let allHobbList = [];
 
         for(let i = 0; i < allHobbies.length; i++) {
-            allHobbList.push(<HashLink smooth key={'Hobby'+i} to={'/Hobbies/#' + allHobbies[i].props.id.toString()}>{allHobbies[i].props.titleText}</HashLink>)
+            allHobbList.push(<HashLink smooth className='HoverMedExtra ForegroundLight' key={'Hobby'+i} to={'/Hobbies/#' + allHobbies[i].props.id.toString()}>{allHobbies[i].props.titleText}</HashLink>)
         }
 
         setAllItemsList(allHobbList);
@@ -55,7 +55,7 @@ const SideNavbar = ({
         let allJobList = [];
         
         for(let i = 0; i < allJobs.length; i++) {
-            allJobList.push(<HashLink smooth key={'Job'+i} to={'/Jobs/#' + allJobs[i].props.id.toString()}>{allJobs[i].props.titleText}</HashLink>)
+            allJobList.push(<HashLink className='HoverMedExtra ForegroundLight' smooth key={'Job'+i} to={'/Jobs/#' + allJobs[i].props.id.toString()}>{allJobs[i].props.titleText}</HashLink>)
         }
 
         setAllItemsList(allJobList);
@@ -77,10 +77,10 @@ const SideNavbar = ({
             </div>}
             {(isOpen) && 
             <div className='ExpandedNavbar'>
-                <div className='IconCloser' onClick={closeBar}>
+                <div className='IconCloser BackgroundDarkExtra' onClick={closeBar}>
                     <MenuOpenIcon className='CloseIcon'/>
                 </div>
-                <div className='ItemsList'>
+                <div className='ItemsList BackgroundDarkExtra'>
                     {allItemsList}
                 </div>  
             </div>}

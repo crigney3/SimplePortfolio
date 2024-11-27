@@ -1,5 +1,13 @@
 .App {
   text-align: center;
+  --dark: #0C0014;
+  --med-dark: #290025;
+  --med: #3A015C;
+  --med-light: #4F0147;
+  --light: #FFD6FB;
+  --dark-extra: #000429;
+  --med-extra: #406E8E;
+  --light-extra: #D4EDE8;
 }
 
 .App::-webkit-scrollbar {
@@ -7,14 +15,12 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 @font-face {
@@ -35,4 +41,100 @@
 @font-face {
   font-family: 'Inter';
   src: url('../public/fonts/Inter-VariableFont_opsz\,wght.ttf');
+}
+
+.BackgroundDark {
+  background-color: var(--dark);
+}
+
+.BackgroundMedDark {
+  background-color: var(--med-dark);
+}
+
+.BackgroundMed {
+  background-color: var(--med);
+}
+
+.BackgroundMedLight {
+  background-color: var(--med-light);
+}
+
+.BackgroundLight {
+  background-color: var(--light);
+}
+
+.BackgroundDarkExtra {
+  background-color: var(--dark-extra);
+}
+
+.BackgroundMedExtra {
+  background-color: var(--med-extra);
+}
+
+.BackgroundLightExtra {
+  background-color: var(--light-extra);
+}
+
+.ForegroundDark {
+  color: var(--dark);
+}
+
+.ForegroundMedDark {
+  color: var(--med-dark);
+}
+
+.ForegroundMed {
+  color: var(--med);
+}
+
+.ForegroundMedLight {
+  color: var(--med-light);
+}
+
+.ForegroundLight {
+  color: var(--light);
+}
+
+.ForegroundDarkExtra {
+  color: var(--dark-extra);
+}
+
+.ForegroundMedExtra {
+  color: var(--med-extra);
+}
+
+.ForegroundLightExtra {
+  color: var(--light-extra);
+}
+
+.HoverDark:hover {
+  background-color: var(--dark);
+}
+
+.HoverMedDark:hover {
+  background-color: var(--med-dark);
+}
+
+.HoverMed:hover {
+  background-color: var(--med);
+}
+
+.HoverMedLight:hover {
+  background-color: var(--med-light);
+}
+
+.HoverLight:hover {
+  background-color: var(--light);
+}
+
+.HoverDarkExtra:hover {
+  background-color: var(--dark-extra);
+}
+
+.HoverMedExtra:hover {
+  background-color: var(--med-extra);
+}
+
+.HoverLightExtra:hover {
+  background-color: var(--light-extra);
 }

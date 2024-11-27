@@ -7,23 +7,23 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 const Footer = () => {
 
     return (
-        <div className='Footer'>
+        <div className='Footer BackgroundDarkExtra'>
             <div className='FooterContentMain'>
                 <div className='FooterContent'>
-                    <GitHubIcon/>
-                    <a className='FooterGithubLink' href='https://github.com/crigney3'>Github</a>
+                    <GitHubIcon style={{color: 'white'}}/>
+                    <a className='FooterGithubLink ForegroundLight' target='_blank' href='https://github.com/crigney3'>Github</a>
                 </div>
                 <div className='FooterContent'>
-                    <EmailIcon/>
-                    <a className='EmailLink' href='mailto:coreyrigney@gmail.com'>coreyrigney@gmail.com</a>
+                    <EmailIcon style={{color: 'white'}}/>
+                    <a className='EmailLink ForegroundLight' target='_blank' href='mailto:coreyrigney@gmail.com'>coreyrigney@gmail.com</a>
                 </div>
                 <div className='FooterContent'>
-                    <DescriptionIcon/>
-                    <a className='Resume' href='/content/Resume.pdf' download>Resume Download</a>
+                    <DescriptionIcon style={{color: 'white'}}/>
+                    <a className='Resume ForegroundLight' target='_blank' href='/content/Resume.pdf' download>Resume Download</a>
                 </div>
                 <div className='FooterContent'>
-                    <LinkedInIcon/>
-                    <a className='LinkedIn' href='https://www.linkedin.com/in/corey-rigney/'>LinkedIn</a>
+                    <LinkedInIcon style={{color: 'white'}}/>
+                    <a className='LinkedIn ForegroundLight' target='_blank' href='https://www.linkedin.com/in/corey-rigney/'>LinkedIn</a>
                 </div>
             </div>
         </div>

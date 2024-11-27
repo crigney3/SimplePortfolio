@@ -28,7 +28,7 @@ const Navbar = () => {
         let allProjList = [];
 
         for(let i = 0; i < allProjects.length; i++) {
-            allProjList.push(<HashLink smooth key={'Project'+i} to={'/Projects/#' + allProjects[i].props.id.toString()}>{allProjects[i].props.titleText}</HashLink>)
+            allProjList.push(<HashLink className='HoverMedLight ForegroundLight' smooth key={'Project'+i} to={'/Projects/#' + allProjects[i].props.id.toString()}>{allProjects[i].props.titleText}</HashLink>)
         }
 
         setAllProjectsList(allProjList);
@@ -38,7 +38,7 @@ const Navbar = () => {
         let allHobbList = [];
 
         for(let i = 0; i < allHobbies.length; i++) {
-            allHobbList.push(<HashLink smooth key={'Hobby'+i} to={'/Hobbies/#' + allHobbies[i].props.id.toString()}>{allHobbies[i].props.titleText}</HashLink>)
+            allHobbList.push(<HashLink className='HoverMedLight ForegroundLight' smooth key={'Hobby'+i} to={'/Hobbies/#' + allHobbies[i].props.id.toString()}>{allHobbies[i].props.titleText}</HashLink>)
         }
 
         setAllHobbiesList(allHobbList);
@@ -48,36 +48,32 @@ const Navbar = () => {
         let allJobList = [];
         
         for(let i = 0; i < allJobs.length; i++) {
-            allJobList.push(<HashLink smooth key={'Job'+i} to={'/Jobs/#' + allJobs[i].props.id.toString()}>{allJobs[i].props.titleText}</HashLink>)
+            allJobList.push(<HashLink className='HoverMedLight ForegroundLight' smooth key={'Job'+i} to={'/Jobs/#' + allJobs[i].props.id.toString()}>{allJobs[i].props.titleText}</HashLink>)
         }
 
         setAllJobsList(allJobList);
     }
 
-    // useEffect(() => {
-    //     console.log(allProjectsList);
-    // }, [allProjectsList]);
-
     return (
-        <div className='Navbar'>
+        <div className='Navbar BackgroundDarkExtra'>
             <HashLink className='Dropdown' smooth to='/'>
-                <button className='NoDropBtn'>Home</button>
+                <button className='NoDropBtn BackgroundDarkExtra ForegroundLight HoverMedLight'>Home</button>
             </HashLink>
             <HashLink className='Dropdown' smooth to='/Projects'>
-                <button className='ProjectsDropBtn'>Projects</button>
-                <div className='DropContent'>
+                <button className='ProjectsDropBtn BackgroundDarkExtra ForegroundLight HoverMedLight'>Projects</button>
+                <div className='DropContent BackgroundMed'>
                     {allProjectsList}
                 </div>
             </HashLink>
             <HashLink className='Dropdown' smooth to='/Hobbies'>
-                <button className='HobbiesDropBtn'>Hobbies</button>
-                <div className='DropContent'>
+                <button className='HobbiesDropBtn BackgroundDarkExtra ForegroundLight HoverMedLight'>Hobbies</button>
+                <div className='DropContent BackgroundMed'>
                     {allHobbiesList}
                 </div>
             </HashLink>
             <HashLink className='Dropdown' smooth to='/Jobs'>
-                <button className='JobsDropBtn'>Jobs</button>
-                <div className='DropContent'>
+                <button className='JobsDropBtn BackgroundDarkExtra ForegroundLight HoverMedLight'>Jobs</button>
+                <div className='DropContent BackgroundMed'>
                     {allJobsList}
                 </div>
             </HashLink>

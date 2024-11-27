@@ -48,6 +48,8 @@
     font-size: 32px;
     font-family:'Inter';
     cursor: default;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 iframe {

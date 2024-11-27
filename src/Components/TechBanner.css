@@ -1,5 +1,4 @@
 .TechBanner {
-    background-color: grey;
     max-height: 5vh;
     border-radius: 5px;
     display: flex;
@@ -26,7 +25,6 @@
 .InternalTech {
     display: flex;
     position: relative;
-    background-color: darkslategrey;
     border-radius: 25px;
     justify-content: center;
     align-items: center;
@@ -86,11 +84,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: darkblue;
     border-radius: 25px;
     margin-top: 5px;
     margin-bottom: 5px;
-    color: white;
+    color: black;
 }
 
 .OwnedLinks p {
