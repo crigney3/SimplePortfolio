@@ -7,16 +7,17 @@
 }
 
 .DropContent {
-  display: none; 
-  position: fixed;
+  display: block; 
+  position: relative;
   min-width: 160px;
   box-shadow: 10px 5px 5px 0px rgba(255, 255, 255, 0.2);
   z-index: 99999;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .Dropdown {
     position: relative;
-    display: block;
     cursor: pointer;
 }
 
@@ -28,6 +29,10 @@
     text-decoration: none;
     border: none;
     cursor: pointer;
+}
+
+.ProjectsDropBtn:hover, .JobsDropBtn:hover, .HobbiesDropBtn:hover, .NoDropBtn:hover {
+    background: radial-gradient(50% 50% at center, var(--med-light), var(--med), var(--dark-extra));
 }
 
 .Navbar {

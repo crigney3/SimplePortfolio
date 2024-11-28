@@ -1,9 +1,11 @@
 .TechBanner {
-    max-height: 5vh;
+    max-height: 4vh;
+    width: 97%;
     border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
+    justify-self: center;
 }
 
 .OwnedLinks {

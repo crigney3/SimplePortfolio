@@ -7,7 +7,7 @@
     width: 100%;
     height: calc(100vh - 50px - 75px); /* full screen height minus navbar height minus footer height */
     grid-template-columns: 1fr 2fr;
-    grid-template-rows: 2fr 1fr 15fr;
+    grid-template-rows: 2fr 1fr 17fr;
     scroll-snap-align: start;
     scroll-margin-top: 50px;
 }

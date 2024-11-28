@@ -52,7 +52,7 @@ const TechBanner = ({
     };
 
     return (
-        <div className='TechBanner BackgroundLight'>
+        <div className='TechBanner BackgroundMed'>
             <div className='OwnedLinks'>
                 {(websiteDest !== "") && (websiteText !== "") && <WebsiteLink destination={websiteDest} text={websiteText}/>}
                 {(githubDest !== "") && (githubText !== "") && <GithubLink destination={githubDest} text={githubText}/>}
