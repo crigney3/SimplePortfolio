@@ -20,7 +20,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 10vh;
     width: 100%;
     height: 100%;
     background-image: linear-gradient(var(--dark-extra), white);
@@ -32,9 +32,13 @@
 }
 
 .TitleTop {
-    font-size: 72px;
+    font-size: 6vw;
     font-family: 'Syne';
     margin: 0px;
+}
+
+.JobDesc {
+    font-size: 3vw;
 }
 
 .MainContainer {
@@ -45,4 +49,33 @@
     height: 100%;
     justify-items: center;
     align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .HomePage {
+        height: 200vh;
+        overflow-y: scroll;
+        grid-template-rows: 2fr 6fr;
+    }
+
+    .CoverImage {
+        margin-left: 2vw;
+        margin-right: 8vw;
+        width: min(50vw, 50vh);
+        height: min(50vw, 50vh);
+    }
+
+    .InfoItself {
+        margin-right: 1vw;
+    }
+
+    .MainContainer {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        max-height: 135vh;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    
 }

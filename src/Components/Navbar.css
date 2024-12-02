@@ -7,13 +7,13 @@
 }
 
 .DropContent {
-  display: block; 
-  position: relative;
+  display: none; 
+  position: fixed;
   min-width: 160px;
   box-shadow: 10px 5px 5px 0px rgba(255, 255, 255, 0.2);
   z-index: 99999;
-  left: 50%;
-  transform: translateX(-50%);
+  /* left: 50%;
+  transform: translateX(-50%); */
 }
 
 .Dropdown {
@@ -21,17 +21,17 @@
     cursor: pointer;
 }
 
-.ProjectsDropBtn, .JobsDropBtn, .HobbiesDropBtn, .NoDropBtn {
+.DropBtn{
     padding-left: 48px;
     padding-right: 48px;
-    font-size: 32px;
-    height: 50px;
+    font-size: 2.4vh;
+    height: 5vh;
     text-decoration: none;
     border: none;
     cursor: pointer;
 }
 
-.ProjectsDropBtn:hover, .JobsDropBtn:hover, .HobbiesDropBtn:hover, .NoDropBtn:hover {
+.DropBtn:hover{
     background: radial-gradient(50% 50% at center, var(--med-light), var(--med), var(--dark-extra));
 }
 
@@ -41,7 +41,7 @@
     top: 0;
     width: 100%;
     z-index: 9999;
-    height: 50px;
+    height: 5vh;
     display: flex;
     justify-content: center;
 }
@@ -49,3 +49,21 @@
 .Navbar .Dropdown {
     float: left;
 }
+
+@media only screen and (max-width: 768px) {
+    .Navbar {
+        height: 6vh;
+        justify-content: space-around;
+    }
+    
+    .DropBtn {
+        font-size: min(3vh, 4vw);
+        padding-left: 2vw;
+        padding-right: 2vw;
+        height: 5vh;
+    }
+}
+
+/* @media only screen and (max-width: 600px) {
+    
+} */

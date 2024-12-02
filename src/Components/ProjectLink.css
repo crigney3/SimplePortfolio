@@ -23,7 +23,7 @@
 }
 
 .ProjectLink p {
-    font-size: 64px;
+    font-size: 3vw;
     display: none;
     text-wrap: pretty;
     color: var(--light-extra);

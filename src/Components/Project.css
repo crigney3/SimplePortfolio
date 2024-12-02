@@ -5,11 +5,11 @@
         "tech tech"
         "description gallery";
     width: 100%;
-    height: calc(100vh - 50px - 75px); /* full screen height minus navbar height minus footer height */
+    height: calc(100vh - 5vh - 8vh); /* full screen height minus navbar height minus footer height */
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 2fr 1fr 17fr;
     scroll-snap-align: start;
-    scroll-margin-top: 50px;
+    scroll-margin-top: 5vh;
 }
 
 .TechBanner {
@@ -18,6 +18,7 @@
 
 .Gallery {
     grid-area: gallery;
+    max-height: 73.4vh;
 }
 
 .Links {
@@ -31,7 +32,7 @@
 
 .TitleBox {
     grid-area: title;
-    font-size:64px;
+    font-size:6.4vh;
     font-family: 'Syne';
     margin-top: 1vh;
     margin-bottom: 1vh;
@@ -45,13 +46,26 @@
 
 .DescriptionBox {
     grid-area: description;
-    font-size: 32px;
+    font-size: 3.1vh;
     font-family:'Inter';
     cursor: default;
     margin-left: 15px;
     margin-right: 15px;
+    max-height: 73.4vh;
 }
 
 iframe {
     border: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .Project {
+        width: 100%;
+        height: calc(100vh - 4vh - 6vh); /* full screen height minus navbar height minus footer height */
+        scroll-margin-top: 4vh;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    
 }

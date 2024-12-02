@@ -1,9 +1,3 @@
-/* @import "~react-image-gallery/styles/css/image-gallery.css"; */
-
-.ImageGalleryWrapper img {
-    object-fit: contain;
-}
-
 .ImageCarousel {
     display: flex;
     flex-direction: row;
