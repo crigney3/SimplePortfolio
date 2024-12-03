@@ -95,3 +95,29 @@
 .OwnedLinks p {
     margin-right: 10px;
 }
+
+@media only screen and (max-width: 768px) {
+    .TechBanner {
+        max-width: 97vw;
+    }
+
+    .InternalTech p {
+        display: none;
+    }
+
+    .InternalTech {
+        margin-right: 15px;
+        min-width: 0px;
+        max-width: 10vw;
+        width: 10vw;
+    }
+
+    .TechLink {
+        width: 10vw;
+    }
+
+    .GithubLink, .DownloadLink, .WebsiteLink, .ItchLink {
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+}

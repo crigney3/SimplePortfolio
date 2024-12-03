@@ -63,9 +63,28 @@ iframe {
         width: 100%;
         height: calc(100vh - 4vh - 6vh); /* full screen height minus navbar height minus footer height */
         scroll-margin-top: 4vh;
+        grid-template-areas: 
+        "title"
+        "tech"
+        "description"
+        "gallery";
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr 1fr 8fr 12fr;
+    }
+
+
+    .TitleBox {
+        max-width: 100vw;
+    }
+
+    .DescriptionBox {
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 90vw;
+        font-size: min(2.5vh, 3vw);
     }
 }
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
     
-}
+} */
