@@ -1,9 +1,10 @@
 .TechBanner {
     max-height: 4vh;
     width: 97%;
+    max-width: 98%;
     border-radius: 5px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     justify-self: center;
 }
@@ -40,7 +41,7 @@
 }
 
 .ImageCropper {
-    height: 80%;
+    height: 90%;
     position: relative;
     overflow: hidden;
     border-radius: 100%;
@@ -67,7 +68,6 @@
 
 .TechBanner a:visited {
     text-decoration: none;
-    color: white;
 }
 
 .LinkIcon {
@@ -89,7 +89,7 @@
     border-radius: 25px;
     margin-top: 5px;
     margin-bottom: 5px;
-    color: black;
+    color: white;
 }
 
 .OwnedLinks p {
@@ -97,8 +97,14 @@
 }
 
 @media only screen and (max-width: 768px) {
+    .ImageCropper {
+        height: 100%;
+    }
+
     .TechBanner {
-        max-width: 97vw;
+        max-width: 100%;
+        border-radius: 0;
+        width: 100%;
     }
 
     .InternalTech p {
@@ -106,18 +112,34 @@
     }
 
     .InternalTech {
-        margin-right: 15px;
+        margin-right: 5px;
         min-width: 0px;
         max-width: 10vw;
         width: 10vw;
+        background-color: var(--med);
     }
 
     .TechLink {
-        width: 10vw;
+        width: fit-content;
+    }
+
+    .OwnedLinks {
+        width: fit-content;
     }
 
     .GithubLink, .DownloadLink, .WebsiteLink, .ItchLink {
         margin-left: 3px;
         margin-right: 3px;
+        background-color: var(--med);
+    }
+
+    .OwnedLinks p {
+        text-overflow: ellipsis;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .OwnedLinks p {
+        display: none;
     }
 }

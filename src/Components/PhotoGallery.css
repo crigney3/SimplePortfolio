@@ -45,4 +45,12 @@
     .ArrowImage {
         transform: scale(2);
     }
+
+    .LeftButton {
+        margin-left: 10px;
+    }
+
+    .RightButton {
+        margin-right: 2px;
+    }
 }

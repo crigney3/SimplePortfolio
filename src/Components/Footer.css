@@ -6,7 +6,7 @@
     text-align: center;
     z-index: 9999;
     height: 8vh;
-    font-size: 1.8vh;
+    font-size: 1.3rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,7 +59,7 @@
     .FooterContent {
         margin-left: 0.5vw;
         margin-right: 0.5vw;
-        font-size: min(2vh, 2.5vw);
+        font-size: 1.2rem;
     }
 }
 

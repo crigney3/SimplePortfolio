@@ -25,14 +25,14 @@
     grid-area: links;
     display: flex;
     flex-direction: row;
-    font-size: 16px;
+    font-size: 0.8rem;
     justify-content: center;
     font-family:'Inter';
 }
 
 .TitleBox {
     grid-area: title;
-    font-size:6.4vh;
+    font-size: 3rem;
     font-family: 'Syne';
     margin-top: 1vh;
     margin-bottom: 1vh;
@@ -46,7 +46,7 @@
 
 .DescriptionBox {
     grid-area: description;
-    font-size: 3.1vh;
+    font-size: 2rem;
     font-family:'Inter';
     cursor: default;
     margin-left: 15px;
@@ -66,8 +66,8 @@ iframe {
         grid-template-areas: 
         "title"
         "tech"
-        "description"
-        "gallery";
+        "gallery"
+        "description";
         grid-template-columns: 1fr;
         grid-template-rows: 2fr 1fr 8fr 12fr;
     }
@@ -78,10 +78,9 @@ iframe {
     }
 
     .DescriptionBox {
-        margin-left: 5px;
-        margin-right: 5px;
+        margin: auto;
         width: 90vw;
-        font-size: min(2.5vh, 3vw);
+        font-size: 1.3rem;
     }
 }
 
