@@ -16,17 +16,17 @@ const Home = () => {
             
             <div className='MainContainer'>
                 <ProjectLink id={1} type='Project'/>
-                <ProjectLink id={1} type='Project'/>
+                <ProjectLink id={0} type='Project'/>
                 <ProjectLink id={3} type='Project'/>
                 <ProjectLink id={1} type='Project'/>
                 <ProjectLink id={1} type='Project'/>
                 <ProjectLink id={0} type='Hobby'/>
                 <ProjectLink id={1} type='Hobby'/>
-                <ProjectLink id={0} type='Hobby'/>
+                <ProjectLink id={2} type='Hobby'/>
                 <ProjectLink id={3} type='Hobby'/>
                 <ProjectLink id={0} type='Job'/>
                 <ProjectLink id={8} type='Project'/>
-                <ProjectLink id={1} type='Project'/>
+                <ProjectLink id={11} type='Project'/>
             </div>
         </div>
     );

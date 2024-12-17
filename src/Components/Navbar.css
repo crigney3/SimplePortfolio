@@ -18,6 +18,7 @@
 .Dropdown {
     position: relative;
     cursor: pointer;
+    margin-top: 1vh;
 }
 
 .DropBtn {

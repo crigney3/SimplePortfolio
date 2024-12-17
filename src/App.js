@@ -43,7 +43,8 @@ function App() {
                      downloadText={hobby.downloadText}
                      itchDest={hobby.itchDest}
                      itchText={hobby.itchText}
-                     techArray={hobby.techArray} />
+                     techArray={hobby.techArray}
+                     miscLinkArray={hobby.miscLinkArray} />
         )        
     }
 
@@ -70,7 +71,8 @@ function App() {
                      downloadText={project.downloadText}
                      itchDest={project.itchDest}
                      itchText={project.itchText} 
-                     techArray={project.techArray}/>
+                     techArray={project.techArray}
+                     miscLinkArray={project.miscLinkArray}/>
         )
     }
 
@@ -97,7 +99,8 @@ function App() {
                        downloadText={job.downloadText}
                        itchDest={job.itchDest}
                        itchText={job.itchText} 
-                       techArray={job.techArray}/>
+                       techArray={job.techArray}
+                       miscLinkArray={job.miscLinkArray}/>
           )        
       }
 

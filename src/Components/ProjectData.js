@@ -1,5 +1,72 @@
 const SHOEImages = [
+    {
+        original: "/Screenshots/SHOE/main.png",
+        thumbnail: "/Screenshots/SHOE/main.png",
+        loading: "lazy"
+    },
+    {
+        original: "/Screenshots/SHOE/changes.png",
+        thumbnail: "/Screenshots/SHOE/changes.png",
+        loading: "lazy"
+    },
+    {
+        original: "/Screenshots/SHOE/material.png",
+        thumbnail: "/Screenshots/SHOE/material.png",
+        loading: "lazy"
+    },
+    {
+        original: "/Screenshots/SHOE/mrt.png",
+        thumbnail: "/Screenshots/SHOE/mrt.png",
+        loading: "lazy"
+    },
+    {
+        original: "/Screenshots/SHOE/tmaterial.png",
+        thumbnail: "/Screenshots/SHOE/tmaterial.png",
+        loading: "lazy"
+    },
+    {
+        original: "/Screenshots/SHOE/sky.png",
+        thumbnail: "/Screenshots/SHOE/sky.png",
+        loading: "lazy"
+    },
+    {
+        original: "/Screenshots/SHOE/loading.png",
+        thumbnail: "/Screenshots/SHOE/loading.png",
+        loading: "lazy"
+    },
+    {
+        original: "/Screenshots/SHOE/terrain.png",
+        thumbnail: "/Screenshots/SHOE/terrain.png",
+        loading: "lazy"
+    },
+    {
+        original: "/Screenshots/SHOE/launcher.png",
+        thumbnail: "/Screenshots/SHOE/launcher.png",
+        loading: "lazy"
+    }
+]
 
+const DOMEOSImages = [
+    {
+        original: "/Screenshots/DOMEOS/security.png",
+        thumbnail: "/Screenshots/DOMEOS/security.png",
+        loading: "lazy"
+    },
+    {
+        original: "/Screenshots/DOMEOS/login.png",
+        thumbnail: "/Screenshots/DOMEOS/login.png",
+        loading: "lazy"
+    },
+    {
+        original: "/Screenshots/DOMEOS/facility.png",
+        thumbnail: "/Screenshots/DOMEOS/facility.png",
+        loading: "lazy"
+    },
+    {
+        original: "/Screenshots/DOMEOS/diagnostic.png",
+        thumbnail: "/Screenshots/DOMEOS/diagnostic.png",
+        loading: "lazy"
+    }
 ]
 
 const CharityStreamImages = [
@@ -16,6 +83,39 @@ const TwitchTopRPGImages = [
 
 const VariousGeorgeImages = [
 
+]
+
+const AlyxImages = [
+    {
+        original: "/Screenshots/Alyx/sewer.png",
+        thumbnail: "/Screenshots/Alyx/sewer.png",
+        loading: "lazy"
+    },
+    {
+        original: "/Screenshots/Alyx/combat.png",
+        thumbnail: "/Screenshots/Alyx/combat.png",
+        loading: "lazy"
+    },
+    {
+        original: "/Screenshots/Alyx/left.png",
+        thumbnail: "/Screenshots/Alyx/left.png",
+        loading: "lazy"
+    },
+    {
+        original: "/Screenshots/Alyx/puzzle.png",
+        thumbnail: "/Screenshots/Alyx/puzzle.png",
+        loading: "lazy"
+    },
+    {
+        original: "/Screenshots/Alyx/right.png",
+        thumbnail: "/Screenshots/Alyx/right.png",
+        loading: "lazy"
+    },
+    {
+        original: "/Screenshots/Alyx/office.png",
+        thumbnail: "/Screenshots/Alyx/office.png",
+        loading: "lazy"
+    }
 ]
 
 const DungeonsDiningImages = [
@@ -276,7 +376,7 @@ const SFMImages = [
         loading: "lazy"
     },
     {
-        original: "/Screenshots/SFM/Let There Be Light(ers).png",
+        original: "/Screenshots/SFM/Light.png",
         thumbnail: "/Screenshots/SFM/Let There Be Light(ers)Small.png",
         loading: "lazy"
     },
@@ -296,7 +396,7 @@ const SFMImages = [
         loading: "lazy"
     },
     {
-        original: "/Screenshots/SFM/UnusualSuspect's Heavy.png",
+        original: "/Screenshots/SFM/Heavy.png",
         thumbnail: "/Screenshots/SFM/UnusualSuspect's HeavySmall.png",
         loading: "lazy"
     },
@@ -457,6 +557,29 @@ const MicrosoftImages = [
     }
 ]
 
+const BSImages = [
+    {
+        original: "/Screenshots/BSMaps/Dad.png",
+        thumbnail: "/Screenshots/BSMaps/Dad.png",
+        loading: "lazy"
+    },
+    {
+        original: "/Screenshots/BSMaps/Laundry.png",
+        thumbnail: "/Screenshots/BSMaps/Laundry.png",
+        loading: "lazy"
+    },
+    {
+        original: "/Screenshots/BSMaps/Lilies.png",
+        thumbnail: "/Screenshots/BSMaps/Lilies.png",
+        loading: "lazy"
+    },
+    {
+        original: "/Screenshots/BSMaps/Places.png",
+        thumbnail: "/Screenshots/BSMaps/Places.png",
+        loading: "lazy"
+    }
+]
+
 const MITREImages = [
     {
         original: "/Screenshots/MITRE/MITRE.png",
@@ -468,7 +591,7 @@ const MITREImages = [
 const SHOEProjectData = {
     titleText: "SHOE",
     descriptionText: "The Sorta Helpful Open Engine is my 3D game engine, complete with everything from multiple lighting types to custom shaders to terrain to GPU-based particles to scene saving/loading to project-based work etc. It’s a huge app capable of almost anything a game engine needs to be distributable, as well as its own launcher which keeps the engine updated and allows you to select which project you want to launch SHOE on. There’s no way I can cover the breadth and depth of SHOE here, so either watch the demo video or download the installer and try for yourself! If there’s any problem running it, email me at coreyrigney@gmail.com and I’d be excited to help debug it.",
-    photoGalleryImageArray: null,
+    photoGalleryImageArray: SHOEImages,
     videoLink: "",
     websiteDest: "",
     websiteText: "",
@@ -612,23 +735,24 @@ const VariousGeorgeData = {
 const BeatSaberData = {
     titleText: "Beat Saber Maps",
     descriptionText: "Beat maps for the VR lightsaber-slashing rhythm game, Beat Saber. I made a total of four of these back when I was a top 8000 Beat Saber player - 2 full songs, and 2 joke maps that I made as warm ups.",
-    photoGalleryImageArray: null,
+    photoGalleryImageArray: BSImages,
     videoLink: "",
-    websiteDest: "https://beatsaver.com/maps/2d56e",
-    websiteText: "You're my dad!",
-    githubDest: "https://beatsaver.com/maps/2d471",
-    githubText: "Oh the Places",
-    downloadDest: "https://beatsaver.com/maps/2d471",
-    downloadText: "Lillies of the Valley",
-    itchDest: "https://beatsaver.com/maps/2d421",
-    itchText: "Laundry Alarm",
-    techArray: ["ChroMapper"]
+    websiteDest: "",
+    websiteText: "",
+    githubDest: "",
+    githubText: "",
+    downloadDest: "",
+    downloadText: "",
+    itchDest: "",
+    itchText: "",
+    techArray: ["ChroMapper"],
+    miscLinkArray: [{"You're my dad!": "https://beatsaver.com/maps/2d56e"}, {"Oh the Places": "https://beatsaver.com/maps/2d471"}, {"Lilies of the Valley": "https://beatsaver.com/maps/2d471"}, {"Laundry Alarm": "https://beatsaver.com/maps/2d421"}]
 }
 
 const HalfLifeData = {
     titleText: "Half-Life Alyx Mapping",
     descriptionText: "Made and modeled in the Source 2 engine, “Sewer Infiltration” is a short but dense map for the VR game Half-Life Alyx. Designed with lighting as the player’s guide, this level keeps the player on their toes by swapping between combat and puzzles. The linked video is not mine, but a half-life alyx youtuber who played my level!",
-    photoGalleryImageArray: null,
+    photoGalleryImageArray: AlyxImages,
     videoLink: "https://www.youtube.com/embed/yqRD3lnt8Yk",
     websiteDest: "https://steamcommunity.com/sharedfiles/filedetails/?id=2472444720",
     websiteText: "Steam Workshop Link",
@@ -724,7 +848,7 @@ const ETForTheAtariData = {
 const DOMEData = {
     titleText: "DOME.OS",
     descriptionText: "TODO, see doc",
-    photoGalleryImageArray: null,
+    photoGalleryImageArray: DOMEOSImages,
     videoLink: "",
     websiteDest: "TODO",
     websiteText: "",

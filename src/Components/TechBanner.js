@@ -2,7 +2,7 @@ import './TechBanner.css';
 import { TechToLink } from './ProjectData';
 import { useState, useEffect } from 'react';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import { WebsiteLink, ItchLink, GithubLink, DownloadLink } from './Links';
+import { WebsiteLink, ItchLink, GithubLink, DownloadLink, MiscLink } from './Links';
 
 const TechBanner = ({
     TechArray = [],
@@ -13,12 +13,17 @@ const TechBanner = ({
     downloadDest = "",
     downloadText = "",
     itchDest = "",
-    itchText = ""
+    itchText = "",
+    miscLinkArray = []
 }) => {
     const [techElements, setTechElements] = useState([]);
+    const [miscLinkElements, setMiscLinkElements] = useState([]);
 
     useEffect(() => {
         createTechElements();
+        if (miscLinkArray.length !== 0) {
+            createMiscLinks();
+        }
     }, []);
 
     const createTechElements = () => {
@@ -51,6 +56,19 @@ const TechBanner = ({
         setTechElements(tempTechElements);
     };
 
+    const createMiscLinks = () => {
+        let tempMiscElements = [];
+
+        for (let i = 0; i < miscLinkArray.length; i++) {
+            let linkKey = Object.keys(miscLinkArray[i])[0];
+            tempMiscElements.push(
+                <MiscLink destination={miscLinkArray[i][linkKey]} text={linkKey} key={linkKey}/>
+            )
+        }
+
+        setMiscLinkElements(tempMiscElements);
+    }
+
     return (
         <div className='TechBanner BackgroundMed'>
             <div className='OwnedLinks'>
@@ -58,6 +76,7 @@ const TechBanner = ({
                 {(githubDest !== "") && (githubText !== "") && <GithubLink destination={githubDest} text={githubText}/>}
                 {(downloadDest !== "") && (downloadText !== "") && <DownloadLink destination={downloadDest} text={downloadText}/>}
                 {(itchDest !== "") && (itchText !== "") && <ItchLink destination={itchDest} text={itchText}/>}
+                {(miscLinkArray.length !== 0) && miscLinkElements}
             </div>
             <div className='TechLink'>
                 {techElements}

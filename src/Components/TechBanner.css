@@ -80,7 +80,7 @@
     margin-left: 10px;
 }
 
-.GithubLink, .DownloadLink, .WebsiteLink, .ItchLink {
+.GithubLink, .DownloadLink, .WebsiteLink, .ItchLink, .MiscLink {
     margin-right: 20px;
     margin-left: 20px;
     display: flex;
@@ -127,7 +127,7 @@
         width: fit-content;
     }
 
-    .GithubLink, .DownloadLink, .WebsiteLink, .ItchLink {
+    .GithubLink, .DownloadLink, .WebsiteLink, .ItchLink, .MiscLink {
         margin-left: 3px;
         margin-right: 3px;
         background-color: var(--med);

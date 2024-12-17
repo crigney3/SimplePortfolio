@@ -3,6 +3,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import DownloadIcon from '@mui/icons-material/Download';
 import WebIcon from '@mui/icons-material/Web';
 import SportsEsportsIcon from '@mui/icons-material/SportsEsports';
+import LanguageIcon from '@mui/icons-material/Language';
 
 const WebsiteLink = ({
     destination,
@@ -52,9 +53,22 @@ const DownloadLink = ({
     );
 }
 
+const MiscLink = ({
+    destination,
+    text
+}) => {
+    return (
+        <a className='MiscLink BackgroundDark' href={destination} target='_blank'>
+            <LanguageIcon className='LinkIcon'/>
+            <p className='ForegroundLight'>{text}</p>
+        </a>
+    );
+}
+
 export {
     WebsiteLink,
     ItchLink,
     GithubLink,
-    DownloadLink
+    DownloadLink,
+    MiscLink
 }

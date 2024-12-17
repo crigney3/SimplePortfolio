@@ -21,7 +21,8 @@ const Project = ({
     downloadText = "",
     itchDest = "",
     itchText = "",
-    techArray = []
+    techArray = [],
+    miscLinkArray = []
 }) => {
     // Projects have possible components like title, demo video, and download link.
     // If a parameter for one of these components is blank, Project will not render
@@ -57,7 +58,7 @@ const Project = ({
     return (
         <div className={'Project' + ' ' + backgroundClass + ' ' + foregroundClass} id={id}>
             {(titleText !== "") && <TitleBox titleText={titleText}/>}
-            <TechBanner TechArray={techArray} websiteDest={websiteDest} websiteText={websiteText} githubDest={githubDest} githubText={githubText} downloadDest={downloadDest} downloadText={downloadText} itchDest={itchDest} itchText={itchText}/>
+            <TechBanner TechArray={techArray} websiteDest={websiteDest} websiteText={websiteText} githubDest={githubDest} githubText={githubText} downloadDest={downloadDest} downloadText={downloadText} itchDest={itchDest} itchText={itchText} miscLinkArray={miscLinkArray}/>
             {(descriptionText !== "") && <DescriptionBox descriptionText={descriptionText} className='DescWrapper'/>}
             <div className='Gallery'>
                 {(photoGalleryImageArray !== null) && <PhotoGallery GalleryImageArray={photoGalleryImageArray}/>}

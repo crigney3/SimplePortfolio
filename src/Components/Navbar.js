@@ -2,6 +2,7 @@ import './Navbar.css';
 import ProjectContext from '../Components/ProjectContext.js';
 import { useContext, useEffect, useState } from 'react';
 import { HashLink } from 'react-router-hash-link';
+import { useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
 
@@ -11,6 +12,7 @@ const Navbar = () => {
     const [allProjectsList, setAllProjectsList] = useState([]);
     const [allHobbiesList, setAllHobbiesList] = useState([]);
     const [allJobsList, setAllJobsList] = useState([]);
+    const navigate = useNavigate();
 
     useEffect(() => {
         generateProjectList();
@@ -56,27 +58,27 @@ const Navbar = () => {
 
     return (
         <div className='Navbar BackgroundDarkExtra'>
-            <HashLink className='Dropdown' smooth to='/'>
-                <button className='DropBtn BackgroundDarkExtra ForegroundLight'>Home</button>
-            </HashLink>
-            <HashLink className='Dropdown' smooth to='/Projects'>
-                <button className='DropBtn BackgroundDarkExtra ForegroundLight'>Projects</button>
+            <div className='Dropdown'>
+                <HashLink className='DropBtn BackgroundDarkExtra ForegroundLight' smooth to='/'>Home</HashLink>
+            </div>
+            <div className='Dropdown'>
+                <HashLink className='DropBtn BackgroundDarkExtra ForegroundLight' smooth to='/Projects/#Project0'>Projects</HashLink>
                 <div className='DropContent BackgroundMed'>
                     {allProjectsList}
                 </div>
-            </HashLink>
-            <HashLink className='Dropdown' smooth to='/Hobbies'>
-                <button className='DropBtn BackgroundDarkExtra ForegroundLight'>Hobbies</button>
+            </div>
+            <div className='Dropdown'>
+                <HashLink className='DropBtn BackgroundDarkExtra ForegroundLight' smooth to='/Hobbies/#Hobby0'>Hobbies</HashLink>
                 <div className='DropContent BackgroundMed'>
                     {allHobbiesList}
                 </div>
-            </HashLink>
-            <HashLink className='Dropdown' smooth to='/Jobs'>
-                <button className='DropBtn BackgroundDarkExtra ForegroundLight'>Jobs</button>
+            </div>
+            <div className='Dropdown'>
+                <HashLink className='DropBtn BackgroundDarkExtra ForegroundLight' smooth to='/Jobs/#Job0'>Jobs</HashLink>
                 <div className='DropContent BackgroundMed'>
                     {allJobsList}
                 </div>
-            </HashLink>
+            </div>
         </div>
     );
 }
