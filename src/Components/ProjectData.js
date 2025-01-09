@@ -1,70 +1,70 @@
 const SHOEImages = [
     {
-        original: "/Screenshots/SHOE/main.png",
-        thumbnail: "/Screenshots/SHOE/main.png",
+        original: "/Screenshots/SHOE/main.webp",
+        thumbnail: "/Screenshots/SHOE/main.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/SHOE/changes.png",
-        thumbnail: "/Screenshots/SHOE/changes.png",
+        original: "/Screenshots/SHOE/changes.webp",
+        thumbnail: "/Screenshots/SHOE/changes.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/SHOE/material.png",
-        thumbnail: "/Screenshots/SHOE/material.png",
+        original: "/Screenshots/SHOE/material.webp",
+        thumbnail: "/Screenshots/SHOE/material.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/SHOE/mrt.png",
-        thumbnail: "/Screenshots/SHOE/mrt.png",
+        original: "/Screenshots/SHOE/mrt.webp",
+        thumbnail: "/Screenshots/SHOE/mrt.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/SHOE/tmaterial.png",
-        thumbnail: "/Screenshots/SHOE/tmaterial.png",
+        original: "/Screenshots/SHOE/tmaterial.webp",
+        thumbnail: "/Screenshots/SHOE/tmaterial.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/SHOE/sky.png",
-        thumbnail: "/Screenshots/SHOE/sky.png",
+        original: "/Screenshots/SHOE/sky.webp",
+        thumbnail: "/Screenshots/SHOE/sky.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/SHOE/loading.png",
-        thumbnail: "/Screenshots/SHOE/loading.png",
+        original: "/Screenshots/SHOE/loading.webp",
+        thumbnail: "/Screenshots/SHOE/loading.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/SHOE/terrain.png",
-        thumbnail: "/Screenshots/SHOE/terrain.png",
+        original: "/Screenshots/SHOE/terrain.webp",
+        thumbnail: "/Screenshots/SHOE/terrain.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/SHOE/launcher.png",
-        thumbnail: "/Screenshots/SHOE/launcher.png",
+        original: "/Screenshots/SHOE/launcher.webp",
+        thumbnail: "/Screenshots/SHOE/launcher.webp",
         loading: "lazy"
     }
 ]
 
 const DOMEOSImages = [
     {
-        original: "/Screenshots/DOMEOS/security.png",
-        thumbnail: "/Screenshots/DOMEOS/security.png",
+        original: "/Screenshots/DOMEOS/security.webp",
+        thumbnail: "/Screenshots/DOMEOS/security.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/DOMEOS/login.png",
-        thumbnail: "/Screenshots/DOMEOS/login.png",
+        original: "/Screenshots/DOMEOS/login.webp",
+        thumbnail: "/Screenshots/DOMEOS/login.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/DOMEOS/facility.png",
-        thumbnail: "/Screenshots/DOMEOS/facility.png",
+        original: "/Screenshots/DOMEOS/facility.webp",
+        thumbnail: "/Screenshots/DOMEOS/facility.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/DOMEOS/diagnostic.png",
-        thumbnail: "/Screenshots/DOMEOS/diagnostic.png",
+        original: "/Screenshots/DOMEOS/diagnostic.webp",
+        thumbnail: "/Screenshots/DOMEOS/diagnostic.webp",
         loading: "lazy"
     }
 ]
@@ -74,477 +74,549 @@ const CharityStreamImages = [
 ]
 
 const TwitchSpeaksImages = [
-
+    {
+        original: "/Screenshots/TwitchSpeaks/server.webp",
+        thumbnail: "/Screenshots/TwitchSpeaks/server.webp",
+        loading: "lazy"
+    },
+    {
+        original: "/Screenshots/TwitchSpeaks/python.webp",
+        thumbnail: "/Screenshots/TwitchSpeaks/python.webp",
+        loading: "lazy"
+    },
+    {
+        original: "/Screenshots/TwitchSpeaks/socket.webp",
+        thumbnail: "/Screenshots/TwitchSpeaks/socket.webp",
+        loading: "lazy"
+    }
 ]
 
 const TwitchTopRPGImages = [
-
+    {
+        original: "/Screenshots/TwitchTop/clip1.webp",
+        thumbnail: "/Screenshots/TwitchTop/clip1.webp",
+        loading: "lazy"
+    },
+    {
+        original: "/Screenshots/TwitchTop/clip2.webp",
+        thumbnail: "/Screenshots/TwitchTop/clip2.webp",
+        loading: "lazy"
+    },
+    {
+        original: "/Screenshots/TwitchTop/clip3.webp",
+        thumbnail: "/Screenshots/TwitchTop/clip3.webp",
+        loading: "lazy"
+    },
+    {
+        original: "/Screenshots/TwitchTop/admin.webp",
+        thumbnail: "/Screenshots/TwitchTop/admin.webp",
+        loading: "lazy"
+    }
 ]
 
 const VariousGeorgeImages = [
-
+    {
+        original: "/Screenshots/VariousGeorge/Serious.webp",
+        thumbnail: "/Screenshots/VariousGeorge/Serious.webp",
+        loading: "lazy"
+    },
+    {
+        original: "/Screenshots/VariousGeorge/Foreman.webp",
+        thumbnail: "/Screenshots/VariousGeorge/Foreman.webp",
+        loading: "lazy"
+    },
+    {
+        original: "/Screenshots/VariousGeorge/Furious.webp",
+        thumbnail: "/Screenshots/VariousGeorge/Furious.webp",
+        loading: "lazy"
+    },
+    {
+        original: "/Screenshots/VariousGeorge/Isomer.webp",
+        thumbnail: "/Screenshots/VariousGeorge/Isomer.webp",
+        loading: "lazy"
+    },
+    {
+        original: "/Screenshots/VariousGeorge/Washington.webp",
+        thumbnail: "/Screenshots/VariousGeorge/Washington.webp",
+        loading: "lazy"
+    },
+    {
+        original: "/Screenshots/VariousGeorge/Mischevious.webp",
+        thumbnail: "/Screenshots/VariousGeorge/Mischevious.webp",
+        loading: "lazy"
+    },
+    {
+        original: "/Screenshots/VariousGeorge/Bush.webp",
+        thumbnail: "/Screenshots/VariousGeorge/Bush.webp",
+        loading: "lazy"
+    },
+    {
+        original: "/Screenshots/VariousGeorge/HWBush.webp",
+        thumbnail: "/Screenshots/VariousGeorge/HWBush.webp",
+        loading: "lazy"
+    },
+    {
+        original: "/Screenshots/VariousGeorge/Dead.webp",
+        thumbnail: "/Screenshots/VariousGeorge/Dead.webp",
+        loading: "lazy"
+    }
 ]
 
 const AlyxImages = [
     {
-        original: "/Screenshots/Alyx/sewer.png",
-        thumbnail: "/Screenshots/Alyx/sewer.png",
+        original: "/Screenshots/Alyx/sewer.webp",
+        thumbnail: "/Screenshots/Alyx/sewer.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/Alyx/combat.png",
-        thumbnail: "/Screenshots/Alyx/combat.png",
+        original: "/Screenshots/Alyx/combat.webp",
+        thumbnail: "/Screenshots/Alyx/combat.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/Alyx/left.png",
-        thumbnail: "/Screenshots/Alyx/left.png",
+        original: "/Screenshots/Alyx/left.webp",
+        thumbnail: "/Screenshots/Alyx/left.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/Alyx/puzzle.png",
-        thumbnail: "/Screenshots/Alyx/puzzle.png",
+        original: "/Screenshots/Alyx/puzzle.webp",
+        thumbnail: "/Screenshots/Alyx/puzzle.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/Alyx/right.png",
-        thumbnail: "/Screenshots/Alyx/right.png",
+        original: "/Screenshots/Alyx/right.webp",
+        thumbnail: "/Screenshots/Alyx/right.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/Alyx/office.png",
-        thumbnail: "/Screenshots/Alyx/office.png",
+        original: "/Screenshots/Alyx/office.webp",
+        thumbnail: "/Screenshots/Alyx/office.webp",
         loading: "lazy"
     }
 ]
 
 const DungeonsDiningImages = [
     {
-        original: "/Screenshots/DungeonsAndDining/menu.png",
-        thumbnail: "/Screenshots/DungeonsAndDining/menuSmall.png",
+        original: "/Screenshots/DungeonsAndDining/menu.webp",
+        thumbnail: "/Screenshots/DungeonsAndDining/menuSmall.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/DungeonsAndDining/cheese.png",
-        thumbnail: "/Screenshots/DungeonsAndDining/cheeseSmall.png",
+        original: "/Screenshots/DungeonsAndDining/cheese.webp",
+        thumbnail: "/Screenshots/DungeonsAndDining/cheeseSmall.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/DungeonsAndDining/enter.png",
-        thumbnail: "/Screenshots/DungeonsAndDining/enterSmall.png",
+        original: "/Screenshots/DungeonsAndDining/enter.webp",
+        thumbnail: "/Screenshots/DungeonsAndDining/enterSmall.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/DungeonsAndDining/dungeon1.png",
-        thumbnail: "/Screenshots/DungeonsAndDining/dungeon1Small.png",
+        original: "/Screenshots/DungeonsAndDining/dungeon1.webp",
+        thumbnail: "/Screenshots/DungeonsAndDining/dungeon1Small.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/DungeonsAndDining/shop.png",
-        thumbnail: "/Screenshots/DungeonsAndDining/shopSmall.png",
+        original: "/Screenshots/DungeonsAndDining/shop.webp",
+        thumbnail: "/Screenshots/DungeonsAndDining/shopSmall.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/DungeonsAndDining/storage.png",
-        thumbnail: "/Screenshots/DungeonsAndDining/storageSmall.png",
+        original: "/Screenshots/DungeonsAndDining/storage.webp",
+        thumbnail: "/Screenshots/DungeonsAndDining/storageSmall.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/DungeonsAndDining/dungeon.png",
-        thumbnail: "/Screenshots/DungeonsAndDining/dungeonSmall.png",
+        original: "/Screenshots/DungeonsAndDining/dungeon.webp",
+        thumbnail: "/Screenshots/DungeonsAndDining/dungeonSmall.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/DungeonsAndDining/Credits.png",
-        thumbnail: "/Screenshots/DungeonsAndDining/CreditsSmall.png",
+        original: "/Screenshots/DungeonsAndDining/Credits.webp",
+        thumbnail: "/Screenshots/DungeonsAndDining/CreditsSmall.webp",
         loading: "lazy"
     }
 ]
 
 const AcquisitionsImages = [
     {
-        original: "/Screenshots/Acquisitions/Maps/Redwatch_Labels.jpg",
-        thumbnail: "/Screenshots/Acquisitions/Maps/Redwatch_LabelsSmall.jpg",
+        original: "/Screenshots/Acquisitions/Maps/Redwatch_Labels.webp",
+        thumbnail: "/Screenshots/Acquisitions/Maps/Redwatch_LabelsSmall.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/Acquisitions/Maps/Shingle Wood.jpg",
-        thumbnail: "/Screenshots/Acquisitions/Maps/Shingle WoodSmall.jpg",
+        original: "/Screenshots/Acquisitions/Maps/Shingle Wood.webp",
+        thumbnail: "/Screenshots/Acquisitions/Maps/Shingle WoodSmall.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/Acquisitions/Maps/Pyramind.jpg",
-        thumbnail: "/Screenshots/Acquisitions/Maps/PyramindSmall.jpg",
+        original: "/Screenshots/Acquisitions/Maps/Pyramind.webp",
+        thumbnail: "/Screenshots/Acquisitions/Maps/PyramindSmall.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/Acquisitions/Maps/Pyramid Bottom Level With Statues.jpg",
-        thumbnail: "/Screenshots/Acquisitions/Maps/Pyramid Bottom Level With StatuesSmall.jpg",
+        original: "/Screenshots/Acquisitions/Maps/Pyramid Bottom Level With Statues.webp",
+        thumbnail: "/Screenshots/Acquisitions/Maps/Pyramid Bottom Level With StatuesSmall.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/Acquisitions/Maps/Pyramid 2nd level.jpg",
-        thumbnail: "/Screenshots/Acquisitions/Maps/Pyramid 2nd levelSmall.jpg",
+        original: "/Screenshots/Acquisitions/Maps/Pyramid 2nd level.webp",
+        thumbnail: "/Screenshots/Acquisitions/Maps/Pyramid 2nd levelSmall.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/Acquisitions/Characters/TheophaniaBleach.png",
-        thumbnail: "/Screenshots/Acquisitions/Characters/TheophaniaBleachSmall.png",
+        original: "/Screenshots/Acquisitions/Characters/TheophaniaBleach.webp",
+        thumbnail: "/Screenshots/Acquisitions/Characters/TheophaniaBleachSmall.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/Acquisitions/Characters/Sam.png",
-        thumbnail: "/Screenshots/Acquisitions/Characters/SamSmall.png",
+        original: "/Screenshots/Acquisitions/Characters/Sam.webp",
+        thumbnail: "/Screenshots/Acquisitions/Characters/SamSmall.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/Acquisitions/Characters/AshrynGenavere.png",
-        thumbnail: "/Screenshots/Acquisitions/Characters/AshrynGenavereSmall.png",
+        original: "/Screenshots/Acquisitions/Characters/AshrynGenavere.webp",
+        thumbnail: "/Screenshots/Acquisitions/Characters/AshrynGenavereSmall.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/Acquisitions/Characters/Urag2.png",
-        thumbnail: "/Screenshots/Acquisitions/Characters/Urag2Small.png",
+        original: "/Screenshots/Acquisitions/Characters/Urag2.webp",
+        thumbnail: "/Screenshots/Acquisitions/Characters/Urag2Small.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/Acquisitions/Characters/LarrySolidflower.png",
-        thumbnail: "/Screenshots/Acquisitions/Characters/LarrySolidflowerSmall.png",
+        original: "/Screenshots/Acquisitions/Characters/LarrySolidflower.webp",
+        thumbnail: "/Screenshots/Acquisitions/Characters/LarrySolidflowerSmall.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/Acquisitions/Characters/LysanthirNaelen.png",
-        thumbnail: "/Screenshots/Acquisitions/Characters/LysanthirNaelenSmall.png",
+        original: "/Screenshots/Acquisitions/Characters/LysanthirNaelen.webp",
+        thumbnail: "/Screenshots/Acquisitions/Characters/LysanthirNaelenSmall.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/Acquisitions/Characters/Thavidack2.png",
-        thumbnail: "/Screenshots/Acquisitions/Characters/Thavidack2Small.png",
+        original: "/Screenshots/Acquisitions/Characters/Thavidack2.webp",
+        thumbnail: "/Screenshots/Acquisitions/Characters/Thavidack2Small.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/Acquisitions/Characters/KarissaBlademantle.png",
-        thumbnail: "/Screenshots/Acquisitions/Characters/KarissaBlademantleSmall.png",
+        original: "/Screenshots/Acquisitions/Characters/KarissaBlademantle.webp",
+        thumbnail: "/Screenshots/Acquisitions/Characters/KarissaBlademantleSmall.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/Acquisitions/Characters/Hilde2.png",
-        thumbnail: "/Screenshots/Acquisitions/Characters/Hilde2Small.png",
+        original: "/Screenshots/Acquisitions/Characters/Hilde2.webp",
+        thumbnail: "/Screenshots/Acquisitions/Characters/Hilde2Small.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/Acquisitions/Characters/FibrafGlav.png",
-        thumbnail: "/Screenshots/Acquisitions/Characters/FibrafGlavSmall.png",
+        original: "/Screenshots/Acquisitions/Characters/FibrafGlav.webp",
+        thumbnail: "/Screenshots/Acquisitions/Characters/FibrafGlavSmall.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/Acquisitions/Characters/HahimHing.png",
-        thumbnail: "/Screenshots/Acquisitions/Characters/HahimHingSmall.png",
+        original: "/Screenshots/Acquisitions/Characters/HahimHing.webp",
+        thumbnail: "/Screenshots/Acquisitions/Characters/HahimHingSmall.webp",
         loading: "lazy"
     }
 ]
 
 const DarkOfKnightImages = [
     {
-        original: "/Screenshots/DarkOfKnight/l1.png",
-        thumbnail: "/Screenshots/DarkOfKnight/l1Small.png",
+        original: "/Screenshots/DarkOfKnight/l1.webp",
+        thumbnail: "/Screenshots/DarkOfKnight/l1Small.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/DarkOfKnight/l3.png",
-        thumbnail: "/Screenshots/DarkOfKnight/l3Small.png",
+        original: "/Screenshots/DarkOfKnight/l3.webp",
+        thumbnail: "/Screenshots/DarkOfKnight/l3Small.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/DarkOfKnight/litup.png",
-        thumbnail: "/Screenshots/DarkOfKnight/litupSmall.png",
+        original: "/Screenshots/DarkOfKnight/litup.webp",
+        thumbnail: "/Screenshots/DarkOfKnight/litupSmall.webp",
         loading: "lazy"
     }
 ]
 
 const ETImages = [
     {
-        original: "/Screenshots/ETForTheAtari/Title.png",
-        thumbnail: "/Screenshots/ETForTheAtari/TitleSmall.png",
+        original: "/Screenshots/ETForTheAtari/Title.webp",
+        thumbnail: "/Screenshots/ETForTheAtari/TitleSmall.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/ETForTheAtari/painting.png",
-        thumbnail: "/Screenshots/ETForTheAtari/paintingSmall.png",
+        original: "/Screenshots/ETForTheAtari/painting.webp",
+        thumbnail: "/Screenshots/ETForTheAtari/paintingSmall.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/ETForTheAtari/connecting.png",
-        thumbnail: "/Screenshots/ETForTheAtari/connectingSmall.png",
+        original: "/Screenshots/ETForTheAtari/connecting.webp",
+        thumbnail: "/Screenshots/ETForTheAtari/connectingSmall.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/ETForTheAtari/gameplay.png",
-        thumbnail: "/Screenshots/ETForTheAtari/gameplaySmall.png",
-        loading: "lazy"
-    },
-    {
-        original: "/Screenshots/ETForTheAtari/Title.png",
-        thumbnail: "/Screenshots/ETForTheAtari/TitleSmall.png",
+        original: "/Screenshots/ETForTheAtari/gameplay.webp",
+        thumbnail: "/Screenshots/ETForTheAtari/gameplaySmall.webp",
         loading: "lazy"
     }
 ]
 
 const GazeboImages = [
     {
-        original: "/Screenshots/Gazebo/gazebo.png",
-        thumbnail: "/Screenshots/Gazebo/gazeboSmall.png",
+        original: "/Screenshots/Gazebo/gazebo.webp",
+        thumbnail: "/Screenshots/Gazebo/gazeboSmall.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/Gazebo/l1.png",
-        thumbnail: "/Screenshots/Gazebo/l1Small.png",
+        original: "/Screenshots/Gazebo/l1.webp",
+        thumbnail: "/Screenshots/Gazebo/l1Small.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/Gazebo/fast.png",
-        thumbnail: "/Screenshots/Gazebo/fastSmall.png",
+        original: "/Screenshots/Gazebo/fast.webp",
+        thumbnail: "/Screenshots/Gazebo/fastSmall.webp",
         loading: "lazy"
     }
 ]
 
 const LIDARImages = [
     {
-        original: "/Screenshots/LIDAR/object1again.png",
-        thumbnail: "/Screenshots/LIDAR/object1againSmall.png",
+        original: "/Screenshots/LIDAR/object1again.webp",
+        thumbnail: "/Screenshots/LIDAR/object1againSmall.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/LIDAR/main.png",
-        thumbnail: "/Screenshots/LIDAR/mainSmall.png",
+        original: "/Screenshots/LIDAR/main.webp",
+        thumbnail: "/Screenshots/LIDAR/mainSmall.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/LIDAR/glass1.png",
-        thumbnail: "/Screenshots/LIDAR/glass1Small.png",
+        original: "/Screenshots/LIDAR/glass1.webp",
+        thumbnail: "/Screenshots/LIDAR/glass1Small.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/LIDAR/object2.png",
-        thumbnail: "/Screenshots/LIDAR/object2Small.png",
+        original: "/Screenshots/LIDAR/object2.webp",
+        thumbnail: "/Screenshots/LIDAR/object2Small.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/LIDAR/SonarTechDemoImage.png",
-        thumbnail: "/Screenshots/LIDAR/SonarTechDemoImageSmall.png",
+        original: "/Screenshots/LIDAR/SonarTechDemoImage.webp",
+        thumbnail: "/Screenshots/LIDAR/SonarTechDemoImageSmall.webp",
         loading: "lazy"
     }
 ]
 
 const PotionPapaImages = [
     {
-        original: "/Screenshots/PotionPapa/Title.png",
-        thumbnail: "/Screenshots/PotionPapa/TitleSmall.png",
+        original: "/Screenshots/PotionPapa/Title.webp",
+        thumbnail: "/Screenshots/PotionPapa/TitleSmall.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/PotionPapa/Brewing.png",
-        thumbnail: "/Screenshots/PotionPapa/BrewingSmall.png",
+        original: "/Screenshots/PotionPapa/Brewing.webp",
+        thumbnail: "/Screenshots/PotionPapa/BrewingSmall.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/PotionPapa/Ingredients.png",
-        thumbnail: "/Screenshots/PotionPapa/IngredientsSmall.png",
+        original: "/Screenshots/PotionPapa/Ingredients.webp",
+        thumbnail: "/Screenshots/PotionPapa/IngredientsSmall.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/PotionPapa/Clear.png",
-        thumbnail: "/Screenshots/PotionPapa/ClearSmall.png",
+        original: "/Screenshots/PotionPapa/Clear.webp",
+        thumbnail: "/Screenshots/PotionPapa/ClearSmall.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/PotionPapa/Fail.png",
-        thumbnail: "/Screenshots/PotionPapa/FailSmall.png",
+        original: "/Screenshots/PotionPapa/Fail.webp",
+        thumbnail: "/Screenshots/PotionPapa/FailSmall.webp",
         loading: "lazy"
     }
 ]
 
 const SFMImages = [
     {
-        original: "/Screenshots/SFM/scrapbackground.png",
-        thumbnail: "/Screenshots/SFM/scrapbackgroundSmall.png",
+        original: "/Screenshots/SFM/scrapbackground.webp",
+        thumbnail: "/Screenshots/SFM/scrapbackgroundSmall.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/SFM/hands.png",
-        thumbnail: "/Screenshots/SFM/handsSmall.png",
+        original: "/Screenshots/SFM/hands.webp",
+        thumbnail: "/Screenshots/SFM/handsSmall.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/SFM/Light.png",
-        thumbnail: "/Screenshots/SFM/Let There Be Light(ers)Small.png",
+        original: "/Screenshots/SFM/Light.webp",
+        thumbnail: "/Screenshots/SFM/Let There Be Light(ers)Small.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/SFM/Medic.png",
-        thumbnail: "/Screenshots/SFM/MedicSmall.png",
+        original: "/Screenshots/SFM/Medic.webp",
+        thumbnail: "/Screenshots/SFM/MedicSmall.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/SFM/space.png",
-        thumbnail: "/Screenshots/SFM/spaceSmall.png",
+        original: "/Screenshots/SFM/space.webp",
+        thumbnail: "/Screenshots/SFM/spaceSmall.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/SFM/The Remaster.png",
-        thumbnail: "/Screenshots/SFM/The RemasterSmall.png",
+        original: "/Screenshots/SFM/The Remaster.webp",
+        thumbnail: "/Screenshots/SFM/The RemasterSmall.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/SFM/Heavy.png",
-        thumbnail: "/Screenshots/SFM/UnusualSuspect's HeavySmall.png",
+        original: "/Screenshots/SFM/Heavy.webp",
+        thumbnail: "/Screenshots/SFM/UnusualSuspect's HeavySmall.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/SFM/Burning Through Space Homage.png",
-        thumbnail: "/Screenshots/SFM/Burning Through Space HomageSmall.png",
+        original: "/Screenshots/SFM/Burning Through Space Homage.webp",
+        thumbnail: "/Screenshots/SFM/Burning Through Space HomageSmall.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/SFM/Nova Ducks!.png",
-        thumbnail: "/Screenshots/SFM/Nova Ducks!Small.png",
+        original: "/Screenshots/SFM/Nova Ducks!.webp",
+        thumbnail: "/Screenshots/SFM/Nova Ducks!Small.webp",
         loading: "lazy"
     }
 ]
 
 const StonksImages = [
     {
-        original: "/Screenshots/Stonks/main.png",
-        thumbnail: "/Screenshots/Stonks/mainSmall.png",
+        original: "/Screenshots/Stonks/main.webp",
+        thumbnail: "/Screenshots/Stonks/mainSmall.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/Stonks/news.png",
-        thumbnail: "/Screenshots/Stonks/newsSmall.png",
+        original: "/Screenshots/Stonks/news.webp",
+        thumbnail: "/Screenshots/Stonks/newsSmall.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/Stonks/stonks10.png",
-        thumbnail: "/Screenshots/Stonks/stonks10Small.png",
+        original: "/Screenshots/Stonks/stonks10.webp",
+        thumbnail: "/Screenshots/Stonks/stonks10Small.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/Stonks/stonksothermenu.png",
-        thumbnail: "/Screenshots/Stonks/stonksothermenuSmall.png",
+        original: "/Screenshots/Stonks/stonksothermenu.webp",
+        thumbnail: "/Screenshots/Stonks/stonksothermenuSmall.webp",
         loading: "lazy"
     }
 ]
 
 const TrueChaosImages = [
     {
-        original: "/Screenshots/TrueChaosSorcerer/main.png",
-        thumbnail: "/Screenshots/TrueChaosSorcerer/mainSmall.png",
+        original: "/Screenshots/TrueChaosSorcerer/main.webp",
+        thumbnail: "/Screenshots/TrueChaosSorcerer/mainSmall.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/TrueChaosSorcerer/second.png",
-        thumbnail: "/Screenshots/TrueChaosSorcerer/secondSmall.png",
+        original: "/Screenshots/TrueChaosSorcerer/second.webp",
+        thumbnail: "/Screenshots/TrueChaosSorcerer/secondSmall.webp",
         loading: "lazy"
     }
 ]
 
 const ObladomeImages = [
     {
-        original: "/Screenshots/Obladome/Oblador.png",
-        thumbnail: "/Screenshots/Obladome/ObladorSmall.png",
+        original: "/Screenshots/Obladome/Oblador.webp",
+        thumbnail: "/Screenshots/Obladome/ObladorSmall.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/Obladome/Wayfinder - Airlock Chamber.jpg",
-        thumbnail: "/Screenshots/Obladome/Wayfinder - Airlock ChamberSmall.jpg",
+        original: "/Screenshots/Obladome/Wayfinder - Airlock Chamber.webp",
+        thumbnail: "/Screenshots/Obladome/Wayfinder - Airlock ChamberSmall.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/Obladome/Wayfinder - Reactor Chamber.jpg",
-        thumbnail: "/Screenshots/Obladome/Wayfinder - Reactor ChamberSmall.jpg",
+        original: "/Screenshots/Obladome/Wayfinder - Reactor Chamber.webp",
+        thumbnail: "/Screenshots/Obladome/Wayfinder - Reactor ChamberSmall.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/Obladome/Wayfinder - Main Bridge.jpg",
-        thumbnail: "/Screenshots/Obladome/Wayfinder - Main BridgeSmall.jpg",
+        original: "/Screenshots/Obladome/Wayfinder - Main Bridge.webp",
+        thumbnail: "/Screenshots/Obladome/Wayfinder - Main BridgeSmall.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/Obladome/Wayfinder - Cryo Chamber.jpg",
-        thumbnail: "/Screenshots/Obladome/Wayfinder - Cryo ChamberSmall.jpg",
+        original: "/Screenshots/Obladome/Wayfinder - Cryo Chamber.webp",
+        thumbnail: "/Screenshots/Obladome/Wayfinder - Cryo ChamberSmall.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/Obladome/Wayfinder - Electrical Maintenance2.jpg",
-        thumbnail: "/Screenshots/Obladome/Wayfinder - Electrical Maintenance2Small.jpg",
+        original: "/Screenshots/Obladome/Wayfinder - Electrical Maintenance2.webp",
+        thumbnail: "/Screenshots/Obladome/Wayfinder - Electrical Maintenance2Small.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/Obladome/Oblador.jpg",
-        thumbnail: "/Screenshots/Obladome/ObladorSmall.jpg",
+        original: "/Screenshots/Obladome/Oblador.webp",
+        thumbnail: "/Screenshots/Obladome/ObladorSmall.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/Obladome/Fashor.jpg",
-        thumbnail: "/Screenshots/Obladome/FashorSmall.jpg",
+        original: "/Screenshots/Obladome/Fashor.webp",
+        thumbnail: "/Screenshots/Obladome/FashorSmall.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/Obladome/Forte de Azure.jpg",
-        thumbnail: "/Screenshots/Obladome/Forte de AzureSmall.jpg",
+        original: "/Screenshots/Obladome/Forte de Azure.webp",
+        thumbnail: "/Screenshots/Obladome/Forte de AzureSmall.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/Obladome/Tario.jpg",
-        thumbnail: "/Screenshots/Obladome/TarioSmall.jpg",
+        original: "/Screenshots/Obladome/Tario.webp",
+        thumbnail: "/Screenshots/Obladome/TarioSmall.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/Obladome/The Skillful Steed's Rest - Nighttime.jpg",
-        thumbnail: "/Screenshots/Obladome/The Skillful Steed's Rest - NighttimeSmall.jpg",
+        original: "/Screenshots/Obladome/The Skillful Steed's Rest - Nighttime.webp",
+        thumbnail: "/Screenshots/Obladome/The Skillful Steed's Rest - NighttimeSmall.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/Obladome/ObladorFlag.png",
-        thumbnail: "/Screenshots/Obladome/ObladorFlagSmall.png",
+        original: "/Screenshots/Obladome/ObladorFlag.webp",
+        thumbnail: "/Screenshots/Obladome/ObladorFlagSmall.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/Obladome/Camp Section 1.jpg",
-        thumbnail: "/Screenshots/Obladome/Camp Section 1Small.jpg",
+        original: "/Screenshots/Obladome/Camp Section 1.webp",
+        thumbnail: "/Screenshots/Obladome/Camp Section 1Small.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/Obladome/Camp Invasion Section 1.jpg",
-        thumbnail: "/Screenshots/Obladome/Camp Invasion Section 1Small.jpg",
+        original: "/Screenshots/Obladome/Camp Invasion Section 1.webp",
+        thumbnail: "/Screenshots/Obladome/Camp Invasion Section 1Small.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/Obladome/Camp Section 2.jpg",
-        thumbnail: "/Screenshots/Obladome/Camp Section 2Small.jpg",
+        original: "/Screenshots/Obladome/Camp Section 2.webp",
+        thumbnail: "/Screenshots/Obladome/Camp Section 2Small.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/Obladome/Camp Invasion Section 2.jpg",
-        thumbnail: "/Screenshots/Obladome/Camp Invasion Section 2Small.jpg",
+        original: "/Screenshots/Obladome/Camp Invasion Section 2.webp",
+        thumbnail: "/Screenshots/Obladome/Camp Invasion Section 2Small.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/Obladome/Camp Invasion Wall Section 1.jpg",
-        thumbnail: "/Screenshots/Obladome/Camp Invasion Wall Section 1Small.jpg",
+        original: "/Screenshots/Obladome/Camp Invasion Wall Section 1.webp",
+        thumbnail: "/Screenshots/Obladome/Camp Invasion Wall Section 1Small.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/Obladome/Ambush.jpg",
-        thumbnail: "/Screenshots/Obladome/AmbushSmall.jpg",
+        original: "/Screenshots/Obladome/Ambush.webp",
+        thumbnail: "/Screenshots/Obladome/AmbushSmall.webp",
         loading: "lazy"
     },
 ]
 
 const ITSImages = [
     {
-        original: "/Screenshots/ITS/RIT.jpg",
-        thumbnail: "/Screenshots/ITS/RIT.jpg",
+        original: "/Screenshots/ITS/RIT.webp",
+        thumbnail: "/Screenshots/ITS/RIT.webp",
         loading: "lazy"
     }
 ]
@@ -559,38 +631,38 @@ const MicrosoftImages = [
 
 const BSImages = [
     {
-        original: "/Screenshots/BSMaps/Dad.png",
-        thumbnail: "/Screenshots/BSMaps/Dad.png",
+        original: "/Screenshots/BSMaps/Dad.webp",
+        thumbnail: "/Screenshots/BSMaps/Dad.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/BSMaps/Laundry.png",
-        thumbnail: "/Screenshots/BSMaps/Laundry.png",
+        original: "/Screenshots/BSMaps/Laundry.webp",
+        thumbnail: "/Screenshots/BSMaps/Laundry.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/BSMaps/Lilies.png",
-        thumbnail: "/Screenshots/BSMaps/Lilies.png",
+        original: "/Screenshots/BSMaps/Lilies.webp",
+        thumbnail: "/Screenshots/BSMaps/Lilies.webp",
         loading: "lazy"
     },
     {
-        original: "/Screenshots/BSMaps/Places.png",
-        thumbnail: "/Screenshots/BSMaps/Places.png",
+        original: "/Screenshots/BSMaps/Places.webp",
+        thumbnail: "/Screenshots/BSMaps/Places.webp",
         loading: "lazy"
     }
 ]
 
 const MITREImages = [
     {
-        original: "/Screenshots/MITRE/MITRE.png",
-        thumbnail: "/Screenshots/MITRE/MITRE.png",
+        original: "/Screenshots/MITRE/MITRE.webp",
+        thumbnail: "/Screenshots/MITRE/MITRE.webp",
         loading: "lazy"
     }
 ]
 
 const SHOEProjectData = {
     titleText: "SHOE",
-    descriptionText: "The Sorta Helpful Open Engine is my 3D game engine, complete with everything from multiple lighting types to custom shaders to terrain to GPU-based particles to scene saving/loading to project-based work etc. It’s a huge app capable of almost anything a game engine needs to be distributable, as well as its own launcher which keeps the engine updated and allows you to select which project you want to launch SHOE on. There’s no way I can cover the breadth and depth of SHOE here, so either watch the demo video or download the installer and try for yourself! If there’s any problem running it, email me at coreyrigney@gmail.com and I’d be excited to help debug it.",
+    descriptionText: "The Sorta Helpful Open Engine is my 3D game engine, complete with everything from multiple lighting types to custom shaders to terrain to GPU-based particles to scene saving/loading to project-based work etc. It’s a huge app capable of almost anything a game engine needs to be distributable, as well as its own launcher which keeps the engine updated and allows you to select which project you want to launch SHOE on. There’s no way I can cover the breadth and depth of SHOE here, so go download the installer and try for yourself! If there’s any problem running it, email me at coreyrigney@gmail.com and I’d be excited to help debug it.",
     photoGalleryImageArray: SHOEImages,
     videoLink: "",
     websiteDest: "",
@@ -638,7 +710,7 @@ const DarkOfKnightData = {
 
 const LIDARData = {
     titleText: "Unreal LIDAR",
-    descriptionText: "A tech demo using Unreal Engine’s Instanced Static Mesh and Raycast systems to create a surreal environment-mapping experience. Besides being a visual feast, this project taught me a lot of the intricacies of Unreal, as well as many optimization techniques to keep the game running at >60 FPS even with thousands of “LIDAR” points on screen.",
+    descriptionText: "A tech demo using Unreal Engine’s Instanced Static Mesh and Raycast systems to create a surreal environment-mapping experience. Besides being a visual feast, this project taught me a lot of the intricacies of Unreal, as well as many optimization techniques to keep the game running at >60 FPS even with tens of thousands of “LIDAR” points on screen.",
     photoGalleryImageArray: LIDARImages,
     videoLink: "",
     websiteDest: "",
@@ -718,7 +790,7 @@ const TwitchTopRPGData = {
 
 const VariousGeorgeData = {
     titleText: "Various George",
-    descriptionText: "Made for my brother and I to play with, Various George is a mod for the game Rounds based on my brother’s sketches of various variations of Curious George.",
+    descriptionText: "Made for my brother and I to play with, Various George is a mod for the game Rounds based on my brother’s sketches of various variations of Curious George. Like many of my Unity projects, this one's corrupted and unopenable, so enjoy the original art that inspired the mod.",
     photoGalleryImageArray: VariousGeorgeImages,
     videoLink: "",
     websiteDest: "",

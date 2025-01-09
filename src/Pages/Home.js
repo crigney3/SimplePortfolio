@@ -18,7 +18,7 @@ const Home = () => {
                 <ProjectLink id={1} type='Project'/>
                 <ProjectLink id={0} type='Project'/>
                 <ProjectLink id={3} type='Project'/>
-                <ProjectLink id={1} type='Project'/>
+                <ProjectLink id={4} type='Project'/>
                 <ProjectLink id={1} type='Project'/>
                 <ProjectLink id={0} type='Hobby'/>
                 <ProjectLink id={1} type='Hobby'/>
