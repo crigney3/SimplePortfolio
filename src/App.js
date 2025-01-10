@@ -44,7 +44,11 @@ function App() {
                      itchDest={hobby.itchDest}
                      itchText={hobby.itchText}
                      techArray={hobby.techArray}
-                     miscLinkArray={hobby.miscLinkArray} />
+                     miscLinkArray={hobby.miscLinkArray}
+                     twitchDest = {hobby.twitchDest}
+                     twitchText = {hobby.twitchText}
+                     youtubeDest = {hobby.youtubeDest}
+                     youtubeText = {hobby.youtubeText} />
         )        
     }
 
@@ -72,7 +76,11 @@ function App() {
                      itchDest={project.itchDest}
                      itchText={project.itchText} 
                      techArray={project.techArray}
-                     miscLinkArray={project.miscLinkArray}/>
+                     miscLinkArray={project.miscLinkArray}
+                     twitchDest = {project.twitchDest}
+                     twitchText = {project.twitchText}
+                     youtubeDest = {project.youtubeDest}
+                     youtubeText = {project.youtubeText}/>
         )
     }
 
@@ -100,7 +108,11 @@ function App() {
                        itchDest={job.itchDest}
                        itchText={job.itchText} 
                        techArray={job.techArray}
-                       miscLinkArray={job.miscLinkArray}/>
+                       miscLinkArray={job.miscLinkArray}
+                       twitchDest = {job.twitchDest}
+                       twitchText = {job.twitchText}
+                       youtubeDest = {job.youtubeDest}
+                       youtubeText = {job.youtubeText}/>
           )        
       }
 

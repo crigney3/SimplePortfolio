@@ -4,6 +4,8 @@ import DownloadIcon from '@mui/icons-material/Download';
 import WebIcon from '@mui/icons-material/Web';
 import SportsEsportsIcon from '@mui/icons-material/SportsEsports';
 import LanguageIcon from '@mui/icons-material/Language';
+import YouTubeIcon from '@mui/icons-material/YouTube';
+import VideoLibraryIcon from '@mui/icons-material/VideoLibrary';
 
 const WebsiteLink = ({
     destination,
@@ -65,10 +67,36 @@ const MiscLink = ({
     );
 }
 
+const VideoLink = ({
+    destination,
+    text
+}) => {
+    return (
+        <a className='MiscLink BackgroundDark' href={destination} target='_blank'>
+            <YouTubeIcon className='LinkIcon'/>
+            <p className='ForegroundLight'>{text}</p>
+        </a>
+    );
+}
+
+const TwitchLink = ({
+    destination,
+    text
+}) => {
+    return (
+        <a className='MiscLink BackgroundDark' href={destination} target='_blank'>
+            <VideoLibraryIcon className='LinkIcon'/>
+            <p className='ForegroundLight'>{text}</p>
+        </a>
+    );
+}
+
 export {
     WebsiteLink,
     ItchLink,
     GithubLink,
     DownloadLink,
-    MiscLink
+    MiscLink,
+    TwitchLink,
+    VideoLink
 }

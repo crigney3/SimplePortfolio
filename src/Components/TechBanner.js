@@ -2,7 +2,7 @@ import './TechBanner.css';
 import { TechToLink } from './ProjectData';
 import { useState, useEffect } from 'react';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import { WebsiteLink, ItchLink, GithubLink, DownloadLink, MiscLink } from './Links';
+import { WebsiteLink, ItchLink, GithubLink, DownloadLink, MiscLink, TwitchLink, VideoLink } from './Links';
 
 const TechBanner = ({
     TechArray = [],
@@ -14,7 +14,11 @@ const TechBanner = ({
     downloadText = "",
     itchDest = "",
     itchText = "",
-    miscLinkArray = []
+    miscLinkArray = [],
+    twitchDest = "",
+    twitchText = "",
+    youtubeDest = "",
+    youtubeText = ""
 }) => {
     const [techElements, setTechElements] = useState([]);
     const [miscLinkElements, setMiscLinkElements] = useState([]);
@@ -77,6 +81,8 @@ const TechBanner = ({
                 {(downloadDest !== "") && (downloadText !== "") && <DownloadLink destination={downloadDest} text={downloadText}/>}
                 {(itchDest !== "") && (itchText !== "") && <ItchLink destination={itchDest} text={itchText}/>}
                 {(miscLinkArray.length !== 0) && miscLinkElements}
+                {(twitchDest !== "") && (twitchText !== "") && <TwitchLink destination={twitchDest} text={twitchText}/>}
+                {(youtubeDest !== "") && (youtubeText !== "") && <VideoLink destination={youtubeDest} text={youtubeText}/>}
             </div>
             <div className='TechLink'>
                 {techElements}

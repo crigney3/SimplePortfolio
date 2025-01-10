@@ -136,9 +136,13 @@
     .OwnedLinks p {
         text-overflow: ellipsis;
     }
+
+    .LinkIcon {
+        transform: scale(0.8);
+    }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 512px) {
     .OwnedLinks p {
         display: none;
     }

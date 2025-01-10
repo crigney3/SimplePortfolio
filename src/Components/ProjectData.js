@@ -726,7 +726,7 @@ const LIDARData = {
 
 const CharityStreamData = {
     titleText: "CSH Minecraft Charity Stream(s)",
-    descriptionText: "I built CSH’s Minecraft Charity Stream from the ground up at the same time as Tiltify and Crowd Control were bringing interactive streaming to all. In my niche, I hadn’t heard of that, and so when I decided I wanted to do an annual Minecraft stream where donations could automatically affect the game, I built the infrastructure myself. As the event expanded year on year, I stopped working alone and eventually led a large team through all the logistical and technological challenges of scaling a stream like this. By my senior year, we had youtube and twitch content creators joining and by the time I’d graduated, we had raised over $3000 for Doctors Without Borders.",
+    descriptionText: "I built CSH’s Minecraft Charity Stream at the same time that Tiltify and Crowd Control were bringing interactive streaming to all. I hadn’t heard of those, and so I built a tool where charitable donations could directly send items, mobs, and potions to a Minecraft server, then turned that into an annual stream! As the event expanded year on year, my team grew to face all the challenges of scaling the event. By the time I graduated, we had Youtube and Twitch content creators joining and we had raised over $3000 for Doctors Without Borders.",
     photoGalleryImageArray: CharityStreamImages,
     videoLink: "",
     websiteDest: "",
@@ -758,7 +758,7 @@ const GazeboData = {
 
 const TwitchSpeaksData = {
     titleText: "Twitch Speaks",
-    descriptionText: "Technically, TwitchSpeaks is two projects - a custom TTS implementation based on DougDoug’s Twitch connection code for the client, and python’s CoquiTTS library combined with fastAPI for the server. Able to do multiple voice clones or just a near-instant conversion of text to a default voice, TwitchSpeaks is designed to handle both generic Twitch TTS scenarios and specific “character” voices. Thanks to a focus on concurrency and threading in both API and client, TwitchSpeaks can handle nearly any number of messages, queueing any it can’t immediately process through a guid system for tracking unique text.",
+    descriptionText: "Twitch Speaks is a multithreaded custom TTS implementation for Twitch, allowing viewers to speak to the streamer directly. It’s built on top of DougDoug’s Twitch Connection code and CoquiTTS’s AI, and is capable of handling dozens of messages at once if necessary. It’s also configurable at launch, allowing the choice of faster or better-sounding voices, and can be easily scaled by adding more threads.",
     photoGalleryImageArray: TwitchSpeaksImages,
     videoLink: "",
     websiteDest: "",
@@ -774,10 +774,10 @@ const TwitchSpeaksData = {
 
 const TwitchTopRPGData = {
     titleText: "TwitchTopRPG",
-    descriptionText: "TODO",
+    descriptionText: "TwitchTopRPG is a tool that lets me run tabletop games entirely through Twitch, with the viewers becoming players without needing to install anything or have any knowledge of commands. It uses websockets to keep all data synced across my “admin panel” instance and the instances used in OBS to show viewers their stats. I plan to expand it beyond running games for my friends into making content for Youtube and Twitch.",
     photoGalleryImageArray: TwitchTopRPGImages,
     videoLink: "",
-    websiteDest: "https://www.twitch.tv/twitchtoprpg",
+    websiteDest: "",
     websiteText: "",
     githubDest: "https://github.com/crigney3/StreamElements",
     githubText: "Github",
@@ -785,7 +785,11 @@ const TwitchTopRPGData = {
     downloadText: "",
     itchDest: "",
     itchText: "",
-    techArray: ["Python", "React", "Twitch", "NodeJS", "ElevenLabs"]
+    techArray: ["Python", "React", "Twitch", "NodeJS", "ElevenLabs"],
+    youtubeDest: "https://www.youtube.com/shorts/UxsVckoWQro",
+    youtubeText: "Clip",
+    twitchDest: "https://www.twitch.tv/twitchtoprpg",
+    twitchText: "Twitch"
 }
 
 const VariousGeorgeData = {
