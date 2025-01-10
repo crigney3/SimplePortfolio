@@ -17,7 +17,7 @@ const Footer = () => {
                     <EmailIcon className='FooterIcon'/>
                     <p className='EmailLink ForegroundLight'>coreyrigney@gmail.com</p>
                 </a>
-                <a className='FooterContent' target='_blank' href='/content/Resume.pdf' download>
+                <a className='FooterContent' target='_blank' href='/CoreyRigneyResume.pdf' download>
                     <DescriptionIcon className='FooterIcon'/>
                     <p className='Resume ForegroundLight'>Resume Download</p>
                 </a>
