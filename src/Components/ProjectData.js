@@ -70,7 +70,31 @@ const DOMEOSImages = [
 ]
 
 const CharityStreamImages = [
-
+    {
+        original: "/Screenshots/Charity/landing.webp",
+        thumbnail: "/Screenshots/Charity/landing.webp",
+        loading: "lazy"
+    },
+    {
+        original: "/Screenshots/Charity/store.webp",
+        thumbnail: "/Screenshots/Charity/store.webp",
+        loading: "lazy"
+    },
+    {
+        original: "/Screenshots/Charity/mobs.webp",
+        thumbnail: "/Screenshots/Charity/mobs.webp",
+        loading: "lazy"
+    },
+    {
+        original: "/Screenshots/Charity/effects.webp",
+        thumbnail: "/Screenshots/Charity/effects.webp",
+        loading: "lazy"
+    },
+    {
+        original: "/Screenshots/Charity/checkout.webp",
+        thumbnail: "/Screenshots/Charity/checkout.webp",
+        loading: "lazy"
+    },
 ]
 
 const TwitchSpeaksImages = [
@@ -669,8 +693,8 @@ const SHOEProjectData = {
     websiteText: "",
     githubDest: "https://github.com/crigney3/SHOE",
     githubText: "Github",
-    downloadDest: "",
-    downloadText: "",
+    downloadDest: "https://drive.google.com/file/d/1ELAgtsOTWaBgq0DhRRWaIoB2h9lJEObG/view?usp=sharing",
+    downloadText: "Installer",
     itchDest: "",
     itchText: "",
     techArray: ["C++", "C", "HLSL", "C#"]
@@ -685,8 +709,8 @@ const DungeonsDiningData = {
     websiteText: "",
     githubDest: "https://github.com/crigney3/DungeonsAndDining",
     githubText: "Github",
-    downloadDest: "",
-    downloadText: "",
+    downloadDest: "https://drive.google.com/file/d/1c9-Sld-2zucA7SEh7urpO4rCs1WzTkh5/view?usp=sharing",
+    downloadText: "Download",
     itchDest: "",
     itchText: "",
     techArray: ["Unreal5", "Blueprints"]
@@ -717,8 +741,8 @@ const LIDARData = {
     websiteText: "",
     githubDest: "https://github.com/crigney3/UnrealLIDAR",
     githubText: "Github",
-    downloadDest: "",
-    downloadText: "",
+    downloadDest: "https://drive.google.com/file/d/1r5Mc3wMupLRj4RQRrgtL54qooAns1Omn/view?usp=sharing",
+    downloadText: "Download",
     itchDest: "",
     itchText: "",
     techArray: ["Unreal5"]
@@ -729,15 +753,17 @@ const CharityStreamData = {
     descriptionText: "I built CSH’s Minecraft Charity Stream at the same time that Tiltify and Crowd Control were bringing interactive streaming to all. I hadn’t heard of those, and so I built a tool where charitable donations could directly send items, mobs, and potions to a Minecraft server, then turned that into an annual stream! As the event expanded year on year, my team grew to face all the challenges of scaling the event. By the time I graduated, we had Youtube and Twitch content creators joining and we had raised over $3000 for Doctors Without Borders.",
     photoGalleryImageArray: CharityStreamImages,
     videoLink: "",
-    websiteDest: "",
-    websiteText: "",
+    websiteDest: "http://dionysus.headass.house:3000",
+    websiteText: "Dev Site",
     githubDest: "https://github.com/aidan-brown/Charity-Stream-Web-App/tree/master",
     githubText: "Github",
     downloadDest: "",
     downloadText: "",
     itchDest: "",
     itchText: "",
-    techArray: ["React", "NodeJS", "SASS", "SQL"]
+    techArray: ["React", "NodeJS", "SASS", "SQL"],
+    youtubeDest: "https://youtu.be/PU6Bopb1CVE",
+    youtubeText: "Lobby Tour"
 }
 
 const GazeboData = {
@@ -850,8 +876,8 @@ const StonksData = {
     websiteText: "",
     githubDest: "https://github.com/rhysstever/Stonks",
     githubText: "Github",
-    downloadDest: "",
-    downloadText: "",
+    downloadDest: "https://drive.google.com/file/d/1CXXBJP56dRUt2CZ6rI2pBWgUpDlqo73V/view?usp=sharing",
+    downloadText: "Download",
     itchDest: "",
     itchText: "",
     techArray: ["Unity", "C#"]
@@ -923,7 +949,7 @@ const ETForTheAtariData = {
 
 const DOMEData = {
     titleText: "DOME.OS",
-    descriptionText: "TODO, see doc",
+    descriptionText: "DOME.OS is a fake console meant to immerse my DnD players into the world by giving them commands and puzzles to affect the world of Under the Obladome. Featuring dozens of commands, subcommands, flags, and easter eggs, the only thing it's missing is a documentation in a man page.",
     photoGalleryImageArray: DOMEOSImages,
     videoLink: "",
     websiteDest: "TODO",

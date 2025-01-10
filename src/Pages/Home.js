@@ -15,7 +15,7 @@ const Home = () => {
             </div>
             
             <div className='MainContainer'>
-                <ProjectLink id={1} type='Project'/>
+                <ProjectLink id={2} type='Project'/>
                 <ProjectLink id={0} type='Project'/>
                 <ProjectLink id={3} type='Project'/>
                 <ProjectLink id={4} type='Project'/>
