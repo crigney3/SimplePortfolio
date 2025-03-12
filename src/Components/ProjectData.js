@@ -989,7 +989,7 @@ const ObladomeData = {
 
 const TrueChaosData = {
     titleText: "True Chaos Sorcerer",
-    descriptionText: "A subclass for sorcerer, True Chaos Sorcerer removes all the pesky stuff about spellcasting in 5e, like “preparing spells” or “knowing spells” or “knowing what you’re gonna cast before it happens.” Ever wondered what a ttrpg would be like if all the spells were randomly generated in the form {transitive verb} {noun}? Find out by generating a few from the website link below!",
+    descriptionText: "A subclass for sorcerer, True Chaos Sorcerer removes all the pesky stuff about spellcasting in 5e, like “preparing spells” or “knowing spells” or “knowing what you’re gonna cast before it happens.” Ever wondered what a ttrpg would be like if all the spells were randomly generated in the form {transitive verb} {noun}? Find out by generating a few from the website link above!",
     photoGalleryImageArray: TrueChaosImages,
     videoLink: "",
     websiteDest: "http://dionysus.headass.house:3001",
