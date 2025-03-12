@@ -684,6 +684,14 @@ const MITREImages = [
     }
 ]
 
+const FogCityImages = [
+    {
+        original: "/Screenshots/FogCity/Map.webp",
+        thumbnail: "/Screenshots/FogCity/Map.webp",
+        loading: "lazy"
+    }
+]
+
 const SHOEProjectData = {
     titleText: "SHOE",
     descriptionText: "The Sorta Helpful Open Engine is my 3D game engine, complete with everything from multiple lighting types to custom shaders to terrain to GPU-based particles to scene saving/loading to project-based work etc. It’s a huge app capable of almost anything a game engine needs to be distributable, as well as its own launcher which keeps the engine updated and allows you to select which project you want to launch SHOE on. There’s no way I can cover the breadth and depth of SHOE here, so go download the installer and try for yourself! If there’s any problem running it, email me at coreyrigney@gmail.com and I’d be excited to help debug it.",
@@ -984,7 +992,7 @@ const TrueChaosData = {
     descriptionText: "A subclass for sorcerer, True Chaos Sorcerer removes all the pesky stuff about spellcasting in 5e, like “preparing spells” or “knowing spells” or “knowing what you’re gonna cast before it happens.” Ever wondered what a ttrpg would be like if all the spells were randomly generated in the form {transitive verb} {noun}? Find out by generating a few from the website link below!",
     photoGalleryImageArray: TrueChaosImages,
     videoLink: "",
-    websiteDest: "http://dionysus.headass.house",
+    websiteDest: "http://dionysus.headass.house:3001",
     websiteText: "Try it yourself!",
     githubDest: "https://github.com/crigney3/TrueChaosGenerator",
     githubText: "Github",
@@ -1025,6 +1033,23 @@ const TemplateData = {
     itchDest: "",
     itchText: "",
     techArray: null
+}
+
+const FogCityData = {
+    titleText: "Fog City",
+    descriptionText: "Fog City began as a collaborative worldbuilding and writing project in college, and has evolved into a cosmic horror TTRPG run in the Cypher system. Survive on the brutal streets of San Francisco's Barbary Coast district in 1906, gain the trust of the local factions vying for power, make good use of dangerous magical artifacts, and try and steal the powers of the Heart of the West before its gaze turns to you.",
+    photoGalleryImageArray: FogCityImages,
+    videoLink: "",
+    websiteDest: "https://www.worldanvil.com/w/fog-city-acrostic",
+    websiteText: "World Anvil",
+    githubDest: "",
+    githubText: "",
+    downloadDest: "",
+    downloadText: "",
+    itchDest: "",
+    itchText: "",
+    techArray: ["Foundry", "Inkarnate", "Obsidian", "WorldAnvil", "StreamDeck"],
+    miscLinkArray: [{"StartPlaying": "https://startplaying.games/adventure/cm84tx0qh0057z4hi7vrr63ow"}]
 }
 
 const MicrosoftData = {
@@ -1133,7 +1158,8 @@ const IDToHobby = {
     0: ObladomeData,
     1: AcquisitionsData,
     2: DOMEData,
-    3: TrueChaosData
+    3: TrueChaosData,
+    4: FogCityData
 }
 
 const IDToJob = {
