@@ -1069,8 +1069,8 @@ const MuddyRobotData = {
     websiteText: "Muddy Robot Games",
     githubDest: "",
     githubText: "",
-    downloadDest: "",
-    downloadText: "",
+    downloadDest: "https://play.google.com/store/apps/details?id=com.MuddyRobot.RiverWipeout&hl=en_US",
+    downloadText: "River Wipeout (Early Access)",
     itchDest: "",
     itchText: "",
     techArray: ["Unity", "Unreal5", "C#", "C++"]
