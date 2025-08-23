@@ -703,6 +703,7 @@ const MuddyRobotImages = [
 const ResearchGeocachingImages = [
     {
         original: "/Screenshots/ResearchGeocaching/map.webp",
+        thumbnail: "/Screenshots/ResearchGeocaching/map.webp",
         loading: "lazy"
     },
     {
