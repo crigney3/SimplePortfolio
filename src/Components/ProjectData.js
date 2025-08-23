@@ -700,6 +700,37 @@ const MuddyRobotImages = [
     }
 ]
 
+const ResearchGeocachingImages = [
+    {
+        original: "/Screenshots/ResearchGeocaching/map.webp",
+        loading: "lazy"
+    },
+    {
+        original: "/Screenshots/ResearchGeocaching/input.webp",
+        loading: "lazy"
+    },
+    {
+        original: "/Screenshots/ResearchGeocaching/fact.webp",
+        loading: "lazy"
+    },
+    {
+        original: "/Screenshots/ResearchGeocaching/profile.webp",
+        loading: "lazy"
+    },
+    {
+        original: "/Screenshots/ResearchGeocaching/admin.webp",
+        loading: "lazy"
+    },
+    {
+        original: "/Screenshots/ResearchGeocaching/delete.webp",
+        loading: "lazy"
+    },
+    {
+        original: "/Screenshots/ResearchGeocaching/navbar.webp",
+        loading: "lazy"
+    }
+]
+
 const SHOEProjectData = {
     titleText: "SHOE",
     descriptionText: "The Sorta Helpful Open Engine is my 3D game engine, complete with everything from multiple lighting types to custom shaders to terrain to GPU-based particles to scene saving/loading to project-based work etc. It’s a huge app capable of almost anything a game engine needs to be distributable, as well as its own launcher which keeps the engine updated and allows you to select which project you want to launch SHOE on. There’s no way I can cover the breadth and depth of SHOE here, so go download the installer and try for yourself! If there’s any problem running it, email me at coreyrigney@gmail.com and I’d be excited to help debug it.",
@@ -1124,6 +1155,22 @@ const RITITData = {
     techArray: ["Javascript"]
 }
 
+const ResearchGeocachingData = {
+    titleText: "Research Geocaching",
+    descriptionText: "Built for a university, Research Geocaching allows students to place facts and research at a constant location in the real world. Then, other students can go find the information by walking up to it and tapping! Includes a full administrative system to prevent misuse. A link to download the app will be added once the university approves a final build.",
+    photoGalleryImageArray: ResearchGeocachingImages,
+    videoLink: "",
+    websiteDest: "",
+    websiteText: "",
+    githubDest: "https://github.com/crigney3/Research-Geocaching",
+    githubText: "Github",
+    downloadDest: "",
+    downloadText: "",
+    itchDest: "",
+    itchText: "",
+    techArray: ["React", "Node", "SQL", "Javascript"]
+}
+
 const TechToLink = {
     React: "https://react.dev/",
     Javascript: "https://en.wikipedia.org/wiki/JavaScript",
@@ -1164,18 +1211,19 @@ const IDToProject = {
     1: LIDARData,
     2: CharityStreamData,
     3: DungeonsDiningData,
-    4: TwitchTopRPGData,
-    5: TwitchSpeaksData,
-    6: GazeboData,
-    7: DarkOfKnightData,
-    8: StonksData,
-    9: ETForTheAtariData,
-    10: PotionPapaData,
-    11: SFMData,
-    12: VariousGeorgeData,
-    13: BeatSaberData,
-    14: HalfLifeData,
-    15: CausalData
+    4: ResearchGeocachingData,
+    5: TwitchTopRPGData,
+    6: TwitchSpeaksData,
+    7: GazeboData,
+    8: DarkOfKnightData,
+    9: StonksData,
+    10: ETForTheAtariData,
+    11: PotionPapaData,
+    12: SFMData,
+    13: VariousGeorgeData,
+    14: BeatSaberData,
+    15: HalfLifeData,
+    16: CausalData
 }
 
 const IDToHobby = {
@@ -1217,5 +1265,6 @@ export {
     BeatSaberData,
     VariousGeorgeData,
     GazeboData,
-    CharityStreamData
+    CharityStreamData,
+    ResearchGeocachingData
 }
