@@ -732,6 +732,29 @@ const ResearchGeocachingImages = [
     }
 ]
 
+const DisorientExpressImages = [
+    {
+        original: "/Screenshots/DisorientExpress/Trains.webp",
+        loading: "lazy"
+    },
+    {
+        original: "/Screenshots/DisorientExpress/logo.webp",
+        loading: "lazy"
+    },
+    {
+        original: "/Screenshots/DisorientExpress/outside.webp",
+        loading: "lazy"
+    },
+    {
+        original: "/Screenshots/DisorientExpress/closed.webp",
+        loading: "lazy"
+    },
+    {
+        original: "/Screenshots/DisorientExpress/traindoors.webp",
+        loading: "lazy"
+    }
+]
+
 const SHOEProjectData = {
     titleText: "SHOE",
     descriptionText: "The Sorta Helpful Open Engine is my 3D game engine, complete with everything from multiple lighting types to custom shaders to terrain to GPU-based particles to scene saving/loading to project-based work etc. It’s a huge app capable of almost anything a game engine needs to be distributable, as well as its own launcher which keeps the engine updated and allows you to select which project you want to launch SHOE on. There’s no way I can cover the breadth and depth of SHOE here, so go download the installer and try for yourself! If there’s any problem running it, email me at coreyrigney@gmail.com and I’d be excited to help debug it.",
@@ -750,7 +773,7 @@ const SHOEProjectData = {
 
 const DungeonsDiningData = {
     titleText: "Dungeons and Dining",
-    descriptionText: "A roguelike dungeon-crawler where you gather ingredients from fallen chefs to run your restaurant, Dungeons and Dining is a team Game Jam project with a cartoon aesthetic. While unfinished for now, Dungeons and Dining has lots of polish on what is done, and is fully playable on any windows system, sporting a full cooking system with customer orders, ingredients management and preparation, random weapon and item generation, fancy animations and sounds for loot, enemies, and the dungeon store, and a large demo dungeon floor to explore and find food in. ",
+    descriptionText: "A roguelike dungeon-crawler where you gather ingredients from fallen chefs to run your restaurant, Dungeons and Dining is a team Game Jam project with a cartoon aesthetic. While unfinished for now, Dungeons and Dining has lots of polish on what is done, and is fully playable on any windows system, sporting a full cooking system with customer orders, ingredients management and preparation, random weapon and item generation, fancy animations and sounds for loot, enemies, and the dungeon store, and a large demo dungeon floor to explore and find food in. I used Unreal's MVVM system to streamline collaboration between our artist and programmer. This also kept the constant UI updates optimized.",
     photoGalleryImageArray: DungeonsDiningImages,
     videoLink: "",
     websiteDest: "",
@@ -761,7 +784,7 @@ const DungeonsDiningData = {
     downloadText: "Download",
     itchDest: "",
     itchText: "",
-    techArray: ["Unreal5", "Blueprints"]
+    techArray: ["Unreal5", "Blueprints", "MVVM"]
 }
 
 const DarkOfKnightData = {
@@ -1172,6 +1195,22 @@ const ResearchGeocachingData = {
     techArray: ["React", "Node", "SQL", "Javascript"]
 }
 
+const DisorientExpressData = {
+    titleText: "Disorient Express",
+    descriptionText: "A new take on the Friendslop genre, Disorient Express challenges players to be the first to reach the center car in a line of constantly-shuffling train cars (in train heaven, of course.) Pushing your friends into a different car is encouraged! I implemented multiplayer and proximity voice chat, as well as Steam integration.",
+    photoGalleryImageArray: DisorientExpressImages,
+    videoLink: "",
+    websiteDest: "",
+    websiteText: "",
+    githubDest: "",
+    githubText: "",
+    downloadDest: "https://drive.google.com/file/d/1JBHkJhYI50_27eqW2Ix7IZnfbosPotja/view?usp=sharing",
+    downloadText: "Demo",
+    itchDest: "",
+    itchText: "",
+    techArray: ["Unreal5", "C++"]
+}
+
 const TechToLink = {
     React: "https://react.dev/",
     Javascript: "https://en.wikipedia.org/wiki/JavaScript",
@@ -1204,7 +1243,8 @@ const TechToLink = {
     SASS: "https://sass-lang.com/",
     Godot: "https://godotengine.org/",
     HLSL: "https://learn.microsoft.com/en-us/windows/win32/direct3dhlsl/dx-graphics-hlsl",
-    Twitch: "https://dev.twitch.tv/docs/api/"
+    Twitch: "https://dev.twitch.tv/docs/api/",
+    MVVM: "https://dev.epicgames.com/documentation/en-us/unreal-engine/umg-viewmodel-for-unreal-engine#create-instance"
 }
 
 const IDToProject = {
@@ -1215,16 +1255,17 @@ const IDToProject = {
     4: ResearchGeocachingData,
     5: TwitchTopRPGData,
     6: TwitchSpeaksData,
-    7: GazeboData,
-    8: DarkOfKnightData,
-    9: StonksData,
-    10: ETForTheAtariData,
-    11: PotionPapaData,
-    12: SFMData,
-    13: VariousGeorgeData,
-    14: BeatSaberData,
-    15: HalfLifeData,
-    16: CausalData
+    7: DisorientExpressData,
+    8: GazeboData,
+    9: DarkOfKnightData,
+    10: StonksData,
+    11: ETForTheAtariData,
+    12: PotionPapaData,
+    13: SFMData,
+    14: VariousGeorgeData,
+    15: BeatSaberData,
+    16: HalfLifeData,
+    17: CausalData
 }
 
 const IDToHobby = {
@@ -1267,5 +1308,6 @@ export {
     VariousGeorgeData,
     GazeboData,
     CharityStreamData,
-    ResearchGeocachingData
+    ResearchGeocachingData,
+    DisorientExpressData
 }
