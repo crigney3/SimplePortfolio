@@ -36,7 +36,8 @@ import { HashLink } from 'react-router-hash-link';
 
 const ProjectLink = ({
     id = "",
-    type = ""
+    type = "",
+    croppedImage = ""
 }) => {
     const allHobbies = useContext(ProjectContext).allHobbies;
     const allJobs = useContext(ProjectContext).allJobs;
@@ -59,16 +60,30 @@ const ProjectLink = ({
     }, [image, title]);
 
     const fillFields = () => {
-        if (type === "Job") {
-            setImage(allJobs[id].props.photoGalleryImageArray[0].thumbnail);
-            setTitle(<p>{allJobs[id].props.titleText}</p>);
-        } else if (type === "Hobby") {
-            setImage(allHobbies[id].props.photoGalleryImageArray[0].thumbnail);
-            setTitle(<p>{allHobbies[id].props.titleText}</p>);
-        } else if (type === "Project") {
-            setImage(allProjects[id].props.photoGalleryImageArray[0].thumbnail);
-            setTitle(<p>{allProjects[id].props.titleText}</p>);
+        if (croppedImage !== "") {
+            if (type === "Job") {
+                setImage(croppedImage.original);
+                setTitle(<p>{allJobs[id].props.titleText}</p>);
+            } else if (type === "Hobby") {
+                setImage(croppedImage.original);
+                setTitle(<p>{allHobbies[id].props.titleText}</p>);
+            } else if (type === "Project") {
+                setImage(croppedImage.original);
+                setTitle(<p>{allProjects[id].props.titleText}</p>);
+            }
+        } else {
+            if (type === "Job") {
+                setImage(allJobs[id].props.photoGalleryImageArray[0].thumbnail);
+                setTitle(<p>{allJobs[id].props.titleText}</p>);
+            } else if (type === "Hobby") {
+                setImage(allHobbies[id].props.photoGalleryImageArray[0].thumbnail);
+                setTitle(<p>{allHobbies[id].props.titleText}</p>);
+            } else if (type === "Project") {
+                setImage(allProjects[id].props.photoGalleryImageArray[0].thumbnail);
+                setTitle(<p>{allProjects[id].props.titleText}</p>);
+            }
         }
+
     }
 
     const fillLink = () => {

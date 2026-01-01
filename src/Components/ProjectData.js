@@ -1,3 +1,42 @@
+const FrontPageCropImages = [
+    {
+        original: "/Screenshots/FrontPageCrops/Acquisitions.webp",
+        loading: "lazy"
+    },
+    {
+        original: "/Screenshots/FrontPageCrops/domesos.webp",
+        loading: "lazy"
+    },
+    {
+        original: "/Screenshots/FrontPageCrops/dungeondining.webp",
+        loading: "lazy"
+    },
+    {
+        original: "/Screenshots/FrontPageCrops/geocaching.webp",
+        loading: "lazy"
+    },
+    {
+        original: "/Screenshots/FrontPageCrops/Microsoft.webp",
+        loading: "lazy"
+    },
+    {
+        original: "/Screenshots/FrontPageCrops/muddyrobot.webp",
+        loading: "lazy"
+    },
+    {
+        original: "/Screenshots/FrontPageCrops/Oblador.webp",
+        loading: "lazy"
+    },
+    {
+        original: "/Screenshots/FrontPageCrops/Trains.webp",
+        loading: "lazy"
+    },
+    {
+        original: "/Screenshots/FrontPageCrops/twitch.webp",
+        loading: "lazy"
+    },
+]
+
 const SHOEImages = [
     {
         original: "/Screenshots/SHOE/main.webp",
@@ -1309,5 +1348,6 @@ export {
     GazeboData,
     CharityStreamData,
     ResearchGeocachingData,
-    DisorientExpressData
+    DisorientExpressData,
+    FrontPageCropImages
 }
