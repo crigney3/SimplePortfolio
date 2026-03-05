@@ -22,7 +22,7 @@ export const BeatSaberImages = {
 }
 
 export const BlindsightImages = {
-    brandingImage: Blindsight.Main,
+    brandingImage: Blindsight.Chemicals,
     gallery: Object.values(Blindsight)
 }
 

@@ -1,11 +1,15 @@
-import Glass from './glass1.webp';
-import Main from './main.webp';
-import Object1 from './object1again.webp'
-import Object2 from './object2.webp';
+import Chemicals from './Chemicals.webp';
+import Door from './Door.webp';
+import Cafeteria from './Cafeteria.webp';
+import Stairs from './Stairs.webp';
+import Servers from './Servers.webp';
+import Hallway from './Hallway.webp';
 
 export default {
-    Glass,
-    Main,
-    Object1,
-    Object2
+    Chemicals,
+    Door,
+    Cafeteria,
+    Stairs,
+    Servers,
+    Hallway
 }

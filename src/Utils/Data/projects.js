@@ -23,7 +23,7 @@ const SHOEProjectData = {
 const BlindsightData = {
     title: "Blindsight",
     timeWorking: "2024 - Current",
-    description: "A short horror game using Unreal Engine’s Instanced Static Mesh and Raycast systems to create a surreal environment-mapping experience. Navigate a bioweapons laboratory without being able to see, relying on your LIDAR-like 'Blindsight' to guide you.",
+    description: "A short horror game using Unreal Engine’s Instanced Static Mesh and Raycast systems to create a surreal environment-mapping experience. Navigate a bioweapons laboratory without being able to see, relying on your LIDAR-like 'Blindsight' to guide you. You can also find visible objects, although they are initially jet black and need to be 'cleaned off' to be visible. These are the goals of the game, and further the story of overstimulation and sensory experience.",
     photos: BlindsightImages.gallery.map(createLightboxSlide),
     brandingImage: BlindsightImages.brandingImage,
     reel: DemoReels.BlindsightReel,
