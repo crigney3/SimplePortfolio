@@ -53,7 +53,12 @@ const Navbar = () => {
         <>
             <div className={`Navbar ${scrollYPos > 100 || isNavMenuActive ? 'Navbar-scroll' : ''}`}>
                 <div className='page-branding'>
-                    <h1 className={`${location.pathname !== '/' ? 'active' : ''}`}>Corey Rigney</h1>
+                    <h1 
+                        className={`${location.pathname !== '/' ? 'active' : ''}`}
+                        onClick={() => handleNavigate('/')}
+                    >
+                        Corey Rigney
+                    </h1>
                 </div>
                 <div className='nav-list'>
                     {!isMobile ? (

@@ -1,4 +1,5 @@
 .Hobby {
+    position: relative;
     display: grid;
     grid-template-areas: "title title"
                          "description gallery";
@@ -14,8 +15,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    clip-path: polygon(0 95%, 0% 0%, 100% 0%, 100% 95%, 50% 100%);
-    background-attachment: fixed !important;
+    background: radial-gradient(rgba(0,0,0,0.1), rgba(0, 0, 0, 0.5));
 }
 
 .hobby-title h2 {
@@ -26,14 +26,48 @@
 
 .hobby-description {
     grid-area: description;
-    padding: 0 2rem;
-    margin: 2rem 0;
+    padding: 0 2rem 0 4rem;
+    margin: 0;
     text-align: left;
     border-right: 0.5px solid var(--contrast-color-trans);
+    line-height: 2rem;
+    background-color: white;
+}
+
+.hobby-description h3 {
+    font: var(--h3-font);
+    margin: 0;
 }
 
 .hobby-gallery {
     grid-area: gallery;
-    padding: 0 2rem;
-    margin: 2rem 0;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hobby-background {
+    position: fixed;
+    top: -10%;
+    left: -10%;
+    width: 120%;
+    z-index: -10;
+}
+
+@media (max-width: 1000px) {
+    .Hobby {
+        grid-template-areas: "title"
+                             "description"
+                             "gallery";
+        grid-template-columns: 1fr;
+        grid-template-rows: 250px max-content max-content;
+    }
+
+    .hobby-title h2 {
+        font-size: 2.5rem;
+    }
+
+    .hobby-description {
+        padding: 1rem 2rem;
+    }
 }

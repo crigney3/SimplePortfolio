@@ -26,6 +26,7 @@
     color: transparent;
     margin: 0;
     transition: all 500ms;
+    cursor: pointer;
 }
 
 .Navbar-scroll .page-branding h1, .page-branding h1.active {
