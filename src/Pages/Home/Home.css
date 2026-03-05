@@ -1,0 +1,355 @@
+.Home {
+    text-align: left;
+}
+
+.Home>div {
+    margin-top: 5rem;
+}
+
+.Home>div:first-child {
+    margin-top: 0;
+}
+
+p span, h2 span {
+    color: var(--accent-color-trans);
+    margin: 0;
+    padding: 0;
+    transition: all 500ms;
+}
+
+hr {
+    width: 40%;
+    color: var(--main-color-trans);
+}
+
+/* #region Landing */
+.landing {
+    width: 100%;
+    height: 100vh;
+    min-height: 750px;
+    overflow: hidden;
+}
+
+.landing-brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 500ms;
+}
+
+.landing-brand-name {
+    font-family: 'White Storm';
+    font-size: 12rem;
+    padding: 0;
+    margin: 0;
+    color: var(--main-color-trans);
+    transition: all 500ms;
+}
+
+.landing-brand-title {
+    font: var(--h2-font);
+    color: var(--main-color-trans);
+    transition: all 500ms;
+}
+
+.landing-brand-scroll {
+    transform: translateY(-50px);
+}
+
+.landing-brand-scroll .landing-brand-name, .landing-brand-scroll .landing-brand-title, .landing-brand-scroll span {
+    color: transparent !important;
+}
+
+.landing-overlay {
+    background: radial-gradient(circle,rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.91) 100%);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -10;
+}
+
+.landing-reel {
+    position: fixed;
+    width: 120%;
+    top: -10%;
+    left: -10%;
+    z-index: -20;
+}
+/* #endregion */
+
+/* #region AboutMe */
+.about-me {
+    width: 100%;
+    height: 100vh;
+    min-height: 750px;
+    display: grid;
+    grid-template-areas: "content portrait";
+    grid-template-columns: 1.5fr 1fr;
+    color: var(--contrast-color);
+    background-color: white;
+}
+
+.about-me-content {
+    grid-area: content;
+    padding: 2rem;
+    display: grid;
+    grid-template-areas: "title title"
+                         "stats description";
+    grid-template-columns: .25fr 1fr;
+}
+
+.about-me-content h2 {
+    grid-area: title;
+    font: var(--h2-font);
+    text-align: center;
+}
+
+.about-me-content-stats {
+    grid-area: stats;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border-right: 1px dotted var(--contrast-color-trans);
+    padding-right: 3rem;
+    width: 100%;
+}
+
+.about-me-content-stats span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.about-me-content-stats span svg {
+    font-size: 3rem;
+}
+
+.about-me-content-stats span h3 {
+    font: var(--h2-font);
+    margin: 0;
+}
+
+.about-me-content-stats span p {
+    font: var(--h3-font);
+    font-size: .8rem;
+    margin: 0;
+}
+
+.about-me-content>p {
+    grid-area: description;
+    font-size: 1.25rem;
+    padding-left: 5rem;
+    line-height: 2rem;
+}
+
+.about-me-content>p>br {
+    margin-bottom: 1rem;
+}
+
+.about-me-portrait {
+    grid-area: portrait;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    clip-path: polygon(11% 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.about-me-portrait img {
+    aspect-ratio: 64/85;
+    height: 100%;
+}
+/* #endregion */
+
+/* #region Experience */
+.experience {
+    color: var(--main-color);
+}
+
+.experience h2 {
+    text-align: center;
+    font: var(--h2-font);
+}
+
+.experience-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 5rem 15rem;
+}
+
+.experience-list-item {
+    position: relative;
+    min-height: 250px;
+    padding-bottom: 1rem;
+    margin: 0;
+    padding-top: 0;
+}
+
+.experience-list-item h3 {
+    font: var(--h3-font);
+    margin: 0 0 5px 0;
+}
+
+.experience-list-item-tech {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+    border-bottom: 1px solid white;
+}
+
+.experience-list-item-tech-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-right: 1rem;
+}
+
+.experience-list-item-tech-logo img {
+    aspect-ratio: 1;
+    width: 25px;
+    margin: 0 5px;
+}
+
+.experience-list-item-tech-logo p {
+    font-size: .85rem;
+    font-style: italic;
+}
+
+.experience-list-item .circle {
+    position: absolute;
+    border: 5px solid white;
+    border-radius: 50%;
+    background-color: white;
+    height: 25px;
+    width: 25px;
+}
+
+.experience-list-item:nth-child(odd) {
+    grid-column: 1;
+    border-right: 5px solid white;
+    margin-right: -2.5px;
+    padding-right: 2rem;
+    shape-outside: circle(50%);
+}
+
+.experience-list-item:nth-child(odd) .circle {
+    top: 0;
+    right: -20px;
+}
+
+.experience-list-item:nth-child(even) {
+    grid-column: 2;
+    border-left: 5px solid white;
+    margin-left: -2.5px;
+    padding-left: 2rem;
+}
+
+.experience-list-item:nth-child(even) .circle {
+    top: 0;
+    left: -20px;
+}
+
+.experience-list-item:last-child {
+    border: none !important;
+}
+/* #endregion */
+
+/* #region Projects */
+.projects {
+    position: relative;
+    color: var(--main-color);
+}
+
+.projects h2 {
+    font: var(--h2-font);
+    text-align: center;
+}
+
+.projects-list {
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    justify-content: space-around;
+    margin: 5rem 10rem;
+}
+
+.projects-list-item {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+    margin-bottom: 2rem;
+    border-radius: 1px;
+    cursor: pointer;
+}
+
+.projects-list-item img {
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.projects-list-item span {
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px);
+    width: 100%;
+    height: 75px;
+    margin: 0;
+    transition: all 200ms;
+}
+
+.projects-list-item h3 {
+    font: var(--h2-font);
+    font-size: 1rem;
+    margin: 0;
+    padding: 1rem;
+    transition: all 100ms;
+}
+
+.projects-list-item p {
+    margin: 0 20px;
+    padding: 10px 0;
+    border-top: 1px solid transparent;
+    color: transparent;
+    transition: all 200ms;
+    font-size: .75rem;
+}
+
+.projects-list-item:hover span {
+    height: 80%;
+}
+
+.projects-list-item:hover p {
+    border-top: 1px solid white;
+    color: var(--main-color);
+}
+
+.projects-list-item.portfolio-link {
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px);
+    justify-content: center;
+}
+
+.projects-list-item.portfolio-link:hover h3 {
+    transform: scale(1.05);
+}
+/* #endregion */

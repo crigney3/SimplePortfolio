@@ -1,0 +1,14 @@
+.Portfolio {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.backdrop {
+    position: fixed;
+    z-index: -100;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}

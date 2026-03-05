@@ -1,3 +1,17 @@
+:root {
+    /* Palette */
+    --main-color: white;
+    --main-color-trans: rgba(255, 255, 255, 0.8);
+    --accent-color: rgb(93, 232, 114);
+    --accent-color-trans: rgba(93, 232, 114, 0.8);
+    --contrast-color: black;
+    --contrast-color-trans: rgba(0, 0, 0, 0.8);
+
+    /* Fonts */
+    --h2-font: 800 2rem 'Montserrat', sans-serif;
+    --h3-font: 300 2rem 'Montserrat', sans-serif;
+}
+
 .App {
   text-align: center;
   --dark: #0C0014;
@@ -41,6 +55,16 @@
 @font-face {
   font-family: 'Inter';
   src: url('../public/fonts/Inter-VariableFont_opsz\,wght.ttf');
+}
+
+@font-face {
+  font-family: 'White Storm';
+  src: url('../public/fonts/White\ Storm.otf');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../public/fonts/Montserrat-VariableFont_wght.ttf');
 }
 
 .BackgroundDark {

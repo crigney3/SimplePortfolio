@@ -1,0 +1,39 @@
+.Hobby {
+    display: grid;
+    grid-template-areas: "title title"
+                         "description gallery";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 500px 1.5fr;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.hobby-title {
+    grid-area: title;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    clip-path: polygon(0 95%, 0% 0%, 100% 0%, 100% 95%, 50% 100%);
+    background-attachment: fixed !important;
+}
+
+.hobby-title h2 {
+    font: var(--h2-font);
+    font-size: 4rem;
+    color: var(--main-color-trans);
+}
+
+.hobby-description {
+    grid-area: description;
+    padding: 0 2rem;
+    margin: 2rem 0;
+    text-align: left;
+    border-right: 0.5px solid var(--contrast-color-trans);
+}
+
+.hobby-gallery {
+    grid-area: gallery;
+    padding: 0 2rem;
+    margin: 2rem 0;
+}
