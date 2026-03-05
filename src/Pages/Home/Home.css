@@ -81,6 +81,41 @@ hr {
     left: -10%;
     z-index: -20;
 }
+
+@media (max-width: 1000px) {
+    .landing {
+        min-height: unset;
+        height: 100svh;
+    }
+
+    .landing-brand-name {
+        font-size: 4.5rem;
+    }
+
+    .landing-brand-title {
+        font-size: 1.5rem;
+    }
+
+    .landing-brand-scroll {
+        transform: none;
+    }
+
+    .landing-brand-scroll .landing-brand-name, .landing-brand-scroll .landing-brand-title, .landing-brand-scroll span {
+        color: transparent !important;
+    }
+
+    .landing-overlay {
+        position: fixed;
+        height: 100dvh;
+    }
+
+    .landing-reel {
+        width: unset;
+        height: 100dvh;
+        top: 0;
+        left: -50%;
+    }
+}
 /* #endregion */
 
 /* #region AboutMe */
@@ -170,6 +205,60 @@ hr {
 .about-me-portrait img {
     aspect-ratio: 64/85;
     height: 100%;
+}
+
+@media (max-width: 1000px) {
+    .about-me {
+        grid-template-areas: "content"
+                             "portrait";
+        grid-template-columns: 1fr;
+        height: max-content;
+    }
+
+    .about-me-content {
+        grid-template-areas: "title"
+                             "stats"
+                             "description";
+        grid-template-columns: 1fr;
+        padding: 1rem;
+    }
+
+    .about-me-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .about-me-content-stats {
+        flex-direction: row;
+        border-bottom: 1px dotted var(--contrast-color-trans);
+        border-right: none;
+        padding-right: 0;
+        padding-bottom: 1rem;
+    }
+
+    .about-me-content-stats span svg {
+        font-size: 2.5rem;
+    }
+
+    .about-me-content-stats span h3 {
+        font-size: 1.5rem;
+    }
+
+    .about-me-content>p {
+        padding: 1rem;
+        padding-bottom: 0;
+    }
+
+    .about-me-portrait {
+        clip-path: circle(40% at 50% 45%);
+        width: 50%;
+        margin: -5% auto;
+        height: 250px;
+    }
+
+    .about-me-portrait img {
+        height: auto;
+        width: 100%;
+    }
 }
 /* #endregion */
 
@@ -266,6 +355,50 @@ hr {
 .experience-list-item:last-child {
     border: none !important;
 }
+
+@media (max-width: 1000px) {
+    .experience-list {
+        grid-template-columns: 1fr;
+        margin: 0 1.5rem;
+    }
+
+    .experience-list-item {
+        width: 85%;
+    }
+
+    .experience-list-item h3 {
+        font-size: 1.5rem;
+    }
+
+    .experience-list-item-tech {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .experience-list-item-tech-logo {
+        margin: 5px 0 10px 0;
+    }
+
+    .experience-list-item-tech-logo p {
+        display: none;
+    }
+
+    .experience-list-item:nth-child(even) {
+        grid-column: 1;
+        border-left: none;
+        border-right: 5px solid white;
+        margin-left: 0;
+        margin-right: -2.5px;
+        padding-left: 0;
+        padding-right: 2rem;
+    }
+
+    .experience-list-item:nth-child(even) .circle {
+        top: 0;
+        left: unset;
+        right: -20px;
+    }
+}
 /* #endregion */
 
 /* #region Projects */
@@ -351,5 +484,49 @@ hr {
 
 .projects-list-item.portfolio-link:hover h3 {
     transform: scale(1.05);
+}
+
+@media (max-width: 1000px) {
+    .projects-list {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .projects-list-item {
+        width: 100%;
+        margin: 0;
+    }
+
+    .projects-list-item span {
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+    }
+
+    .projects-list-item h3 {
+        font-size: 1.25rem;
+    }
+
+    .projects-list-item p {
+        display: none;
+    }
+
+    .projects-list-item:hover span {
+        height: 75px;
+    }
+
+    .projects-list-item.portfolio-link {
+        background-color: rgba(0, 0, 0, 0.4);
+        backdrop-filter: blur(10px);
+        justify-content: center;
+    }
+
+    .projects-list-item.portfolio-link:hover h3 {
+        transform: scale(1.05);
+    }
 }
 /* #endregion */

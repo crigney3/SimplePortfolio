@@ -70,7 +70,7 @@
     border-bottom: 1px solid transparent;
 }
 
-.expandable-content {
+.nav-list .expandable-content {
     position: absolute;
     top: -10000%;
     left: 0;
@@ -84,7 +84,7 @@
     transition: opacity 200ms;
 }
 
-.expandable-content-background {
+.nav-list .expandable-content-background {
     display: none;
     position: absolute;
     top: 1.25rem;
@@ -96,15 +96,119 @@
     border-radius: 0 0 2px 2px;
 }
 
-.Navbar-scroll .expandable-content-background {
+.Navbar-scroll .nav-list .expandable-content-background {
     display: inline;
 }
 
-.expandable:hover .expandable-content {
+.nav-list .expandable:hover .expandable-content {
     top: 100%;
     opacity: 1;
 }
 
-.expandable-content button {
+.nav-list .expandable-content button {
     font-size: 1.25rem;
+}
+
+@media (max-width: 1000px) {
+    .Navbar {
+        display: grid;
+        grid-template-areas: "brand ham"
+                             "nav nav";
+        grid-template-columns: 2fr 1fr;
+        padding: 0;
+        padding-top: 1rem;
+        margin: 0;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .page-branding {
+        grid-area: brand;
+        padding-bottom: 1rem;
+    }
+
+    .Navbar .page-branding h1 {
+        font-size: 2.5rem;
+    }
+
+    .nav-list {
+        grid-area: ham;
+        width: auto;
+        padding-bottom: 1rem;
+    }
+
+    .nav-list>button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border: none;
+    }
+
+    .nav-list>button:hover {
+        border: none;
+    }
+
+    .nav-list>button>svg {
+        font-size: 2.5rem;
+    }
+
+    .nav-menu {
+        grid-area: nav;
+        position: relative;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        height: 0;
+        visibility: hidden;
+    }
+    
+    .nav-menu button {
+        background: none;
+        border: none;
+        outline: none;
+        color: var(--main-color-trans);
+        font: var(--h3-font);
+        font-size: 1.5rem;
+        cursor: pointer;
+        padding: .5rem 0;
+        border-bottom: 1px solid transparent;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.25);
+        backdrop-filter: blur(20px);
+
+    }
+
+    .nav-menu-active {
+        height: max-content;
+        visibility: visible;
+    }
+
+    .nav-menu-active .active {
+        color: var(--main-color);
+        border-bottom: 1px solid var(--accent-color);
+    }
+
+    .nav-menu .expandable-content {
+        position: relative;
+        top: 0;
+        height: 0;
+        visibility: hidden;
+        width: 100%;
+        margin: 0;
+    }
+
+    .nav-menu .expanded {
+        padding-bottom: 0;
+    }
+
+    .nav-menu-active .expanded .expandable-content {
+        height: max-content;
+        visibility: visible;
+        margin-top: 0.5rem;
+    }
+
 }

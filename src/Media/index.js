@@ -8,4 +8,4 @@ export const ObladorMap = Oblador;
 
 export const techLogos = logos;
 
-export * as DemoReels from './DemoReels';
+export * as DemoReels from './DemoReels'

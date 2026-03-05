@@ -9,6 +9,7 @@ import './PortfolioEntry.css'
 import { Download, GitHub, Web, YouTube } from "@mui/icons-material";
 import { ReactComponent as ItchIo } from '../../Media/Logos/ItchIo_Logo.svg';
 import { ReactComponent as Twitch } from '../../Media/Logos/Twitch_Logo.svg';
+import { useMediaQuery } from "react-responsive";
 
 const PortfolioEntry = ({ entryInfo, id }) => {
     const { 
@@ -25,6 +26,9 @@ const PortfolioEntry = ({ entryInfo, id }) => {
         youtubeLink,
         twitchLink
     } = entryInfo;
+    const isMobile = useMediaQuery({
+        query: '(max-width: 1000px)'
+    })
     const [index, setIndex] = useState(0);
     const [open, setOpen] = useState(false);
 
@@ -104,7 +108,7 @@ const PortfolioEntry = ({ entryInfo, id }) => {
                 <div className="project-background">
                     <div className="project-background-mask" />
                     <div className="project-background-overlay" />
-                    {reel 
+                    {reel && !isMobile 
                         ? <video src={reel} className="project-background-visual" playsInline autoPlay loop muted />    
                         : <img src={brandingImage} className="project-background-visual" />
                     }

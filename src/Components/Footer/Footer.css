@@ -52,3 +52,24 @@
     width: 100%;
     height: 100%;
 }
+
+@media (max-width: 1000px) {
+    .Footer {
+        width: 100%;
+        height: max-content;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr .25fr;
+    }
+
+    .contact-info {
+        width: max-content;
+        margin: auto;
+        padding: 1rem;
+        border-right: none;
+        border-bottom: 1px solid white;
+    }
+
+    .contact-info h2 {
+        text-align: center;
+    }
+}

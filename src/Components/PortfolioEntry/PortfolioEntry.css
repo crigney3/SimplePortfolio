@@ -121,3 +121,39 @@
     opacity: .85;
     width: 150%;
 }
+
+@media (max-width: 1000px) {
+    .PortfolioEntry {
+        grid-template-areas: "info"
+                             "links"
+                             "gallery";
+        grid-template-columns: 1fr;
+        grid-template-rows: max-content max-content max-content;
+        height: max-content;
+    }
+
+    .project-info {
+        padding: 1rem;
+        margin-top: 2rem;
+    }
+
+    .project-links {
+        padding: 0 1rem;
+    }
+
+    .project-gallery {
+        padding: 1rem 0;
+        width: 100%;
+    }
+
+    .project-background {
+        height: 250px;
+        overflow: hidden;
+    }
+
+    .project-background-visual {
+        min-height: 250px;
+        top: 0;
+        left: 0;
+    }
+}
