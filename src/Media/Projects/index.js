@@ -9,6 +9,7 @@ import Gazebo from './Gazebo';
 import HLAlyx from './HLAlyx';
 import PotionPapa from './PotionPapa';
 import ResearchGeocaching from './ResearchGeocaching';
+import RiverWipeout from './RiverWipeout';
 import SFM from './SFM';
 import SHOE from './SHOE';
 import Stonks from './Stonks';
@@ -68,6 +69,11 @@ export const PotionPapaImages = {
 export const ResearchGeocachingImages = {
     brandingImage: ResearchGeocaching.Map,
     gallery: Object.values(ResearchGeocaching)
+}
+
+export const RiverWipeoutImages = {
+    brandingImage: RiverWipeout.Title,
+    gallery: Object.values(RiverWipeout)
 }
 
 export const SFMImages = {

@@ -6,6 +6,7 @@ import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
+import Zoom from "yet-another-react-lightbox/plugins/zoom";
 
 const Hobbies = ({ hobbyData }) => {
     const { title, description, brandingImage, photos } = hobbyData;
@@ -29,7 +30,7 @@ const Hobbies = ({ hobbyData }) => {
                     open={index >= 0}
                     index={index}
                     close={() => setIndex(-1)}
-                    plugins={[Thumbnails]}
+                    plugins={[Thumbnails, Zoom]}
                 />
             </div>
         </div>

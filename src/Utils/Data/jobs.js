@@ -14,14 +14,14 @@ const MITREData = {
 
 const MicrosoftData = {
     title: "Microsoft",
-    description: "I did two internships at Microsoft and then accepted a full time job under the Windows and Devices organization. Without violating my NDA, I can say I primarily worked on low-level Windows features like App Launch Prefetch, which predicts what pieces of disk data an app will need before the app has requested them during launch. I primarily worked in C, with C++ for testing and peripheral tool development, powershell scripting for automation, WinDBG and WPA for debugging, Kusto for at-scale feature performance analyses, and various other proprietary tools. I eventually left to further my goal of working in a more creative field.",
+    description: "I did two internships at Microsoft and then accepted a full time job under the Windows and Devices organization. Without violating my NDA, I can say I primarily worked on low-level Windows features that reached millions of devices like App Launch Prefetch, which predicts what pieces of disk data an app will need before the app has requested them during launch. I primarily worked in C, with C++ for testing and peripheral tool development, powershell scripting for automation, WinDBG and WPA for debugging, Kusto for at-scale feature performance analyses, and various other proprietary tools. I eventually left to further my goal of working in a more creative field.",
     techArray: ["C++", "C", "Kusto", "SQL", "Azure"],
     additionalTech: ["WinDBG", "WPA",]
 }
 
 const MuddyRobotData = {
     title: "Muddy Robot Games",
-    description: "I currently work part-time as a game and level designer for Muddy Robot on their debut endless runner game, River Wipeout. I'm also a designer and multiplayer engineer for an upcoming unannounced title.",
+    description: "I worked as a game and level designer for Muddy Robot on their debut endless runner game, River Wipeout. River Wipeout is out now on iOS and Android!",
     techArray: ["Unity", "Unreal5", "C#", "C++"],
     additionalTech: []
 }

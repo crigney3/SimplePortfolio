@@ -1,12 +1,10 @@
-import { DungeonsAndDragonsImages } from '../../Media/Hobbies'
+import { DungeonsAndDragonsImages, DungeonsAndDragonsImageSizes } from '../../Media/Hobbies'
 
-const createAlbumPhoto = (src) => {
-    const image = new Image();
-    image.src = src;
+const createAlbumPhoto = (src, iter) => {
     return { 
         src,
-        width: image.width,
-        height: image.height
+        width: DungeonsAndDragonsImageSizes[iter].width,
+        height: DungeonsAndDragonsImageSizes[iter].height
     }
 };
 
