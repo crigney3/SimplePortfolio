@@ -82,7 +82,7 @@ const AboutMe = () => (
             <p>
                 I specialize in <b>graphics programming</b> and <b>gameplay systems</b>. I've worked in both a professional and indie capacity in <b>Unreal Engine</b> and <b>Unity</b>, as well as developing <b>my own game engine, SHOE</b>.
                 <br/>I'm an expert in <b>large-scale systems</b>, having made major <b>optimizations</b> on <b>Windows 10 + 11</b> through my work at Microsoft.
-                <br/>Currently I am <b>looking for work</b> in the industry, and raising funds for <b>Doctors Without Borders</b> while in between jobs.
+                <br/>Currently I am <b>looking for work</b> in the industry after recently finishing a contract for the University of Evansville.
             </p>
         </div>
         <div className='about-me-portrait'>

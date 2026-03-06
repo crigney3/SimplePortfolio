@@ -9,8 +9,8 @@ import Space from './space.webp';
 import Remaster from './The Remaster.webp';
 
 export default {
-    BurningThroughSpace,
     Hands,
+    BurningThroughSpace,
     Heavy,
     Light,
     Medic,
